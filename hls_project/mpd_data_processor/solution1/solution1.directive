@@ -1,0 +1,147 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATAFLOW"/>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_evIn"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_fifo" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="s_evIn"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_evOut"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_fifo" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="s_evOut"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_stable" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="build_all_samples"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_stable" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="build_debug_headers"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_stable" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="enable_cm"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_stable" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="fiber"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_avgAPreHeader"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_avgBPreHeader"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_avgAHeader"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_avgBHeader"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_avgASamples"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_avgBSamplesOut"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="DATA_PACK">
+                <option name="variable" positionalBoolean="4" value="s_avgBSamplesIn"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="RESOURCE">
+                <option name="core" value="RAM_1P_BRAM"/>
+                <option name="variable" positionalBoolean="4" value="m_offset"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="RESOURCE">
+                <option name="core" value="RAM_1P_BRAM"/>
+                <option name="variable" positionalBoolean="4" value="m_apvThr"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="RESOURCE">
+                <option name="core" value="RAM_1P_BRAM"/>
+                <option name="variable" positionalBoolean="4" value="m_apvThrB"/>
+            </pragma>
+        </directive>
+        <directive functionName="frame_decoder" label="" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="enable_flush" value="" positionalBoolean="1"/>
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="avgB" label="" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="enable_flush" value="" positionalBoolean="1"/>
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="avgHeaderDiv" label="" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="enable_flush" value="" positionalBoolean="1"/>
+                <option name="II" value="64"/>
+            </pragma>
+        </directive>
+        <directive functionName="event_writer" label="" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="enable_flush" value="" positionalBoolean="1"/>
+                <option name="II" value="2"/>
+            </pragma>
+        </directive>
+        <directive functionName="avgBSamplesFifoProc" label="" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="enable_flush" value="" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="INTERFACE">
+                <option name="ap_ctrl_none" value="" positionalBoolean="mode"/>
+                <option name="port" positionalBoolean="4" value="return"/>
+            </pragma>
+        </directive>
+        <directive functionName="mpd_data_processor_main" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="mpd_data_processor_main"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

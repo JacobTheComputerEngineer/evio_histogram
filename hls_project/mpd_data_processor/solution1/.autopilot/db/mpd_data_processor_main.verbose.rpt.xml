@@ -1,0 +1,159 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'mpd_data_processor_main'" level="0">
+<item name = "Date">Fri Jun 28 16:03:25 2024
+</item>
+<item name = "Version">2023.1 (Build 3854077 on May  4 2023)</item>
+<item name = "Project">mpd_data_processor</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">kintexu</item>
+<item name = "Target device">xcku035-ffva1156-1-i</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">8.00 ns, 10.668 ns, 1.00 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">114, 114, 1.216 us, 1.216 us, 64, 64, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="frame_decoder_U0">frame_decoder, 3, 3, 24.000 ns, 24.000 ns, 2, 2, yes(flp)</column>
+<column name="avgHeaderDiv_U0">avgHeaderDiv, 88, 88, 0.704 us, 0.704 us, 64, 64, yes(flp)</column>
+<column name="avgB_U0">avgB, 2, 2, 16.000 ns, 16.000 ns, 2, 2, yes(flp)</column>
+<column name="avgBSamplesFifoProc_U0">avgBSamplesFifoProc, 17, 17, 0.136 us, 0.136 us, 7, 7, yes(flp)</column>
+<column name="event_writer_U0">event_writer, 2, 2, 21.337 ns, 21.337 ns, 2, 2, yes(flp)</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, -, -, -</column>
+<column name="FIFO">-, -, 693, 476, -</column>
+<column name="Instance">0, -, 2620, 4329, 0</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, -, -</column>
+<column name="Register">-, -, -, -, -</column>
+<specialColumn name="Available">1080, 1700, 406256, 203128, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, 2, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="avgB_U0">avgB, 0, 0, 143, 392, 0</column>
+<column name="avgBSamplesFifoProc_U0">avgBSamplesFifoProc, 0, 0, 786, 731, 0</column>
+<column name="avgHeaderDiv_U0">avgHeaderDiv, 0, 0, 1248, 1375, 0</column>
+<column name="event_writer_U0">event_writer, 0, 0, 282, 1102, 0</column>
+<column name="frame_decoder_U0">frame_decoder, 0, 0, 161, 729, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+<column name="s_avgAHeader_U">0, 99, 0, -, 2, 32, 64</column>
+<column name="s_avgAPreHeader_U">0, 99, 0, -, 2, 64, 128</column>
+<column name="s_avgASamples_U">0, 99, 0, -, 3, 13, 39</column>
+<column name="s_avgBHeader_U">0, 99, 0, -, 4, 32, 128</column>
+<column name="s_avgBPreHeader_U">0, 99, 0, -, 2, 64, 128</column>
+<column name="s_avgBSamplesIn_U">0, 99, 0, -, 2, 32, 64</column>
+<column name="s_avgBSamplesOut_U">0, 99, 0, -, 2, 13, 26</column>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="s_evIn_dout">in, 33, ap_fifo, s_evIn, pointer</column>
+<column name="s_evIn_empty_n">in, 1, ap_fifo, s_evIn, pointer</column>
+<column name="s_evIn_read">out, 1, ap_fifo, s_evIn, pointer</column>
+<column name="s_evOut_din">out, 33, ap_fifo, s_evOut, pointer</column>
+<column name="s_evOut_full_n">in, 1, ap_fifo, s_evOut, pointer</column>
+<column name="s_evOut_write">out, 1, ap_fifo, s_evOut, pointer</column>
+<column name="build_all_samples">in, 1, ap_stable, build_all_samples, scalar</column>
+<column name="build_debug_headers">in, 1, ap_stable, build_debug_headers, scalar</column>
+<column name="enable_cm">in, 1, ap_stable, enable_cm, scalar</column>
+<column name="fiber">in, 5, ap_stable, fiber, scalar</column>
+<column name="m_offset_address0">out, 10, ap_memory, m_offset, array</column>
+<column name="m_offset_ce0">out, 1, ap_memory, m_offset, array</column>
+<column name="m_offset_d0">out, 26, ap_memory, m_offset, array</column>
+<column name="m_offset_q0">in, 26, ap_memory, m_offset, array</column>
+<column name="m_offset_we0">out, 1, ap_memory, m_offset, array</column>
+<column name="m_offset_address1">out, 10, ap_memory, m_offset, array</column>
+<column name="m_offset_ce1">out, 1, ap_memory, m_offset, array</column>
+<column name="m_offset_d1">out, 26, ap_memory, m_offset, array</column>
+<column name="m_offset_q1">in, 26, ap_memory, m_offset, array</column>
+<column name="m_offset_we1">out, 1, ap_memory, m_offset, array</column>
+<column name="m_apvThr_address0">out, 11, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_ce0">out, 1, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_d0">out, 13, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_q0">in, 13, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_we0">out, 1, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_address1">out, 11, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_ce1">out, 1, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_d1">out, 13, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_q1">in, 13, ap_memory, m_apvThr, array</column>
+<column name="m_apvThr_we1">out, 1, ap_memory, m_apvThr, array</column>
+<column name="m_apvThrB_address0">out, 11, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_ce0">out, 1, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_d0">out, 13, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_q0">in, 13, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_we0">out, 1, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_address1">out, 11, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_ce1">out, 1, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_d1">out, 13, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_q1">in, 13, ap_memory, m_apvThrB, array</column>
+<column name="m_apvThrB_we1">out, 1, ap_memory, m_apvThrB, array</column>
+<column name="ap_clk">in, 1, ap_ctrl_none, mpd_data_processor_main, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_none, mpd_data_processor_main, return value</column>
+</table>
+</item>
+</section>
+</profile>

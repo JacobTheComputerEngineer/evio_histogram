@@ -1,0 +1,197 @@
+
+
+================================================================
+== Vitis HLS Report for 'avgBSamplesFifoProc'
+================================================================
+* Date:           Fri Jun 28 16:03:24 2024
+
+* Version:        2023.1 (Build 3854077 on May  4 2023)
+* Project:        mpd_data_processor
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku035-ffva1156-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  8.00 ns|  5.310 ns|     1.00 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |       17|       17|  0.136 us|  0.136 us|    7|    7|  yes(flp)|
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|     113|    -|
+|FIFO             |        -|     -|     594|     408|    -|
+|Instance         |        -|     -|      68|      31|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|     179|    -|
+|Register         |        -|     -|     124|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|     786|     731|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     1080|  1700|  406256|  203128|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +------------------------+--------------------+---------+----+----+----+-----+
+    |        Instance        |       Module       | BRAM_18K| DSP| FF | LUT| URAM|
+    +------------------------+--------------------+---------+----+----+----+-----+
+    |srem_4ns_4ns_4_8_1_U16  |srem_4ns_4ns_4_8_1  |        0|   0|  68|  31|    0|
+    +------------------------+--------------------+---------+----+----+----+-----+
+    |Total                   |                    |        0|   0|  68|  31|    0|
+    +------------------------+--------------------+---------+----+----+----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +-------------------------------------------------------------------------------+---------+----+----+-----+------+-----+---------+
+    |                                      Name                                     | BRAM_18K| FF | LUT| URAM| Depth| Bits| Size:D*B|
+    +-------------------------------------------------------------------------------+---------+----+----+-----+------+-----+---------+
+    |avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_1_fifo_U  |        0|  99|   0|    -|     2|   13|       26|
+    |avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_2_fifo_U  |        0|  99|   0|    -|     2|   13|       26|
+    |avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_3_fifo_U  |        0|  99|   0|    -|     2|   13|       26|
+    |avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_4_fifo_U  |        0|  99|   0|    -|     2|   13|       26|
+    |avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_5_fifo_U  |        0|  99|   0|    -|     2|   13|       26|
+    |avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_fifo_U    |        0|  99|   0|    -|     2|   13|       26|
+    +-------------------------------------------------------------------------------+---------+----+----+-----+------+-----+---------+
+    |Total                                                                          |        0| 594|   0|    0|    12|   78|      156|
+    +-------------------------------------------------------------------------------+---------+----+----+-----+------+-----+---------+
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |add_ln451_fu_237_p2               |         +|   0|  0|  16|           9|           1|
+    |grp_fu_231_p0                     |         +|   0|  0|  12|           4|           1|
+    |sub_ln451_fu_269_p2               |         -|   0|  0|  15|           1|           8|
+    |ap_block_state2_pp0_stage6_iter0  |       and|   0|  0|   2|           1|           1|
+    |ap_block_state6_pp0_stage2_iter2  |       and|   0|  0|   2|           1|           1|
+    |ap_block_state7_pp0_stage3_iter2  |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op60_write_state4    |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op62_write_state4    |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op64_write_state4    |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op66_write_state4    |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op68_write_state4    |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op70_write_state4    |       and|   0|  0|   2|           1|           1|
+    |ap_predicate_op75_read_state5     |       and|   0|  0|   2|           1|           1|
+    |tmp_i_nbreadreq_fu_94_p3          |       and|   0|  0|   2|           1|           0|
+    |icmp_ln437_fu_201_p2              |      icmp|   0|  0|  12|           4|           3|
+    |icmp_ln448_fu_219_p2              |      icmp|   0|  0|  15|           8|           7|
+    |ap_block_state1_pp0_stage0_iter0  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state4_pp0_stage0_iter2  |        or|   0|  0|   2|           1|           1|
+    |ap_block_state5_pp0_stage1_iter2  |        or|   0|  0|   2|           1|           1|
+    |select_ln451_fu_283_p3            |    select|   0|  0|   8|           1|           8|
+    |xor_ln451_fu_255_p2               |       xor|   0|  0|   7|           7|           2|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0| 113|          48|          43|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------------+----+-----------+-----+-----------+
+    |             Name             | LUT| Input Size| Bits| Total Bits|
+    +------------------------------+----+-----------+-----+-----------+
+    |ap_NS_iter0_fsm               |  43|          8|    7|         56|
+    |ap_NS_iter1_fsm               |  49|          9|    8|         72|
+    |ap_NS_iter2_fsm               |  31|          6|    5|         30|
+    |ap_done                       |   9|          2|    1|          2|
+    |ap_sig_allocacmp_wr_idx_load  |   9|          2|    4|          8|
+    |s_avgBSamplesIn_blk_n         |   9|          2|    1|          2|
+    |s_avgBSamplesIn_din           |  20|          4|   32|        128|
+    |s_avgBSamplesOut_blk_n        |   9|          2|    1|          2|
+    +------------------------------+----+-----------+-----+-----------+
+    |Total                         | 179|         35|   59|        300|
+    +------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +---------------------------------------------+----+----+-----+-----------+
+    |                     Name                    | FF | LUT| Bits| Const Bits|
+    +---------------------------------------------+----+----+-----+-----------+
+    |ap_CS_iter0_fsm                              |   7|   0|    7|          0|
+    |ap_CS_iter1_fsm                              |   8|   0|    8|          0|
+    |ap_CS_iter2_fsm                              |   5|   0|    5|          0|
+    |ap_done_reg                                  |   1|   0|    1|          0|
+    |icmp_ln437_reg_362                           |   1|   0|    1|          0|
+    |icmp_ln437_reg_362_pp0_iter1_reg             |   1|   0|    1|          0|
+    |icmp_ln448_reg_366                           |   1|   0|    1|          0|
+    |icmp_ln448_reg_366_pp0_iter1_reg             |   1|   0|    1|          0|
+    |pair_val_2_reg_375                           |  13|   0|   13|          0|
+    |pair_val_3_reg_380                           |  13|   0|   13|          0|
+    |pair_val_4_reg_385                           |  13|   0|   13|          0|
+    |pair_val_5_reg_390                           |  13|   0|   13|          0|
+    |s_avgBSamplesOut_read_reg_348                |  13|   0|   13|          0|
+    |s_avgBSamplesOut_read_reg_348_pp0_iter1_reg  |  13|   0|   13|          0|
+    |tmp_i_reg_344                                |   1|   0|    1|          0|
+    |tmp_i_reg_344_pp0_iter0_reg                  |   1|   0|    1|          0|
+    |tmp_i_reg_344_pp0_iter1_reg                  |   1|   0|    1|          0|
+    |trunc_ln435_reg_358                          |   3|   0|    3|          0|
+    |trunc_ln435_reg_358_pp0_iter1_reg            |   3|   0|    3|          0|
+    |wr_idx                                       |   4|   0|    4|          0|
+    |wr_pos                                       |   8|   0|    8|          0|
+    +---------------------------------------------+----+----+-----+-----------+
+    |Total                                        | 124|   0|  124|          0|
+    +---------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------------------+-----+-----+------------+---------------------+--------------+
+|            RTL Ports            | Dir | Bits|  Protocol  |    Source Object    |    C Type    |
++---------------------------------+-----+-----+------------+---------------------+--------------+
+|ap_clk                           |   in|    1|  ap_ctrl_hs|  avgBSamplesFifoProc|  return value|
+|ap_rst                           |   in|    1|  ap_ctrl_hs|  avgBSamplesFifoProc|  return value|
+|ap_start                         |   in|    1|  ap_ctrl_hs|  avgBSamplesFifoProc|  return value|
+|ap_done                          |  out|    1|  ap_ctrl_hs|  avgBSamplesFifoProc|  return value|
+|ap_continue                      |   in|    1|  ap_ctrl_hs|  avgBSamplesFifoProc|  return value|
+|ap_idle                          |  out|    1|  ap_ctrl_hs|  avgBSamplesFifoProc|  return value|
+|ap_ready                         |  out|    1|  ap_ctrl_hs|  avgBSamplesFifoProc|  return value|
+|s_avgBSamplesOut_dout            |   in|   13|     ap_fifo|     s_avgBSamplesOut|       pointer|
+|s_avgBSamplesOut_num_data_valid  |   in|    2|     ap_fifo|     s_avgBSamplesOut|       pointer|
+|s_avgBSamplesOut_fifo_cap        |   in|    2|     ap_fifo|     s_avgBSamplesOut|       pointer|
+|s_avgBSamplesOut_empty_n         |   in|    1|     ap_fifo|     s_avgBSamplesOut|       pointer|
+|s_avgBSamplesOut_read            |  out|    1|     ap_fifo|     s_avgBSamplesOut|       pointer|
+|s_avgBSamplesIn_din              |  out|   32|     ap_fifo|      s_avgBSamplesIn|       pointer|
+|s_avgBSamplesIn_num_data_valid   |   in|    2|     ap_fifo|      s_avgBSamplesIn|       pointer|
+|s_avgBSamplesIn_fifo_cap         |   in|    2|     ap_fifo|      s_avgBSamplesIn|       pointer|
+|s_avgBSamplesIn_full_n           |   in|    1|     ap_fifo|      s_avgBSamplesIn|       pointer|
+|s_avgBSamplesIn_write            |  out|    1|     ap_fifo|      s_avgBSamplesIn|       pointer|
++---------------------------------+-----+-----+------------+---------------------+--------------+
+

@@ -1,0 +1,988 @@
+INFO-FLOW: Workspace C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1 opened at Fri Jun 28 16:03:11 -0400 2024
+Execute     ap_set_clock -name default -period 8 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 8ns.
+Execute     ap_set_clock -name default -uncertainty 1 
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 1ns.
+Execute     set_part xcku035-ffva1156-1-i 
+Execute       create_platform xcku035-ffva1156-1-i -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx/Vitis_HLS/2023.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xcku035-ffva1156-1-i'
+Command       create_platform done; 0.277 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xcku035-ffva1156-1-i -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.349 sec.
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command   open_solution done; 0.41 sec.
+Execute   set_part xcku035-ffva1156-1-i 
+INFO: [HLS 200-1510] Running: set_part xcku035-ffva1156-1-i 
+Execute     create_platform xcku035-ffva1156-1-i -board  
+Execute     source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/common/xilinx.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/plb46.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/axi4.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/saxilite.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/util.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/xfft.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/xfir.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute     ap_part_info -name xcku035-ffva1156-1-i -data info 
+Execute     config_compile -quiet -complex-mul-dsp=0 
+Execute   create_clock -period 8 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 8 -name default 
+Execute   set_clock_uncertainty 1 
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 1 
+Execute   source ./mpd_data_processor/solution1/directives.tcl 
+INFO: [HLS 200-1510] Running: source ./mpd_data_processor/solution1/directives.tcl
+Execute     set_directive_dataflow mpd_data_processor_main 
+INFO: [HLS 200-1510] Running: set_directive_dataflow mpd_data_processor_main 
+Execute     set_directive_data_pack mpd_data_processor_main s_evIn 
+Execute     set_directive_interface -mode ap_fifo mpd_data_processor_main s_evIn 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_fifo mpd_data_processor_main s_evIn 
+Execute     set_directive_data_pack mpd_data_processor_main s_evOut 
+Execute     set_directive_interface -mode ap_fifo mpd_data_processor_main s_evOut 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_fifo mpd_data_processor_main s_evOut 
+Execute     set_directive_interface -mode ap_stable mpd_data_processor_main build_all_samples 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_stable mpd_data_processor_main build_all_samples 
+Execute     set_directive_interface -mode ap_stable mpd_data_processor_main build_debug_headers 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_stable mpd_data_processor_main build_debug_headers 
+Execute     set_directive_interface -mode ap_stable mpd_data_processor_main enable_cm 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_stable mpd_data_processor_main enable_cm 
+Execute     set_directive_interface -mode ap_stable mpd_data_processor_main fiber 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_stable mpd_data_processor_main fiber 
+Execute     set_directive_data_pack mpd_data_processor_main s_avgAPreHeader 
+Execute     set_directive_data_pack mpd_data_processor_main s_avgBPreHeader 
+Execute     set_directive_data_pack mpd_data_processor_main s_avgAHeader 
+Execute     set_directive_data_pack mpd_data_processor_main s_avgBHeader 
+Execute     set_directive_data_pack mpd_data_processor_main s_avgASamples 
+Execute     set_directive_data_pack mpd_data_processor_main s_avgBSamplesOut 
+Execute     set_directive_data_pack mpd_data_processor_main s_avgBSamplesIn 
+Execute     set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_offset 
+INFO: [HLS 200-1510] Running: set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_offset 
+WARNING: [HLS 200-484] The 'set_directive_resource -core' command is deprecated and will be removed in a future release.
+WARNING: [HLS 200-484] The 'set_directive_resource -location' command is deprecated and will be removed in a future release.
+Execute     set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_apvThr 
+INFO: [HLS 200-1510] Running: set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_apvThr 
+WARNING: [HLS 200-484] The 'set_directive_resource -core' command is deprecated and will be removed in a future release.
+WARNING: [HLS 200-484] The 'set_directive_resource -location' command is deprecated and will be removed in a future release.
+Execute     set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_apvThrB 
+INFO: [HLS 200-1510] Running: set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_apvThrB 
+WARNING: [HLS 200-484] The 'set_directive_resource -core' command is deprecated and will be removed in a future release.
+WARNING: [HLS 200-484] The 'set_directive_resource -location' command is deprecated and will be removed in a future release.
+Execute     set_directive_pipeline -II 2 -enable_flush frame_decoder 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -II 2 -enable_flush frame_decoder 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+Execute     set_directive_pipeline -II 2 -enable_flush avgB 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -II 2 -enable_flush avgB 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+Execute     set_directive_pipeline -II 64 -enable_flush avgHeaderDiv 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -II 64 -enable_flush avgHeaderDiv 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+Execute     set_directive_pipeline -II 2 -enable_flush event_writer 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -II 2 -enable_flush event_writer 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+Execute     set_directive_pipeline -enable_flush avgBSamplesFifoProc 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -enable_flush avgBSamplesFifoProc 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+Execute     set_directive_interface -mode ap_ctrl_none mpd_data_processor_main 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_ctrl_none mpd_data_processor_main 
+Execute   csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 90.582 MB.
+Execute       set_directive_top mpd_data_processor_main -name=mpd_data_processor_main 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/tps/tcl/tcllib1.11.1/try/try.tcl 
+INFO: [HLS 200-10] Analyzing design file '../mpd_data_processor.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling ../mpd_data_processor.cpp as C++
+Execute       ap_part_info -name xcku035-ffva1156-1-i -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/clang ../mpd_data_processor.cpp -foptimization-record-file=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot C:/Xilinx/Vitis_HLS/2023.1/tps/mingw/8.3.0/win64.o/nt -fhls -fno-exceptions -insert-hls-directive=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/all.directive.json -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vitis_HLS/2023.1/common/technology/autopilot -I C:/Xilinx/Vitis_HLS/2023.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp {-hls-platform-db-name=C:/Xilinx/Vitis_HLS/2023.1/common/technology\xilinx/common/platform.db} -hls-platform-name=kintexu_slow -device-resource-info=BRAM_1080.000000_DSP_1700.000000_FF_406256.000000_LUT_203128.000000_SLICE_30300.000000_URAM_0.000000 -device-name-info=xcku035-ffva1156-1-i > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.cpp.clang.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.cpp.clang.err.log
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+INFO-FLOW: Source syntax check for synthesis
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp {-hls-platform-db-name=C:/Xilinx/Vitis_HLS/2023.1/common/technology\xilinx/common/platform.db} -hls-platform-name=kintexu_slow -device-resource-info=BRAM_1080.000000_DSP_1700.000000_FF_406256.000000_LUT_203128.000000_SLICE_30300.000000_URAM_0.000000 -device-name-info=xcku035-ffva1156-1-i > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/clang.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/clang.err.log
+Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/.systemc_flag -fix-errors C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.432 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/all.directive.json -fix-errors C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.781 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 0.8 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.clang-tidy.loop-label.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.clang-tidy.loop-label.err.log
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Command       clang_tidy done; 0.879 sec.
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.xilinx-dataflow-lawyer.err.log
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:7:9)
+WARNING: [HLS 214-169] There are a total of 7 such instances of non-canonical statements in the dataflow region (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:7:9)
+Execute       send_msg_by_id WARNING @200-471@%s%s 2 ../mpd_data_processor.cpp 
+WARNING: [HLS 200-471] Dataflow form checks found 2 issue(s) in file ../mpd_data_processor.cpp
+Execute       ap_part_info -name xcku035-ffva1156-1-i -data info 
+INFO-FLOW: compiling source code to llvm bc
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vitis_HLS/2023.1/common/technology/autopilot -I C:/Xilinx/Vitis_HLS/2023.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.bc {-hls-platform-db-name=C:/Xilinx/Vitis_HLS/2023.1/common/technology\xilinx/common/platform.db} -hls-platform-name=kintexu_slow -device-resource-info=BRAM_1080.000000_DSP_1700.000000_FF_406256.000000_LUT_203128.000000_SLICE_30300.000000_URAM_0.000000 -device-name-info=xcku035-ffva1156-1-i > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.clang.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.pp.0.cpp.clang.err.log
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:26:48)
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:27:48)
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:28:49)
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:29:48)
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:30:43)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:10:9)
+WARNING: [HLS 207-5532] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:12:32)
+WARNING: [HLS 207-5532] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:13:32)
+WARNING: [HLS 207-5532] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:14:32)
+WARNING: [HLS 207-5532] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:15:32)
+WARNING: [HLS 207-5531] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9)
+WARNING: [HLS 207-5531] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9)
+WARNING: [HLS 207-5531] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:8:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:16:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:17:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:18:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:19:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:20:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:21:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:22:9)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 4.061 seconds; current allocated memory: 94.020 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute       run_link_or_opt -out C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc -args  "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.g.bc"  
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor.g.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.1.lower.bc -args C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.1.lower.bc > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+INFO-FLOW: Linking math bc lib
+Execute       run_link_or_opt -out C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.2.m1.bc -args C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/Vitis_HLS/2023.1/win64/lib/libhlsm_39.bc C:/Xilinx/Vitis_HLS/2023.1/win64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/Vitis_HLS/2023.1/win64/lib/libhlsm_39.bc C:/Xilinx/Vitis_HLS/2023.1/win64/lib/libhlsmc++_39.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.2.m1.bc > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+INFO-FLOW: 
+Command       run_link_or_opt done; 1.135 sec.
+Execute       run_link_or_opt -opt -out C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.3.fpc.bc -args C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=mpd_data_processor_main -reflow-float-conversion 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=mpd_data_processor_main -reflow-float-conversion -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.3.fpc.bc > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Command       run_link_or_opt done; 0.497 sec.
+Execute       run_link_or_opt -out C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.4.m2.bc -args C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/Vitis_HLS/2023.1/win64/lib/libfloatconversion_39.bc 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/Vitis_HLS/2023.1/win64/lib/libfloatconversion_39.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.4.m2.bc > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.5.gdce.bc -args C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=mpd_data_processor_main 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=mpd_data_processor_main -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.5.gdce.bc > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Execute       send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute       is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2023.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=mpd_data_processor_main -mllvm -hls-db-dir -mllvm C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -enable-fp-thr=0 -mllvm -reflow-bdd-simplify-threshold=1024 -mllvm -reflow-fanout-threshold=16 -mllvm -assume-maxi-align=1 -mllvm -reflow-pipeline-style-llvm-setting=2 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-array-partition=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=1024 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=8 -x ir C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.5.gdce.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.lto.bc {-hls-platform-db-name=C:/Xilinx/Vitis_HLS/2023.1/common/technology\xilinx/common/platform.db} -hls-platform-name=kintexu_slow -device-resource-info=BRAM_1080.000000_DSP_1700.000000_FF_406256.000000_LUT_203128.000000_SLICE_30300.000000_URAM_0.000000 -device-name-info=xcku035-ffva1156-1-i > C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc.clang.reflow.out.log 2> C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log
+WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9)
+WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9)
+WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_360_1' is marked as complete unroll implied by the pipeline pragma (../mpd_data_processor.cpp:360:27)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_440_1' is marked as complete unroll implied by the pipeline pragma (../mpd_data_processor.cpp:440:25)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_360_1' (../mpd_data_processor.cpp:360:27) in function 'event_writer' completely with a factor of 5 (../mpd_data_processor.cpp:276:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_440_1' (../mpd_data_processor.cpp:440:25) in function 'avgBSamplesFifoProc' completely with a factor of 3 (../mpd_data_processor.cpp:428:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ19avgBSamplesFifoProcRN3hls6streamI13sample_data_tLi0EEERNS0_I18sample_data_pair_tLi0EEEE13s_avgBSamples': Complete partitioning on dimension 1. (../mpd_data_processor.cpp:429:0)
+INFO: [HLS 214-241] Aggregating bram variable 'm_apvThrB' with compact=bit mode in 13-bits
+INFO: [HLS 214-241] Aggregating bram variable 'm_apvThr' with compact=bit mode in 13-bits
+INFO: [HLS 214-241] Aggregating bram variable 'm_offset' with compact=bit mode in 26-bits
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 's_evOut' with compact=bit mode in 33-bits (../mpd_data_processor.cpp:468:0)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 's_evIn' with compact=bit mode in 33-bits (../mpd_data_processor.cpp:468:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'event_writer(hls::stream<event_data_t, 0>&, hls::stream<avg_header_t, 0>&, hls::stream<sample_data_pair_t, 0>&, ap_uint<1>, ap_uint<1>, ap_uint<5>, ap_int<13> (*) [128])::s' due to pipeline pragma (../mpd_data_processor.cpp:280:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12event_writerRN3hls6streamI12event_data_tLi0EEERNS0_I12avg_header_tLi0EEERNS0_I18sample_data_pair_tLi0EEE7ap_uintILi1EESB_SA_ILi5EEPA128_6ap_intILi13EEE1s': Complete partitioning on dimension 1. (../mpd_data_processor.cpp:280:0)
+INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/kernel.internal.xml
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.613 seconds; current allocated memory: 95.219 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 95.227 MB.
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top mpd_data_processor_main -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -auto-shift-reg-idiom -promote-dbg-pointer -norm-name C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.0.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.051 seconds; current allocated memory: 102.871 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.1.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.2.prechk.bc -f 
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.2.prechk.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.071 seconds; current allocated memory: 106.980 MB.
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.g.1.bc to C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -scalar-auto-dep-elim -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -scalar-auto-dep-elim -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -canonicalize-dataflow -dce -globaldce -scalar-preprocessing -scalar-propagation2 -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.o.1.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.o.1.tmp.bc -f 
+WARNING: [HLS 200-805] An internal stream 's_avgBSamplesOut' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 's_avgBSamplesIn' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 's_avgBPreHeader' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 's_avgAPreHeader' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 's_avgAHeader' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.5' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.4' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.3' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.2' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.1' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+INFO: [XFORM 203-712] Applying dataflow to function 'mpd_data_processor_main' (../mpd_data_processor.cpp:7:1), detected/extracted 5 process function(s): 
+	 'frame_decoder'
+	 'avgHeaderDiv'
+	 'avgB'
+	 'avgBSamplesFifoProc'
+	 'event_writer'.
+Command         transform done; 0.187 sec.
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.o.1.tmp.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../mpd_data_processor.cpp:87:44) to (../mpd_data_processor.cpp:111:12) in function 'frame_decoder'... converting 5 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../mpd_data_processor.cpp:330:63) to (../mpd_data_processor.cpp:335:7) in function 'event_writer'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../mpd_data_processor.cpp:341:63) to (../mpd_data_processor.cpp:346:7) in function 'event_writer'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../mpd_data_processor.cpp:352:63) to (../mpd_data_processor.cpp:369:12) in function 'event_writer'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.273 seconds; current allocated memory: 132.496 MB.
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dce -dump-loop-dep-to-ir -check-all-ssdm -dump-complexity-metric -cdfg-build C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.o.2.bc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Execute           auto_get_db
+WARNING: [HLS 200-657] Generating channel s_avgBPreHeader that flows backwards in the dataflow region.
+WARNING: [HLS 200-631] ap_ctrl_none interface is illegal for mpd_data_processor_main because frame_decoder has non-FIFO I/O
+Command         transform done; 0.203 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.203 seconds; current allocated memory: 173.840 MB.
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 0.602 sec.
+Command     elaborate done; 7.319 sec.
+Execute     ap_eval exec zip -j C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
+Command     ap_eval done; 0.788 sec.
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'mpd_data_processor_main' ...
+Execute       ap_set_top_model mpd_data_processor_main 
+Execute       get_model_list mpd_data_processor_main -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model mpd_data_processor_main 
+Execute       preproc_iomode -model event_writer 
+Execute       preproc_iomode -model avgBSamplesFifoProc 
+Execute       preproc_iomode -model avgB 
+Execute       preproc_iomode -model avgHeaderDiv 
+Execute       preproc_iomode -model frame_decoder 
+Execute       get_model_list mpd_data_processor_main -filter all-wo-channel 
+INFO-FLOW: Model list for configure: frame_decoder avgHeaderDiv avgB avgBSamplesFifoProc event_writer mpd_data_processor_main
+INFO-FLOW: Configuring Module : frame_decoder ...
+Execute       set_default_model frame_decoder 
+Execute       apply_spec_resource_limit frame_decoder 
+INFO-FLOW: Configuring Module : avgHeaderDiv ...
+Execute       set_default_model avgHeaderDiv 
+Execute       apply_spec_resource_limit avgHeaderDiv 
+INFO-FLOW: Configuring Module : avgB ...
+Execute       set_default_model avgB 
+Execute       apply_spec_resource_limit avgB 
+INFO-FLOW: Configuring Module : avgBSamplesFifoProc ...
+Execute       set_default_model avgBSamplesFifoProc 
+Execute       apply_spec_resource_limit avgBSamplesFifoProc 
+INFO-FLOW: Configuring Module : event_writer ...
+Execute       set_default_model event_writer 
+Execute       apply_spec_resource_limit event_writer 
+INFO-FLOW: Configuring Module : mpd_data_processor_main ...
+Execute       set_default_model mpd_data_processor_main 
+Execute       apply_spec_resource_limit mpd_data_processor_main 
+INFO-FLOW: Model list for preprocess: frame_decoder avgHeaderDiv avgB avgBSamplesFifoProc event_writer mpd_data_processor_main
+INFO-FLOW: Preprocessing Module: frame_decoder ...
+Execute       set_default_model frame_decoder 
+Execute       cdfg_preprocess -model frame_decoder 
+Execute       rtl_gen_preprocess frame_decoder 
+INFO-FLOW: Preprocessing Module: avgHeaderDiv ...
+Execute       set_default_model avgHeaderDiv 
+Execute       cdfg_preprocess -model avgHeaderDiv 
+Execute       rtl_gen_preprocess avgHeaderDiv 
+INFO-FLOW: Preprocessing Module: avgB ...
+Execute       set_default_model avgB 
+Execute       cdfg_preprocess -model avgB 
+Execute       rtl_gen_preprocess avgB 
+INFO-FLOW: Preprocessing Module: avgBSamplesFifoProc ...
+Execute       set_default_model avgBSamplesFifoProc 
+Execute       cdfg_preprocess -model avgBSamplesFifoProc 
+Execute       rtl_gen_preprocess avgBSamplesFifoProc 
+INFO-FLOW: Preprocessing Module: event_writer ...
+Execute       set_default_model event_writer 
+Execute       cdfg_preprocess -model event_writer 
+Execute       rtl_gen_preprocess event_writer 
+INFO-FLOW: Preprocessing Module: mpd_data_processor_main ...
+Execute       set_default_model mpd_data_processor_main 
+Execute       cdfg_preprocess -model mpd_data_processor_main 
+Execute       rtl_gen_preprocess mpd_data_processor_main 
+INFO-FLOW: Model list for synthesis: frame_decoder avgHeaderDiv avgB avgBSamplesFifoProc event_writer mpd_data_processor_main
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'frame_decoder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model frame_decoder 
+Execute       schedule -model frame_decoder 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'frame_decoder'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 2, Final II = 2, Depth = 4, function 'frame_decoder'
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.119 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.929 seconds; current allocated memory: 179.676 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.verbose.sched.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.sched.adb -f 
+INFO-FLOW: Finish scheduling frame_decoder.
+Execute       set_default_model frame_decoder 
+Execute       bind -model frame_decoder 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.054 seconds; current allocated memory: 181.059 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.verbose.bind.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.bind.adb -f 
+INFO-FLOW: Finish binding frame_decoder.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'avgHeaderDiv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model avgHeaderDiv 
+Execute       schedule -model avgHeaderDiv 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'avgHeaderDiv'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 64, Final II = 64, Depth = 89, function 'avgHeaderDiv'
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.215 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.246 seconds; current allocated memory: 181.668 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.verbose.sched.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Command       syn_report done; 0.334 sec.
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.sched.adb -f 
+INFO-FLOW: Finish scheduling avgHeaderDiv.
+Execute       set_default_model avgHeaderDiv 
+Execute       bind -model avgHeaderDiv 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.2 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.541 seconds; current allocated memory: 181.762 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.verbose.bind.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.bind.adb -f 
+INFO-FLOW: Finish binding avgHeaderDiv.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'avgB' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model avgB 
+Execute       schedule -model avgB 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'avgB'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 2, Final II = 2, Depth = 3, function 'avgB'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.157 seconds; current allocated memory: 183.055 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.verbose.sched.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.sched.adb -f 
+INFO-FLOW: Finish scheduling avgB.
+Execute       set_default_model avgB 
+Execute       bind -model avgB 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.043 seconds; current allocated memory: 183.102 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.verbose.bind.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.bind.adb -f 
+INFO-FLOW: Finish binding avgB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'avgBSamplesFifoProc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model avgBSamplesFifoProc 
+Execute       schedule -model avgBSamplesFifoProc 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'avgBSamplesFifoProc'.
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 6, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 7, Depth = 18, function 'avgBSamplesFifoProc'
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.114 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.139 seconds; current allocated memory: 183.922 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.verbose.sched.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.sched.adb -f 
+INFO-FLOW: Finish scheduling avgBSamplesFifoProc.
+Execute       set_default_model avgBSamplesFifoProc 
+Execute       bind -model avgBSamplesFifoProc 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.131 seconds; current allocated memory: 184.012 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.verbose.bind.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.bind.adb -f 
+INFO-FLOW: Finish binding avgBSamplesFifoProc.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'event_writer' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model event_writer 
+Execute       schedule -model event_writer 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'event_writer'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 2, Final II = 2, Depth = 3, function 'event_writer'
+WARNING: [HLS 200-871] Estimated clock period (10.668 ns) exceeds the target (target clock period: 8.000 ns, clock uncertainty: 1.000 ns, effective delay budget: 7.000 ns).
+WARNING: [HLS 200-1016] The critical path in module 'event_writer' consists of the following:
+	'load' operation ('avgB_1_load_4', ../mpd_data_processor.cpp:353) on array 'avgB_1' [66]  (0.858 ns)
+	'sub' operation ('sub_ln353', ../mpd_data_processor.cpp:353) [68]  (1.623 ns)
+	'select' operation ('select_ln353_1', ../mpd_data_processor.cpp:353) [76]  (0.624 ns)
+	'select' operation ('select_ln353_6', ../mpd_data_processor.cpp:353) [89]  (0.624 ns)
+	'add' operation ('add_ln355', ../mpd_data_processor.cpp:355) [95]  (1.623 ns)
+	'add' operation ('add_ln355_1', ../mpd_data_processor.cpp:355) [97]  (1.719 ns)
+	'icmp' operation ('icmp_ln371', ../mpd_data_processor.cpp:371) [123]  (1.719 ns)
+	'or' operation ('or_ln371_1', ../mpd_data_processor.cpp:371) [127]  (0.311 ns)
+	multiplexor before 'phi' operation ('storemerge5_i', ../mpd_data_processor.cpp:377) with incoming values : ('zext_ln377', ../mpd_data_processor.cpp:377) [136]  (0.628 ns)
+	'phi' operation ('storemerge5_i', ../mpd_data_processor.cpp:377) with incoming values : ('zext_ln377', ../mpd_data_processor.cpp:377) [136]  (0.000 ns)
+	'store' operation ('ps_1_write_ln370', ../mpd_data_processor.cpp:370) of variable 'storemerge5_i', ../mpd_data_processor.cpp:377 on static variable 'ps_1' [137]  (0.940 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.226 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.26 seconds; current allocated memory: 186.555 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.verbose.sched.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.sched.adb -f 
+INFO-FLOW: Finish scheduling event_writer.
+Execute       set_default_model event_writer 
+Execute       bind -model event_writer 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 186.812 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.verbose.bind.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.bind.adb -f 
+INFO-FLOW: Finish binding event_writer.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mpd_data_processor_main' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model mpd_data_processor_main 
+Execute       schedule -model mpd_data_processor_main 
+INFO: [SCHED 204-11] Starting scheduling ...
+WARNING: [HLS 200-871] Estimated clock period (7.564 ns) exceeds the target (target clock period: 8.000 ns, clock uncertainty: 1.000 ns, effective delay budget: 7.000 ns).
+WARNING: [HLS 200-1016] The critical path in module 'mpd_data_processor_main' consists of the following:
+	wire read operation ('fiber_read', ../mpd_data_processor.cpp:460) on port 'fiber' (../mpd_data_processor.cpp:460) [95]  (0.000 ns)
+	'call' operation ('_ln485', ../mpd_data_processor.cpp:485) to 'event_writer' [102]  (7.564 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.275 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.32 seconds; current allocated memory: 186.906 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.verbose.sched.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Command       syn_report done; 0.443 sec.
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.sched.adb -f 
+INFO-FLOW: Finish scheduling mpd_data_processor_main.
+Execute       set_default_model mpd_data_processor_main 
+Execute       bind -model mpd_data_processor_main 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.265 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.713 seconds; current allocated memory: 187.848 MB.
+Execute       syn_report -verbosereport -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.verbose.bind.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Command       syn_report done; 0.105 sec.
+Execute       db_write -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.bind.adb -f 
+INFO-FLOW: Finish binding mpd_data_processor_main.
+Execute       get_model_list mpd_data_processor_main -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess frame_decoder 
+Execute       rtl_gen_preprocess avgHeaderDiv 
+Execute       rtl_gen_preprocess avgB 
+Execute       rtl_gen_preprocess avgBSamplesFifoProc 
+Execute       rtl_gen_preprocess event_writer 
+Execute       rtl_gen_preprocess mpd_data_processor_main 
+INFO-FLOW: Model list for RTL generation: frame_decoder avgHeaderDiv avgB avgBSamplesFifoProc event_writer mpd_data_processor_main
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'frame_decoder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model frame_decoder -top_prefix mpd_data_processor_main_ -sub_prefix mpd_data_processor_main_ -mg_file C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.compgen.tcl 
+WARNING: [RTGEN 206-101] Register 'ps' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_sum' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_cnt' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mpd_id' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_tag' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'apv_id' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'adc_word_cnt' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'minmax_min' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'minmax_max' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'frame_decoder'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.176 seconds; current allocated memory: 190.363 MB.
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.rtl_wrap.cfg.tcl 
+Execute       gen_rtl frame_decoder -style xilinx -f -lang vhdl -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/vhdl/mpd_data_processor_main_frame_decoder 
+Execute       gen_rtl frame_decoder -style xilinx -f -lang vlog -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/verilog/mpd_data_processor_main_frame_decoder 
+Execute       syn_report -csynth -model frame_decoder -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/frame_decoder_csynth.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -rtlxml -model frame_decoder -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/frame_decoder_csynth.xml 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -verbosereport -model frame_decoder -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.verbose.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -model frame_decoder -f -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.adb 
+Execute       db_write -model frame_decoder -bindview -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info frame_decoder -p C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'avgHeaderDiv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model avgHeaderDiv -top_prefix mpd_data_processor_main_ -sub_prefix mpd_data_processor_main_ -mg_file C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.compgen.tcl 
+WARNING: [RTGEN 206-101] Register 'last' is power-on initialization.
+INFO: [RTGEN 206-100] Generating core module 'sdiv_20ns_9ns_13_24_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'avgHeaderDiv'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.446 seconds; current allocated memory: 196.273 MB.
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.rtl_wrap.cfg.tcl 
+Execute       gen_rtl avgHeaderDiv -style xilinx -f -lang vhdl -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/vhdl/mpd_data_processor_main_avgHeaderDiv 
+Execute       gen_rtl avgHeaderDiv -style xilinx -f -lang vlog -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/verilog/mpd_data_processor_main_avgHeaderDiv 
+Execute       syn_report -csynth -model avgHeaderDiv -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/avgHeaderDiv_csynth.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -rtlxml -model avgHeaderDiv -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/avgHeaderDiv_csynth.xml 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -verbosereport -model avgHeaderDiv -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.verbose.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -model avgHeaderDiv -f -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.adb 
+Execute       db_write -model avgHeaderDiv -bindview -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info avgHeaderDiv -p C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'avgB' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model avgB -top_prefix mpd_data_processor_main_ -sub_prefix mpd_data_processor_main_ -mg_file C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.compgen.tcl 
+WARNING: [RTGEN 206-101] Register 'ps_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_sum_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_cnt_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'apv_id_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_tag_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'n' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'avgB'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.314 seconds; current allocated memory: 197.855 MB.
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.rtl_wrap.cfg.tcl 
+Execute       gen_rtl avgB -style xilinx -f -lang vhdl -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/vhdl/mpd_data_processor_main_avgB 
+Execute       gen_rtl avgB -style xilinx -f -lang vlog -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/verilog/mpd_data_processor_main_avgB 
+Execute       syn_report -csynth -model avgB -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/avgB_csynth.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -rtlxml -model avgB -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/avgB_csynth.xml 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -verbosereport -model avgB -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.verbose.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -model avgB -f -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.adb 
+Execute       db_write -model avgB -bindview -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info avgB -p C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'avgBSamplesFifoProc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model avgBSamplesFifoProc -top_prefix mpd_data_processor_main_ -sub_prefix mpd_data_processor_main_ -mg_file C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.compgen.tcl 
+WARNING: [RTGEN 206-101] Register 'wr_idx' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'wr_pos' is power-on initialization.
+INFO: [RTGEN 206-100] Generating core module 'srem_4ns_4ns_4_8_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'avgBSamplesFifoProc'.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_5_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_4_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_3_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_2_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_1_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.33 seconds; current allocated memory: 200.414 MB.
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.rtl_wrap.cfg.tcl 
+Execute       gen_rtl avgBSamplesFifoProc -style xilinx -f -lang vhdl -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/vhdl/mpd_data_processor_main_avgBSamplesFifoProc 
+Execute       gen_rtl avgBSamplesFifoProc -style xilinx -f -lang vlog -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/verilog/mpd_data_processor_main_avgBSamplesFifoProc 
+Execute       syn_report -csynth -model avgBSamplesFifoProc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/avgBSamplesFifoProc_csynth.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -rtlxml -model avgBSamplesFifoProc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/avgBSamplesFifoProc_csynth.xml 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -verbosereport -model avgBSamplesFifoProc -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.verbose.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -model avgBSamplesFifoProc -f -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.adb 
+Execute       db_write -model avgBSamplesFifoProc -bindview -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info avgBSamplesFifoProc -p C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'event_writer' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model event_writer -top_prefix mpd_data_processor_main_ -sub_prefix mpd_data_processor_main_ -mg_file C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.compgen.tcl 
+WARNING: [RTGEN 206-101] Register 'ps_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'apv_id_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'sample_n' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_5' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_4' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'sum' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'cnt' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'event_writer'.
+INFO: [RTMG 210-278] Implementing memory 'mpd_data_processor_main_event_writer_avgB_1_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.3 seconds; current allocated memory: 203.430 MB.
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.rtl_wrap.cfg.tcl 
+Execute       gen_rtl event_writer -style xilinx -f -lang vhdl -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/vhdl/mpd_data_processor_main_event_writer 
+Execute       gen_rtl event_writer -style xilinx -f -lang vlog -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/verilog/mpd_data_processor_main_event_writer 
+Execute       syn_report -csynth -model event_writer -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/event_writer_csynth.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -rtlxml -model event_writer -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/event_writer_csynth.xml 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -verbosereport -model event_writer -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.verbose.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       db_write -model event_writer -f -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.adb 
+Execute       db_write -model event_writer -bindview -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info event_writer -p C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mpd_data_processor_main' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model mpd_data_processor_main -top_prefix  -sub_prefix mpd_data_processor_main_ -mg_file C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.compgen.tcl 
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/s_evIn' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/s_evOut' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/build_all_samples' to 'ap_stable'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/build_debug_headers' to 'ap_stable'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/enable_cm' to 'ap_stable'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/fiber' to 'ap_stable'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/m_offset' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/m_apvThr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/m_apvThrB' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'mpd_data_processor_main' to 'ap_ctrl_none'.
+WARNING: [RTGEN 206-101] RTL name 'fifo_w13_d2_S' is changed to 'fifo_w13_d2_S_x' due to conflict.
+WARNING: [RTGEN 206-101] Port 'mpd_data_processor_main/build_debug_headers' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mpd_data_processor_main'.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgAPreHeader_U(mpd_data_processor_main_fifo_w64_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgASamples_U(mpd_data_processor_main_fifo_w13_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgBPreHeader_U(mpd_data_processor_main_fifo_w64_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgAHeader_U(mpd_data_processor_main_fifo_w32_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgBHeader_U(mpd_data_processor_main_fifo_w32_d4_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgBSamplesOut_U(mpd_data_processor_main_fifo_w13_d2_S_x)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgBSamplesIn_U(mpd_data_processor_main_fifo_w32_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'start_for_avgHeaderDiv_U0_U(mpd_data_processor_main_start_for_avgHeaderDiv_U0)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'start_for_avgBSamplesFifoProc_U0_U(mpd_data_processor_main_start_for_avgBSamplesFifoProc_U0)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.585 seconds; current allocated memory: 207.824 MB.
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.rtl_wrap.cfg.tcl 
+Execute       gen_rtl mpd_data_processor_main -istop -style xilinx -f -lang vhdl -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/vhdl/mpd_data_processor_main 
+Execute       gen_rtl mpd_data_processor_main -istop -style xilinx -f -lang vlog -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/verilog/mpd_data_processor_main 
+Execute       syn_report -csynth -model mpd_data_processor_main -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/mpd_data_processor_main_csynth.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -rtlxml -model mpd_data_processor_main -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/mpd_data_processor_main_csynth.xml 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -verbosereport -model mpd_data_processor_main -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.verbose.rpt 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Command       syn_report done; 0.145 sec.
+Execute       db_write -model mpd_data_processor_main -f -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.adb 
+Execute       db_write -model mpd_data_processor_main -bindview -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info mpd_data_processor_main -p C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main 
+Execute       export_constraint_db -f -tool general -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.constraint.tcl 
+Execute       syn_report -designview -model mpd_data_processor_main -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.design.xml 
+Command       syn_report done; 0.281 sec.
+Execute       syn_report -csynthDesign -model mpd_data_processor_main -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/csynth.rpt -MHOut C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/kernel_module_hierarchy.tcl 
+Execute         list_part -family xcku035-ffva1156-1-i 
+Execute           ap_family_info -name xcku035-ffva1156-1-i -data names 
+Execute           ap_part_info -quiet -name xcku035-ffva1156-1-i -data family 
+Execute       syn_report -wcfg -model mpd_data_processor_main -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main_dataflow_ana.wcfg 
+Execute       syn_report -protoinst -model mpd_data_processor_main -o C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.protoinst 
+Execute       sc_get_clocks mpd_data_processor_main 
+Execute       sc_get_portdomain mpd_data_processor_main 
+INFO-FLOW: Model list for RTL component generation: frame_decoder avgHeaderDiv avgB avgBSamplesFifoProc event_writer mpd_data_processor_main
+INFO-FLOW: Handling components in module [frame_decoder] ... 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.compgen.tcl 
+INFO-FLOW: Handling components in module [avgHeaderDiv] ... 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.compgen.tcl 
+INFO-FLOW: Found component mpd_data_processor_main_sdiv_20ns_9ns_13_24_1.
+INFO-FLOW: Append model mpd_data_processor_main_sdiv_20ns_9ns_13_24_1
+INFO-FLOW: Handling components in module [avgB] ... 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.compgen.tcl 
+INFO-FLOW: Handling components in module [avgBSamplesFifoProc] ... 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.compgen.tcl 
+INFO-FLOW: Found component mpd_data_processor_main_srem_4ns_4ns_4_8_1.
+INFO-FLOW: Append model mpd_data_processor_main_srem_4ns_4ns_4_8_1
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w13_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w13_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w13_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w13_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w13_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w13_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: Handling components in module [event_writer] ... 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.compgen.tcl 
+INFO-FLOW: Found component mpd_data_processor_main_event_writer_avgB_1_RAM_AUTO_1R1W.
+INFO-FLOW: Append model mpd_data_processor_main_event_writer_avgB_1_RAM_AUTO_1R1W
+INFO-FLOW: Handling components in module [mpd_data_processor_main] ... 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.compgen.tcl 
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w64_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w64_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w13_d3_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w13_d3_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w64_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w64_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w32_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w32_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w32_d4_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w32_d4_S
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w13_d2_S_x.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w13_d2_S_x
+INFO-FLOW: Found component mpd_data_processor_main_fifo_w32_d2_S.
+INFO-FLOW: Append model mpd_data_processor_main_fifo_w32_d2_S
+INFO-FLOW: Found component mpd_data_processor_main_start_for_avgHeaderDiv_U0.
+INFO-FLOW: Append model mpd_data_processor_main_start_for_avgHeaderDiv_U0
+INFO-FLOW: Found component mpd_data_processor_main_start_for_avgBSamplesFifoProc_U0.
+INFO-FLOW: Append model mpd_data_processor_main_start_for_avgBSamplesFifoProc_U0
+INFO-FLOW: Append model frame_decoder
+INFO-FLOW: Append model avgHeaderDiv
+INFO-FLOW: Append model avgB
+INFO-FLOW: Append model avgBSamplesFifoProc
+INFO-FLOW: Append model event_writer
+INFO-FLOW: Append model mpd_data_processor_main
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: mpd_data_processor_main_sdiv_20ns_9ns_13_24_1 mpd_data_processor_main_srem_4ns_4ns_4_8_1 mpd_data_processor_main_fifo_w13_d2_S mpd_data_processor_main_fifo_w13_d2_S mpd_data_processor_main_fifo_w13_d2_S mpd_data_processor_main_fifo_w13_d2_S mpd_data_processor_main_fifo_w13_d2_S mpd_data_processor_main_fifo_w13_d2_S mpd_data_processor_main_event_writer_avgB_1_RAM_AUTO_1R1W mpd_data_processor_main_fifo_w64_d2_S mpd_data_processor_main_fifo_w13_d3_S mpd_data_processor_main_fifo_w64_d2_S mpd_data_processor_main_fifo_w32_d2_S mpd_data_processor_main_fifo_w32_d4_S mpd_data_processor_main_fifo_w13_d2_S_x mpd_data_processor_main_fifo_w32_d2_S mpd_data_processor_main_start_for_avgHeaderDiv_U0 mpd_data_processor_main_start_for_avgBSamplesFifoProc_U0 frame_decoder avgHeaderDiv avgB avgBSamplesFifoProc event_writer mpd_data_processor_main
+INFO-FLOW: Generating C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/autopilot.rtl.models.txt file...
+INFO-FLOW: To file: write model mpd_data_processor_main_sdiv_20ns_9ns_13_24_1
+INFO-FLOW: To file: write model mpd_data_processor_main_srem_4ns_4ns_4_8_1
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w13_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_event_writer_avgB_1_RAM_AUTO_1R1W
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w64_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w13_d3_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w64_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w32_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w32_d4_S
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w13_d2_S_x
+INFO-FLOW: To file: write model mpd_data_processor_main_fifo_w32_d2_S
+INFO-FLOW: To file: write model mpd_data_processor_main_start_for_avgHeaderDiv_U0
+INFO-FLOW: To file: write model mpd_data_processor_main_start_for_avgBSamplesFifoProc_U0
+INFO-FLOW: To file: write model frame_decoder
+INFO-FLOW: To file: write model avgHeaderDiv
+INFO-FLOW: To file: write model avgB
+INFO-FLOW: To file: write model avgBSamplesFifoProc
+INFO-FLOW: To file: write model event_writer
+INFO-FLOW: To file: write model mpd_data_processor_main
+INFO-FLOW: Generating C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/autopilot.rtl.models.tcl file...
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate_csynth_design
+INFO-FLOW: DBG:PUTS: read_platform_lib C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/generic/autopilot/common.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/generic/autopilot/op.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/generic/autopilot/interface.gen 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2023.1/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=8.000 (was NA)
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/vhdl' dstVlogDir='C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/vlog' tclDir='C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db' modelList='mpd_data_processor_main_sdiv_20ns_9ns_13_24_1
+mpd_data_processor_main_srem_4ns_4ns_4_8_1
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_event_writer_avgB_1_RAM_AUTO_1R1W
+mpd_data_processor_main_fifo_w64_d2_S
+mpd_data_processor_main_fifo_w13_d3_S
+mpd_data_processor_main_fifo_w64_d2_S
+mpd_data_processor_main_fifo_w32_d2_S
+mpd_data_processor_main_fifo_w32_d4_S
+mpd_data_processor_main_fifo_w13_d2_S_x
+mpd_data_processor_main_fifo_w32_d2_S
+mpd_data_processor_main_start_for_avgHeaderDiv_U0
+mpd_data_processor_main_start_for_avgBSamplesFifoProc_U0
+frame_decoder
+avgHeaderDiv
+avgB
+avgBSamplesFifoProc
+event_writer
+mpd_data_processor_main
+' expOnly='0'
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xcku035-ffva1156-1-i -data names -quiet 
+Execute       ap_part_info -name xcku035-ffva1156-1-i -data info -quiet 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.compgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.compgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.compgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.compgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.compgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.compgen.tcl 
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.632 seconds; current allocated memory: 212.387 MB.
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='mpd_data_processor_main_' outfile=''
+INFO-FLOW: Running: create_csynth_xml read xml data
+INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml bind info
+INFO-FLOW: No bind nodes found for module_name avgHeaderDiv
+INFO-FLOW: No bind nodes found for module_name mpd_data_processor_main
+INFO-FLOW: Done: create_csynth_xml bind info time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml config info
+INFO-FLOW: Done: create_csynth_xml config info time: 0.2 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml write xml
+INFO-FLOW: Done: create_csynth_xml write xml time: 0 seconds per iteration
+INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/syn/report/csynth.xml
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='0' modelList='mpd_data_processor_main_sdiv_20ns_9ns_13_24_1
+mpd_data_processor_main_srem_4ns_4ns_4_8_1
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_fifo_w13_d2_S
+mpd_data_processor_main_event_writer_avgB_1_RAM_AUTO_1R1W
+mpd_data_processor_main_fifo_w64_d2_S
+mpd_data_processor_main_fifo_w13_d3_S
+mpd_data_processor_main_fifo_w64_d2_S
+mpd_data_processor_main_fifo_w32_d2_S
+mpd_data_processor_main_fifo_w32_d4_S
+mpd_data_processor_main_fifo_w13_d2_S_x
+mpd_data_processor_main_fifo_w32_d2_S
+mpd_data_processor_main_start_for_avgHeaderDiv_U0
+mpd_data_processor_main_start_for_avgBSamplesFifoProc_U0
+frame_decoder
+avgHeaderDiv
+avgB
+avgBSamplesFifoProc
+event_writer
+mpd_data_processor_main
+' rtl_lang='both' bootstrap_tcl='false' outdir='' outfilename=''
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/top-io-be.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.tbgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.rtl_wrap.cfg.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.compgen.dataonly.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/frame_decoder.tbgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgHeaderDiv.tbgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgB.tbgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/avgBSamplesFifoProc.tbgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/event_writer.tbgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.tbgen.tcl 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xcku035-ffva1156-1-i -data names -quiet 
+Execute       ap_part_info -name xcku035-ffva1156-1-i -data info -quiet 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/mpd_data_processor_main.constraint.tcl 
+Execute       sc_get_clocks mpd_data_processor_main 
+Execute       source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {} report_dict {TOPINST mpd_data_processor_main MODULE2INSTS {mpd_data_processor_main mpd_data_processor_main frame_decoder frame_decoder_U0 avgHeaderDiv avgHeaderDiv_U0 avgB avgB_U0 avgBSamplesFifoProc avgBSamplesFifoProc_U0 event_writer event_writer_U0} INST2MODULE {mpd_data_processor_main mpd_data_processor_main frame_decoder_U0 frame_decoder avgHeaderDiv_U0 avgHeaderDiv avgB_U0 avgB avgBSamplesFifoProc_U0 avgBSamplesFifoProc event_writer_U0 event_writer} INSTDATA {mpd_data_processor_main {DEPTH 1 CHILDREN {frame_decoder_U0 avgHeaderDiv_U0 avgB_U0 avgBSamplesFifoProc_U0 event_writer_U0}} frame_decoder_U0 {DEPTH 2 CHILDREN {}} avgHeaderDiv_U0 {DEPTH 2 CHILDREN {}} avgB_U0 {DEPTH 2 CHILDREN {}} avgBSamplesFifoProc_U0 {DEPTH 2 CHILDREN {}} event_writer_U0 {DEPTH 2 CHILDREN {}}} MODULEDATA {frame_decoder {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln92_fu_390_p2 SOURCE ../mpd_data_processor.cpp:92 VARIABLE sub_ln92 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln97_fu_713_p2 SOURCE ../mpd_data_processor.cpp:97 VARIABLE add_ln97 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln98_fu_719_p2 SOURCE ../mpd_data_processor.cpp:98 VARIABLE add_ln98 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln102_fu_478_p2 SOURCE ../mpd_data_processor.cpp:102 VARIABLE sub_ln102 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln107_fu_772_p2 SOURCE ../mpd_data_processor.cpp:107 VARIABLE add_ln107 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln108_fu_778_p2 SOURCE ../mpd_data_processor.cpp:108 VARIABLE add_ln108 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln114_fu_544_p2 SOURCE ../mpd_data_processor.cpp:114 VARIABLE add_ln114 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}}} AREA {DSP 0 BRAM 0 URAM 0}} avgB {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln199_1_fu_219_p2 SOURCE ../mpd_data_processor.cpp:199 VARIABLE add_ln199_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln199_fu_364_p2 SOURCE ../mpd_data_processor.cpp:199 VARIABLE add_ln199 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME thr_fu_378_p2 SOURCE ../mpd_data_processor.cpp:199 VARIABLE thr LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln202_fu_433_p2 SOURCE ../mpd_data_processor.cpp:202 VARIABLE add_ln202 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln203_fu_445_p2 SOURCE ../mpd_data_processor.cpp:203 VARIABLE add_ln203 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln206_fu_236_p2 SOURCE ../mpd_data_processor.cpp:206 VARIABLE add_ln206 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}}} AREA {DSP 0 BRAM 0 URAM 0}} avgBSamplesFifoProc {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME grp_fu_231_p0 SOURCE ../mpd_data_processor.cpp:449 VARIABLE add_ln449 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln451_fu_237_p2 SOURCE ../mpd_data_processor.cpp:451 VARIABLE add_ln451 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln451_fu_269_p2 SOURCE ../mpd_data_processor.cpp:451 VARIABLE sub_ln451 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}}} AREA {DSP 0 BRAM 0 URAM 0}} event_writer {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln353_fu_423_p2 SOURCE ../mpd_data_processor.cpp:353 VARIABLE sub_ln353 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln354_fu_490_p2 SOURCE ../mpd_data_processor.cpp:354 VARIABLE sub_ln354 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln355_fu_584_p2 SOURCE ../mpd_data_processor.cpp:355 VARIABLE add_ln355 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln355_1_fu_594_p2 SOURCE ../mpd_data_processor.cpp:355 VARIABLE add_ln355_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sum_thr_fu_714_p2 SOURCE ../mpd_data_processor.cpp:366 VARIABLE sum_thr LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME grp_fu_283_p2 SOURCE ../mpd_data_processor.cpp:373 VARIABLE add_ln373 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln342_fu_787_p2 SOURCE ../mpd_data_processor.cpp:342 VARIABLE sub_ln342 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln343_fu_855_p2 SOURCE ../mpd_data_processor.cpp:343 VARIABLE sub_ln343 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln344_fu_1215_p2 SOURCE ../mpd_data_processor.cpp:344 VARIABLE add_ln344 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln344_1_fu_1225_p2 SOURCE ../mpd_data_processor.cpp:344 VARIABLE add_ln344_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln331_fu_955_p2 SOURCE ../mpd_data_processor.cpp:331 VARIABLE sub_ln331 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln332_fu_1023_p2 SOURCE ../mpd_data_processor.cpp:332 VARIABLE sub_ln332 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op sub}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln333_fu_1242_p2 SOURCE ../mpd_data_processor.cpp:333 VARIABLE add_ln333 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME grp_fu_283_p2 SOURCE ../mpd_data_processor.cpp:416 VARIABLE add_ln416 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln316_fu_1144_p2 SOURCE ../mpd_data_processor.cpp:316 VARIABLE add_ln316 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_s2p PRAGMA {} RTLNAME avgB_1_U SOURCE {} VARIABLE avgB_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_s2p}}} AREA {DSP 0 BRAM 0 URAM 0}} avgHeaderDiv {AREA {DSP 0 BRAM 0 URAM 0}} mpd_data_processor_main {AREA {DSP 0 BRAM 0 URAM 0}}}}'
+INFO-FLOW: DBG:PUTS:      update_csynth_reports json2rpt_hw_sw_interfaces
+INFO-FLOW: Running: gen_csynth_sec_pragma
+INFO-FLOW: Done: gen_csynth_sec_pragma time: 0 seconds per iteration
+INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
+INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.588 seconds; current allocated memory: 218.809 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for mpd_data_processor_main.
+INFO: [VLOG 209-307] Generating Verilog RTL for mpd_data_processor_main.
+Execute       syn_report -model mpd_data_processor_main -printsummary 
+INFO: [HLS 200-789] **** Estimated Fmax: 93.73 MHz
+Command     autosyn done; 6.216 sec.
+Command   csynth_design done; 14.422 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 14.422 seconds; current allocated memory: 128.742 MB.
+Command ap_source done; 14.996 sec.
+Execute cleanup_all 

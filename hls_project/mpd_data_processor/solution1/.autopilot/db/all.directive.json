@@ -1,0 +1,598 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATAFLOW"
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 7,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_evIn"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 8,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 2,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "INTERFACE",
+      "option": [
+        {
+          "name": "ap_fifo",
+          "value": ""
+        },
+        {
+          "name": "port",
+          "value": "s_evIn"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 9,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 3,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_evOut"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 10,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 4,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "INTERFACE",
+      "option": [
+        {
+          "name": "ap_fifo",
+          "value": ""
+        },
+        {
+          "name": "port",
+          "value": "s_evOut"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 11,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 5,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "INTERFACE",
+      "option": [
+        {
+          "name": "ap_stable",
+          "value": ""
+        },
+        {
+          "name": "port",
+          "value": "build_all_samples"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 12,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 6,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "INTERFACE",
+      "option": [
+        {
+          "name": "ap_stable",
+          "value": ""
+        },
+        {
+          "name": "port",
+          "value": "build_debug_headers"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 13,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 7,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "INTERFACE",
+      "option": [
+        {
+          "name": "ap_stable",
+          "value": ""
+        },
+        {
+          "name": "port",
+          "value": "enable_cm"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 14,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 8,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "INTERFACE",
+      "option": [
+        {
+          "name": "ap_stable",
+          "value": ""
+        },
+        {
+          "name": "port",
+          "value": "fiber"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 15,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 9,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_avgAPreHeader"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 16,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 10,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_avgBPreHeader"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 17,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 11,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_avgAHeader"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 18,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 12,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_avgBHeader"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 19,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 13,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_avgASamples"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 20,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 14,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_avgBSamplesOut"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 21,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 15,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "DATA_PACK",
+      "option": [
+        {
+          "name": "variable",
+          "value": "s_avgBSamplesIn"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 22,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 16,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "RESOURCE",
+      "option": [
+        {
+          "name": "core",
+          "value": "RAM_1P_BRAM"
+        },
+        {
+          "name": "variable",
+          "value": "m_offset"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 23,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 17,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "RESOURCE",
+      "option": [
+        {
+          "name": "core",
+          "value": "RAM_1P_BRAM"
+        },
+        {
+          "name": "variable",
+          "value": "m_apvThr"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 24,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 18,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "RESOURCE",
+      "option": [
+        {
+          "name": "core",
+          "value": "RAM_1P_BRAM"
+        },
+        {
+          "name": "variable",
+          "value": "m_apvThrB"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 25,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "frame_decoder",
+    "id": 19,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "enable_flush",
+          "value": ""
+        },
+        {
+          "name": "II",
+          "value": "2"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 26,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "avgB",
+    "id": 20,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "enable_flush",
+          "value": ""
+        },
+        {
+          "name": "II",
+          "value": "2"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 27,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "avgHeaderDiv",
+    "id": 21,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "enable_flush",
+          "value": ""
+        },
+        {
+          "name": "II",
+          "value": "64"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 28,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "event_writer",
+    "id": 22,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "enable_flush",
+          "value": ""
+        },
+        {
+          "name": "II",
+          "value": "2"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 29,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "avgBSamplesFifoProc",
+    "id": 23,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "enable_flush",
+          "value": ""
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 30,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 24,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "INTERFACE",
+      "option": [
+        {
+          "name": "ap_ctrl_none",
+          "value": ""
+        },
+        {
+          "name": "port",
+          "value": "return"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl",
+    "sourceLine": 31,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "mpd_data_processor_main",
+    "id": 25,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "mpd_data_processor_main"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/csynth.tcl",
+    "sourceLine": 19,
+    "success": true
+  }
+]

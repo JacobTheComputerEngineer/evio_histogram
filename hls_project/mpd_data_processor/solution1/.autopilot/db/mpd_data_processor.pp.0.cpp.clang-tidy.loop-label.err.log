@@ -1,0 +1,5 @@
+21 warnings and 3 errors generated.
+Error while processing C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp.
+clang-tidy applied 7 of 7 suggested fixes.
+Suppressed 108 warnings (87 in non-user code, 21 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

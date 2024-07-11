@@ -1,0 +1,156 @@
+{
+  "0": {
+    "basicblocks": 15,
+    "calls": "7 11 3 1 5",
+    "file": "mpd_data_processor.cpp",
+    "fileloc": 457,
+    "instructions": 86,
+    "loads": {
+      "G": 7
+    },
+    "name": "mpd_data_processor_main",
+    "stores": {
+      "G": 7,
+      "L": 3
+    },
+    "total_instructions": 12949
+  },
+  "1": {
+    "basicblocks": 18,
+    "calls": "9",
+    "file": "mpd_data_processor.cpp",
+    "fileloc": 424,
+    "instructions": 87,
+    "loads": {
+      "G": 6,
+      "L": 2
+    },
+    "name": "avgBSamplesFifoProc",
+    "stores": {
+      "G": 3,
+      "L": 2
+    },
+    "total_instructions": 171
+  },
+  "10": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "mpd_data_processor.h",
+    "fileloc": 11,
+    "instructions": 5,
+    "name": "",
+    "total_instructions": 19
+  },
+  "11": {
+    "basicblocks": 25,
+    "calls": "4 2",
+    "file": "mpd_data_processor.cpp",
+    "fileloc": 221,
+    "instructions": 135,
+    "loads": {
+      "G": 3,
+      "L": 6
+    },
+    "name": "avgHeaderDiv",
+    "stores": {
+      "G": 2,
+      "L": 6
+    },
+    "total_instructions": 499
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "mpd_data_processor.h",
+    "fileloc": 27,
+    "instructions": 5,
+    "name": "",
+    "total_instructions": 19
+  },
+  "3": {
+    "basicblocks": 44,
+    "calls": "4",
+    "file": "mpd_data_processor.cpp",
+    "fileloc": 128,
+    "instructions": 264,
+    "loads": {
+      "G": 6,
+      "L": 9
+    },
+    "name": "avgB",
+    "stores": {
+      "G": 20
+    },
+    "total_instructions": 1513
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "mpd_data_processor.h",
+    "fileloc": 33,
+    "instructions": 7,
+    "name": "",
+    "total_instructions": 28
+  },
+  "5": {
+    "basicblocks": 105,
+    "calls": "10",
+    "file": "mpd_data_processor.cpp",
+    "fileloc": 267,
+    "instructions": 710,
+    "loads": {
+      "G": 7,
+      "L": 19
+    },
+    "name": "event_writer",
+    "stores": {
+      "G": 28,
+      "L": 8
+    },
+    "total_instructions": 7057
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "mpd_data_processor.h",
+    "fileloc": 55,
+    "instructions": 5,
+    "name": "",
+    "total_instructions": 19
+  },
+  "7": {
+    "basicblocks": 38,
+    "calls": "6 4 8 10",
+    "file": "mpd_data_processor.cpp",
+    "fileloc": 16,
+    "instructions": 413,
+    "loads": {
+      "G": 6,
+      "L": 15
+    },
+    "name": "frame_decoder",
+    "stores": {
+      "G": 18,
+      "L": 7
+    },
+    "total_instructions": 3602
+  },
+  "8": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "mpd_data_processor.h",
+    "fileloc": 45,
+    "instructions": 3,
+    "name": "",
+    "total_instructions": 10
+  },
+  "9": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "mpd_data_processor.h",
+    "fileloc": 50,
+    "instructions": 11,
+    "name": "",
+    "total_instructions": 18
+  }
+}

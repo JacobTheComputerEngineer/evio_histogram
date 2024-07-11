@@ -1,0 +1,4514 @@
+<stg><name>avgHeaderDiv</name>
+
+
+<trans_list>
+
+<trans id="223" from="1" to="2">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="224" from="2" to="29">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="286" from="3" to="4">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="287" from="4" to="5">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="288" from="5" to="6">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="289" from="6" to="7">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="290" from="7" to="8">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="291" from="8" to="9">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="292" from="9" to="10">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="293" from="10" to="11">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="294" from="11" to="12">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="295" from="12" to="13">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="296" from="13" to="14">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="297" from="14" to="15">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="298" from="15" to="16">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="299" from="16" to="17">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="300" from="17" to="18">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="301" from="18" to="19">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="302" from="19" to="20">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="303" from="20" to="21">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="304" from="21" to="22">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="305" from="22" to="23">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="306" from="23" to="24">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="307" from="24" to="25">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="308" from="25" to="26">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="309" from="26" to="27">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="310" from="27" to="28">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="225" from="29" to="30">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="226" from="30" to="31">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="227" from="31" to="32">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="228" from="32" to="33">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="229" from="33" to="34">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="230" from="34" to="35">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="231" from="35" to="36">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="232" from="36" to="37">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="233" from="37" to="38">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="234" from="38" to="39">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="235" from="39" to="40">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="236" from="40" to="41">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="237" from="41" to="42">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="238" from="42" to="43">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="239" from="43" to="44">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="240" from="44" to="45">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="241" from="45" to="46">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="242" from="46" to="47">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="243" from="47" to="48">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="244" from="48" to="49">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="245" from="49" to="50">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="246" from="50" to="51">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="247" from="51" to="52">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="248" from="52" to="53">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="249" from="53" to="54">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="250" from="54" to="55">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="251" from="55" to="56">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="252" from="56" to="57">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="253" from="57" to="58">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="254" from="58" to="59">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="255" from="59" to="60">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="256" from="60" to="61">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="257" from="61" to="62">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="258" from="62" to="63">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="259" from="63" to="64">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="260" from="64" to="65">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="261" from="65" to="66">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="262" from="66" to="67">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="263" from="67" to="68">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="264" from="68" to="69">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="265" from="69" to="70">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="266" from="70" to="71">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="267" from="71" to="72">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="268" from="72" to="73">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="269" from="73" to="74">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="270" from="74" to="75">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="271" from="75" to="76">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="272" from="76" to="77">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="273" from="77" to="78">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="274" from="78" to="79">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="275" from="79" to="80">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="276" from="80" to="81">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="277" from="81" to="82">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="278" from="82" to="83">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="279" from="83" to="84">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="280" from="84" to="85">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="281" from="85" to="86">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="282" from="86" to="87">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="283" from="87" to="88">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="284" from="88" to="89">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="285" from="89" to="3">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+</trans_list>
+
+
+
+<state_list>
+
+<state id="1" st_id="1">
+
+<operation id="29" st_id="1" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="23" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="32">
+<![CDATA[
+entry:17 %tmp_i = nbreadreq i1 @_ssdm_op_NbReadReq.ap_fifo.i64P0A, i64 %s_avgAPreHeader, i32 1
+
+]]></Node>
+<StgValue><ssdm name="tmp_i"/></StgValue>
+</operation>
+
+<operation id="30" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="25" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+entry:19 %br_ln233 = br i1 %tmp_i, void %lor.lhs.false.i, void %land.lhs.true.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln233"/></StgValue>
+</operation>
+</state>
+
+<state id="2" st_id="2">
+
+<operation id="31" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="6" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_avgAHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="32" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="7" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_avgAHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="33" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="8" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_avgAHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="34" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="9" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:3 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %s_avgAPreHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="35" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="10" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:4 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %s_avgAPreHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="36" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="11" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:5 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %s_avgAPreHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="37" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="12" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:6 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_avgBHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="38" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="13" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:7 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_avgBHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="39" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="14" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:8 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_avgBHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="40" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="15" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:9 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %s_avgBPreHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="41" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="16" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:10 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %s_avgBPreHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="42" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="17" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:11 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %s_avgBPreHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="43" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="18" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:12 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_avgBHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="44" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="19" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:13 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %s_avgAHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="45" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="20" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:14 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %s_avgBPreHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="46" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="21" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:15 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %s_avgAPreHeader, void @empty_3, i32 0, i32 0, void @empty_2, i32 0, i32 0, void @empty_2, void @empty_2, void @empty_2, i32 0, i32 0, i32 0, i32 0, void @empty_2, void @empty_2, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="47" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="22" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
+<![CDATA[
+entry:16 %specpipeline_ln231 = specpipeline void @_ssdm_op_SpecPipeline, i32 64, i32 2, i32 0, i32 0, void @empty_2
+
+]]></Node>
+<StgValue><ssdm name="specpipeline_ln231"/></StgValue>
+</operation>
+
+<operation id="48" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="24" bw="1" op_0_bw="1">
+<![CDATA[
+entry:18 %last_load = load i1 %last
+
+]]></Node>
+<StgValue><ssdm name="last_load"/></StgValue>
+</operation>
+
+<operation id="49" st_id="2" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="27" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="32">
+<![CDATA[
+land.lhs.true.i:0 %tmp_i_35 = nbreadreq i1 @_ssdm_op_NbReadReq.ap_fifo.i64P0A, i64 %s_avgBPreHeader, i32 1
+
+]]></Node>
+<StgValue><ssdm name="tmp_i_35"/></StgValue>
+</operation>
+
+<operation id="50" st_id="2" stage="1" lat="1">
+<core>LogicGate</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="28" bw="1" op_0_bw="1" op_1_bw="1">
+<![CDATA[
+land.lhs.true.i:1 %xor_ln233 = xor i1 %last_load, i1 1
+
+]]></Node>
+<StgValue><ssdm name="xor_ln233"/></StgValue>
+</operation>
+
+<operation id="51" st_id="2" stage="1" lat="1">
+<core>LogicGate</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="29" bw="1" op_0_bw="1" op_1_bw="1">
+<![CDATA[
+land.lhs.true.i:2 %and_ln233 = and i1 %tmp_i_35, i1 %xor_ln233
+
+]]></Node>
+<StgValue><ssdm name="and_ln233"/></StgValue>
+</operation>
+
+<operation id="52" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="30" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+land.lhs.true.i:3 %br_ln233 = br i1 %and_ln233, void %lor.lhs.false.i, void %if.then18.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln233"/></StgValue>
+</operation>
+
+<operation id="53" st_id="2" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="32" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="32">
+<![CDATA[
+lor.lhs.false.i:0 %tmp_26_i = nbreadreq i1 @_ssdm_op_NbReadReq.ap_fifo.i64P0A, i64 %s_avgAPreHeader, i32 1
+
+]]></Node>
+<StgValue><ssdm name="tmp_26_i"/></StgValue>
+</operation>
+
+<operation id="54" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="33" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+lor.lhs.false.i:1 %br_ln234 = br i1 %tmp_26_i, void %land.lhs.true4.i, void %if.else.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln234"/></StgValue>
+</operation>
+
+<operation id="55" st_id="2" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="35" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="32">
+<![CDATA[
+land.lhs.true4.i:0 %tmp_27_i = nbreadreq i1 @_ssdm_op_NbReadReq.ap_fifo.i64P0A, i64 %s_avgBPreHeader, i32 1
+
+]]></Node>
+<StgValue><ssdm name="tmp_27_i"/></StgValue>
+</operation>
+
+<operation id="56" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="36" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+land.lhs.true4.i:1 %br_ln233 = br i1 %tmp_27_i, void %if.else.i, void %if.then18.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln233"/></StgValue>
+</operation>
+
+<operation id="57" st_id="2" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="38" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="32">
+<![CDATA[
+if.else.i:0 %tmp_28_i = nbreadreq i1 @_ssdm_op_NbReadReq.ap_fifo.i64P0A, i64 %s_avgAPreHeader, i32 1
+
+]]></Node>
+<StgValue><ssdm name="tmp_28_i"/></StgValue>
+</operation>
+
+<operation id="58" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="39" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+if.else.i:1 %br_ln240 = br i1 %tmp_28_i, void %lor.lhs.false11.i, void %land.lhs.true7.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln240"/></StgValue>
+</operation>
+
+<operation id="59" st_id="2" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="41" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="32">
+<![CDATA[
+land.lhs.true7.i:0 %tmp_29_i = nbreadreq i1 @_ssdm_op_NbReadReq.ap_fifo.i64P0A, i64 %s_avgBPreHeader, i32 1
+
+]]></Node>
+<StgValue><ssdm name="tmp_29_i"/></StgValue>
+</operation>
+
+<operation id="60" st_id="2" stage="1" lat="1">
+<core>LogicGate</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="42" bw="1" op_0_bw="1" op_1_bw="1">
+<![CDATA[
+land.lhs.true7.i:1 %and_ln240 = and i1 %last_load, i1 %tmp_29_i
+
+]]></Node>
+<StgValue><ssdm name="and_ln240"/></StgValue>
+</operation>
+
+<operation id="61" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="43" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+land.lhs.true7.i:2 %br_ln240 = br i1 %and_ln240, void %lor.lhs.false11.i, void %if.then15.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln240"/></StgValue>
+</operation>
+
+<operation id="62" st_id="2" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="and_ln240" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="and_ln240" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="and_ln240" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="and_ln240" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="45" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="32">
+<![CDATA[
+lor.lhs.false11.i:0 %tmp_30_i = nbreadreq i1 @_ssdm_op_NbReadReq.ap_fifo.i64P0A, i64 %s_avgAPreHeader, i32 1
+
+]]></Node>
+<StgValue><ssdm name="tmp_30_i"/></StgValue>
+</operation>
+
+<operation id="63" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="and_ln240" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="and_ln240" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="and_ln240" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="and_ln240" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="46" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+lor.lhs.false11.i:1 %br_ln241 = br i1 %tmp_30_i, void %avgHeaderDiv.exit, void %land.lhs.true13.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln241"/></StgValue>
+</operation>
+
+<operation id="64" st_id="2" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="and_ln240" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="and_ln240" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="and_ln240" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="and_ln240" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="48" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="32">
+<![CDATA[
+land.lhs.true13.i:0 %tmp_31_i = nbreadreq i1 @_ssdm_op_NbReadReq.ap_fifo.i64P0A, i64 %s_avgBPreHeader, i32 1
+
+]]></Node>
+<StgValue><ssdm name="tmp_31_i"/></StgValue>
+</operation>
+
+<operation id="65" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="and_ln240" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="and_ln240" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="and_ln240" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="and_ln240" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="49" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+land.lhs.true13.i:1 %br_ln240 = br i1 %tmp_31_i, void %if.then15.i, void %avgHeaderDiv.exit
+
+]]></Node>
+<StgValue><ssdm name="br_ln240"/></StgValue>
+</operation>
+</state>
+
+<state id="3" st_id="3">
+
+<operation id="66" st_id="3" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="51" bw="64" op_0_bw="64" op_1_bw="64" op_2_bw="0" op_3_bw="0" op_4_bw="0" op_5_bw="0">
+<![CDATA[
+if.then15.i:0 %s_avgAPreHeader_read = read i64 @_ssdm_op_Read.ap_fifo.volatile.i64P0A, i64 %s_avgAPreHeader
+
+]]></Node>
+<StgValue><ssdm name="s_avgAPreHeader_read"/></StgValue>
+</operation>
+
+<operation id="67" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="52" bw="13" op_0_bw="64">
+<![CDATA[
+if.then15.i:1 %trunc_ln243 = trunc i64 %s_avgAPreHeader_read
+
+]]></Node>
+<StgValue><ssdm name="trunc_ln243"/></StgValue>
+</operation>
+
+<operation id="68" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="53" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+if.then15.i:2 %avg_pre_header_cnt_2 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %s_avgAPreHeader_read, i32 32, i32 39
+
+]]></Node>
+<StgValue><ssdm name="avg_pre_header_cnt_2"/></StgValue>
+</operation>
+
+<operation id="69" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="54" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="64">
+<![CDATA[
+if.then15.i:3 %avg_pre_header_tag_2 = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i64, i64 %s_avgAPreHeader_read, i64 40
+
+]]></Node>
+<StgValue><ssdm name="avg_pre_header_tag_2"/></StgValue>
+</operation>
+
+<operation id="70" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="55" bw="0" op_0_bw="1" op_1_bw="1" op_2_bw="0">
+<![CDATA[
+if.then15.i:4 %store_ln0 = store i1 0, i1 %last
+
+]]></Node>
+<StgValue><ssdm name="store_ln0"/></StgValue>
+</operation>
+
+<operation id="71" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="56" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+if.then15.i:5 %br_ln250 = br i1 %avg_pre_header_tag_2, void %if.else25.i, void %if.end34.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln250"/></StgValue>
+</operation>
+
+<operation id="72" st_id="3" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="58" bw="64" op_0_bw="64" op_1_bw="64" op_2_bw="0" op_3_bw="0">
+<![CDATA[
+if.then18.i:0 %s_avgBPreHeader_read = read i64 @_ssdm_op_Read.ap_fifo.volatile.i64P0A, i64 %s_avgBPreHeader
+
+]]></Node>
+<StgValue><ssdm name="s_avgBPreHeader_read"/></StgValue>
+</operation>
+
+<operation id="73" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="59" bw="13" op_0_bw="64">
+<![CDATA[
+if.then18.i:1 %trunc_ln236 = trunc i64 %s_avgBPreHeader_read
+
+]]></Node>
+<StgValue><ssdm name="trunc_ln236"/></StgValue>
+</operation>
+
+<operation id="74" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="60" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+if.then18.i:2 %avg_pre_header_cnt_2_1 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %s_avgBPreHeader_read, i32 32, i32 39
+
+]]></Node>
+<StgValue><ssdm name="avg_pre_header_cnt_2_1"/></StgValue>
+</operation>
+
+<operation id="75" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="61" bw="1" op_0_bw="1" op_1_bw="64" op_2_bw="64">
+<![CDATA[
+if.then18.i:3 %avg_pre_header_tag_2_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i64, i64 %s_avgBPreHeader_read, i64 40
+
+]]></Node>
+<StgValue><ssdm name="avg_pre_header_tag_2_1"/></StgValue>
+</operation>
+
+<operation id="76" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="62" bw="0" op_0_bw="1" op_1_bw="1" op_2_bw="0">
+<![CDATA[
+if.then18.i:4 %store_ln0 = store i1 1, i1 %last
+
+]]></Node>
+<StgValue><ssdm name="store_ln0"/></StgValue>
+</operation>
+
+<operation id="77" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="63" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+if.then18.i:5 %br_ln250 = br i1 %avg_pre_header_tag_2_1, void %if.else25.i, void %if.end34.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln250"/></StgValue>
+</operation>
+</state>
+
+<state id="4" st_id="4">
+
+<operation id="78" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="65" bw="1" op_0_bw="1" op_1_bw="0" op_2_bw="1" op_3_bw="0">
+<![CDATA[
+if.else25.i:0 %p_b101_i = phi i1 0, void %if.then15.i, i1 1, void %if.then18.i
+
+]]></Node>
+<StgValue><ssdm name="p_b101_i"/></StgValue>
+</operation>
+
+<operation id="79" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="66" bw="64" op_0_bw="64" op_1_bw="0" op_2_bw="64" op_3_bw="0">
+<![CDATA[
+if.else25.i:1 %phi_ln229 = phi i64 %s_avgAPreHeader_read, void %if.then15.i, i64 %s_avgBPreHeader_read, void %if.then18.i
+
+]]></Node>
+<StgValue><ssdm name="phi_ln229"/></StgValue>
+</operation>
+
+<operation id="80" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="67" bw="8" op_0_bw="8" op_1_bw="0" op_2_bw="8" op_3_bw="0">
+<![CDATA[
+if.else25.i:2 %avg_pre_header_cnt_1_ph97_i = phi i8 %avg_pre_header_cnt_2, void %if.then15.i, i8 %avg_pre_header_cnt_2_1, void %if.then18.i
+
+]]></Node>
+<StgValue><ssdm name="avg_pre_header_cnt_1_ph97_i"/></StgValue>
+</operation>
+
+<operation id="81" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="68" bw="20" op_0_bw="64">
+<![CDATA[
+if.else25.i:3 %avg_pre_header_sum_2 = trunc i64 %phi_ln229
+
+]]></Node>
+<StgValue><ssdm name="avg_pre_header_sum_2"/></StgValue>
+</operation>
+
+<operation id="82" st_id="4" stage="1" lat="1">
+<core>Cmp</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="69" bw="1" op_0_bw="8" op_1_bw="8">
+<![CDATA[
+if.else25.i:4 %icmp_ln257 = icmp_eq  i8 %avg_pre_header_cnt_1_ph97_i, i8 0
+
+]]></Node>
+<StgValue><ssdm name="icmp_ln257"/></StgValue>
+</operation>
+
+<operation id="83" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="70" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+if.else25.i:5 %br_ln257 = br i1 %icmp_ln257, void %cond.true.i, void %if.end34.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln257"/></StgValue>
+</operation>
+
+<operation id="84" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="72" bw="20" op_0_bw="8">
+<![CDATA[
+cond.true.i:0 %zext_ln257 = zext i8 %avg_pre_header_cnt_1_ph97_i
+
+]]></Node>
+<StgValue><ssdm name="zext_ln257"/></StgValue>
+</operation>
+
+<operation id="85" st_id="4" stage="24" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="5" st_id="5">
+
+<operation id="86" st_id="5" stage="23" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="6" st_id="6">
+
+<operation id="87" st_id="6" stage="22" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="7" st_id="7">
+
+<operation id="88" st_id="7" stage="21" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="8" st_id="8">
+
+<operation id="89" st_id="8" stage="20" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="9" st_id="9">
+
+<operation id="90" st_id="9" stage="19" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="10" st_id="10">
+
+<operation id="91" st_id="10" stage="18" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="11" st_id="11">
+
+<operation id="92" st_id="11" stage="17" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="12" st_id="12">
+
+<operation id="93" st_id="12" stage="16" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="13" st_id="13">
+
+<operation id="94" st_id="13" stage="15" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="14" st_id="14">
+
+<operation id="95" st_id="14" stage="14" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="15" st_id="15">
+
+<operation id="96" st_id="15" stage="13" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="16" st_id="16">
+
+<operation id="97" st_id="16" stage="12" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="17" st_id="17">
+
+<operation id="98" st_id="17" stage="11" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="18" st_id="18">
+
+<operation id="99" st_id="18" stage="10" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="19" st_id="19">
+
+<operation id="100" st_id="19" stage="9" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="20" st_id="20">
+
+<operation id="101" st_id="20" stage="8" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="21" st_id="21">
+
+<operation id="102" st_id="21" stage="7" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="22" st_id="22">
+
+<operation id="103" st_id="22" stage="6" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="23" st_id="23">
+
+<operation id="104" st_id="23" stage="5" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="24" st_id="24">
+
+<operation id="105" st_id="24" stage="4" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="25" st_id="25">
+
+<operation id="106" st_id="25" stage="3" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="26" st_id="26">
+
+<operation id="107" st_id="26" stage="2" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+</state>
+
+<state id="27" st_id="27">
+
+<operation id="108" st_id="27" stage="1" lat="24">
+<core>Divider</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="73" bw="13" op_0_bw="20" op_1_bw="20">
+<![CDATA[
+cond.true.i:1 %sdiv_ln257 = sdiv i20 %avg_pre_header_sum_2, i20 %zext_ln257
+
+]]></Node>
+<StgValue><ssdm name="sdiv_ln257"/></StgValue>
+</operation>
+
+<operation id="109" st_id="27" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="74" bw="13" op_0_bw="13">
+<![CDATA[
+cond.true.i:2 %trunc_ln257 = trunc i13 %sdiv_ln257
+
+]]></Node>
+<StgValue><ssdm name="trunc_ln257"/></StgValue>
+</operation>
+
+<operation id="110" st_id="27" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="and_ln233" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="avg_pre_header_tag_2_1" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_27_i" val="0"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="0"/>
+<literal name="tmp_26_i" val="1"/>
+<literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="avg_pre_header_tag_2" val="0"/>
+<literal name="icmp_ln257" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="75" bw="0" op_0_bw="0">
+<![CDATA[
+cond.true.i:3 %br_ln257 = br void %if.end34.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln257"/></StgValue>
+</operation>
+
+<operation id="111" st_id="27" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="77" bw="1" op_0_bw="1" op_1_bw="0" op_2_bw="1" op_3_bw="0" op_4_bw="1" op_5_bw="0" op_6_bw="1" op_7_bw="0">
+<![CDATA[
+if.end34.i:0 %p_b_i = phi i1 %p_b101_i, void %cond.true.i, i1 %p_b101_i, void %if.else25.i, i1 0, void %if.then15.i, i1 1, void %if.then18.i
+
+]]></Node>
+<StgValue><ssdm name="p_b_i"/></StgValue>
+</operation>
+
+<operation id="112" st_id="27" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="82" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+if.end34.i:5 %br_ln260 = br i1 %p_b_i, void %if.then36.i, void %if.else37.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln260"/></StgValue>
+</operation>
+</state>
+
+<state id="28" st_id="28">
+
+<operation id="113" st_id="28" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="78" bw="13" op_0_bw="13" op_1_bw="0" op_2_bw="13" op_3_bw="0" op_4_bw="13" op_5_bw="0" op_6_bw="13" op_7_bw="0">
+<![CDATA[
+if.end34.i:1 %avg_header_avg = phi i13 %trunc_ln257, void %cond.true.i, i13 0, void %if.else25.i, i13 %trunc_ln243, void %if.then15.i, i13 %trunc_ln236, void %if.then18.i
+
+]]></Node>
+<StgValue><ssdm name="avg_header_avg"/></StgValue>
+</operation>
+
+<operation id="114" st_id="28" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="79" bw="1" op_0_bw="1" op_1_bw="0" op_2_bw="1" op_3_bw="0" op_4_bw="1" op_5_bw="0" op_6_bw="1" op_7_bw="0">
+<![CDATA[
+if.end34.i:2 %avg_header_tag = phi i1 0, void %cond.true.i, i1 0, void %if.else25.i, i1 1, void %if.then15.i, i1 1, void %if.then18.i
+
+]]></Node>
+<StgValue><ssdm name="avg_header_tag"/></StgValue>
+</operation>
+
+<operation id="115" st_id="28" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="80" bw="17" op_0_bw="17" op_1_bw="1" op_2_bw="3" op_3_bw="13">
+<![CDATA[
+if.end34.i:3 %tmp_14_i = bitconcatenate i17 @_ssdm_op_BitConcatenate.i17.i1.i3.i13, i1 %avg_header_tag, i3 0, i13 %avg_header_avg
+
+]]></Node>
+<StgValue><ssdm name="tmp_14_i"/></StgValue>
+</operation>
+
+<operation id="116" st_id="28" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="81" bw="32" op_0_bw="17">
+<![CDATA[
+if.end34.i:4 %zext_ln263 = zext i17 %tmp_14_i
+
+]]></Node>
+<StgValue><ssdm name="zext_ln263"/></StgValue>
+</operation>
+
+<operation id="117" st_id="28" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="p_b_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="p_b_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="p_b_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="p_b_i" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="84" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32">
+<![CDATA[
+if.then36.i:0 %write_ln261 = write void @_ssdm_op_Write.ap_fifo.volatile.i32P0A, i32 %s_avgAHeader, i32 %zext_ln263
+
+]]></Node>
+<StgValue><ssdm name="write_ln261"/></StgValue>
+</operation>
+
+<operation id="118" st_id="28" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="p_b_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="p_b_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="p_b_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="p_b_i" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="85" bw="0" op_0_bw="0">
+<![CDATA[
+if.then36.i:1 %br_ln261 = br void %if.end38.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln261"/></StgValue>
+</operation>
+
+<operation id="119" st_id="28" stage="1" lat="1">
+<core>FIFO_SRL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="p_b_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="p_b_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="p_b_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="p_b_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="87" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32">
+<![CDATA[
+if.else37.i:0 %write_ln263 = write void @_ssdm_op_Write.ap_fifo.volatile.i32P0A, i32 %s_avgBHeader, i32 %zext_ln263
+
+]]></Node>
+<StgValue><ssdm name="write_ln263"/></StgValue>
+</operation>
+
+<operation id="120" st_id="28" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+<literal name="p_b_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+<literal name="p_b_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+<literal name="p_b_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+<literal name="p_b_i" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="88" bw="0" op_0_bw="0">
+<![CDATA[
+if.else37.i:1 %br_ln0 = br void %if.end38.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln0"/></StgValue>
+</operation>
+
+<operation id="121" st_id="28" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="tmp_30_i" val="1"/>
+<literal name="tmp_31_i" val="0"/>
+</and_exp><and_exp><literal name="tmp_28_i" val="1"/>
+<literal name="and_ln240" val="1"/>
+</and_exp><and_exp><literal name="tmp_26_i" val="0"/>
+<literal name="tmp_27_i" val="1"/>
+</and_exp><and_exp><literal name="tmp_i" val="1"/>
+<literal name="and_ln233" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="90" bw="0" op_0_bw="0">
+<![CDATA[
+if.end38.i:0 %br_ln264 = br void %avgHeaderDiv.exit
+
+]]></Node>
+<StgValue><ssdm name="br_ln264"/></StgValue>
+</operation>
+
+<operation id="122" st_id="28" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="92" bw="0">
+<![CDATA[
+avgHeaderDiv.exit:0 %ret_ln0 = ret
+
+]]></Node>
+<StgValue><ssdm name="ret_ln0"/></StgValue>
+</operation>
+</state>
+
+<state id="29" st_id="162">
+</state>
+
+<state id="30" st_id="163">
+</state>
+
+<state id="31" st_id="164">
+</state>
+
+<state id="32" st_id="165">
+</state>
+
+<state id="33" st_id="166">
+</state>
+
+<state id="34" st_id="167">
+</state>
+
+<state id="35" st_id="168">
+</state>
+
+<state id="36" st_id="169">
+</state>
+
+<state id="37" st_id="170">
+</state>
+
+<state id="38" st_id="171">
+</state>
+
+<state id="39" st_id="172">
+</state>
+
+<state id="40" st_id="173">
+</state>
+
+<state id="41" st_id="174">
+</state>
+
+<state id="42" st_id="175">
+</state>
+
+<state id="43" st_id="176">
+</state>
+
+<state id="44" st_id="177">
+</state>
+
+<state id="45" st_id="178">
+</state>
+
+<state id="46" st_id="179">
+</state>
+
+<state id="47" st_id="180">
+</state>
+
+<state id="48" st_id="181">
+</state>
+
+<state id="49" st_id="182">
+</state>
+
+<state id="50" st_id="183">
+</state>
+
+<state id="51" st_id="184">
+</state>
+
+<state id="52" st_id="185">
+</state>
+
+<state id="53" st_id="186">
+</state>
+
+<state id="54" st_id="187">
+</state>
+
+<state id="55" st_id="188">
+</state>
+
+<state id="56" st_id="189">
+</state>
+
+<state id="57" st_id="190">
+</state>
+
+<state id="58" st_id="191">
+</state>
+
+<state id="59" st_id="192">
+</state>
+
+<state id="60" st_id="193">
+</state>
+
+<state id="61" st_id="194">
+</state>
+
+<state id="62" st_id="195">
+</state>
+
+<state id="63" st_id="196">
+</state>
+
+<state id="64" st_id="197">
+</state>
+
+<state id="65" st_id="198">
+</state>
+
+<state id="66" st_id="199">
+</state>
+
+<state id="67" st_id="200">
+</state>
+
+<state id="68" st_id="201">
+</state>
+
+<state id="69" st_id="202">
+</state>
+
+<state id="70" st_id="203">
+</state>
+
+<state id="71" st_id="204">
+</state>
+
+<state id="72" st_id="205">
+</state>
+
+<state id="73" st_id="206">
+</state>
+
+<state id="74" st_id="207">
+</state>
+
+<state id="75" st_id="208">
+</state>
+
+<state id="76" st_id="209">
+</state>
+
+<state id="77" st_id="210">
+</state>
+
+<state id="78" st_id="211">
+</state>
+
+<state id="79" st_id="212">
+</state>
+
+<state id="80" st_id="213">
+</state>
+
+<state id="81" st_id="214">
+</state>
+
+<state id="82" st_id="215">
+</state>
+
+<state id="83" st_id="216">
+</state>
+
+<state id="84" st_id="217">
+</state>
+
+<state id="85" st_id="218">
+</state>
+
+<state id="86" st_id="219">
+</state>
+
+<state id="87" st_id="220">
+</state>
+
+<state id="88" st_id="221">
+</state>
+
+<state id="89" st_id="222">
+</state>
+</state_list>
+
+
+<ports>
+</ports>
+
+
+<dataflows>
+</dataflows>
+
+
+</stg>

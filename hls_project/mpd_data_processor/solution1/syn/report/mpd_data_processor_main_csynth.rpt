@@ -1,0 +1,171 @@
+
+
+================================================================
+== Vitis HLS Report for 'mpd_data_processor_main'
+================================================================
+* Date:           Fri Jun 28 16:03:25 2024
+
+* Version:        2023.1 (Build 3854077 on May  4 2023)
+* Project:        mpd_data_processor
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku035-ffva1156-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+-----------+------------+
+    |  Clock |  Target | Estimated | Uncertainty|
+    +--------+---------+-----------+------------+
+    |ap_clk  |  8.00 ns|  10.668 ns|     1.00 ns|
+    +--------+---------+-----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+----------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline |
+    |   min   |   max   |    min   |    max   | min | max |   Type   |
+    +---------+---------+----------+----------+-----+-----+----------+
+    |      114|      114|  1.216 us|  1.216 us|   64|   64|  dataflow|
+    +---------+---------+----------+----------+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        +------------------------+---------------------+---------+---------+-----------+-----------+-----+-----+----------+
+        |                        |                     |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline |
+        |        Instance        |        Module       |   min   |   max   |    min    |    max    | min | max |   Type   |
+        +------------------------+---------------------+---------+---------+-----------+-----------+-----+-----+----------+
+        |frame_decoder_U0        |frame_decoder        |        3|        3|  24.000 ns|  24.000 ns|    2|    2|  yes(flp)|
+        |avgHeaderDiv_U0         |avgHeaderDiv         |       88|       88|   0.704 us|   0.704 us|   64|   64|  yes(flp)|
+        |avgB_U0                 |avgB                 |        2|        2|  16.000 ns|  16.000 ns|    2|    2|  yes(flp)|
+        |avgBSamplesFifoProc_U0  |avgBSamplesFifoProc  |       17|       17|   0.136 us|   0.136 us|    7|    7|  yes(flp)|
+        |event_writer_U0         |event_writer         |        2|        2|  21.337 ns|  21.337 ns|    2|    2|  yes(flp)|
+        +------------------------+---------------------+---------+---------+-----------+-----------+-----+-----+----------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       -|       -|    -|
+|FIFO             |        -|     -|     693|     476|    -|
+|Instance         |        0|     -|    2620|    4329|    0|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|       -|    -|
+|Register         |        -|     -|       -|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|    3313|    4805|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     1080|  1700|  406256|  203128|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|       2|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +------------------------+---------------------+---------+----+------+------+-----+
+    |        Instance        |        Module       | BRAM_18K| DSP|  FF  |  LUT | URAM|
+    +------------------------+---------------------+---------+----+------+------+-----+
+    |avgB_U0                 |avgB                 |        0|   0|   143|   392|    0|
+    |avgBSamplesFifoProc_U0  |avgBSamplesFifoProc  |        0|   0|   786|   731|    0|
+    |avgHeaderDiv_U0         |avgHeaderDiv         |        0|   0|  1248|  1375|    0|
+    |event_writer_U0         |event_writer         |        0|   0|   282|  1102|    0|
+    |frame_decoder_U0        |frame_decoder        |        0|   0|   161|   729|    0|
+    +------------------------+---------------------+---------+----+------+------+-----+
+    |Total                   |                     |        0|   0|  2620|  4329|    0|
+    +------------------------+---------------------+---------+----+------+------+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +--------------------+---------+----+----+-----+------+-----+---------+
+    |        Name        | BRAM_18K| FF | LUT| URAM| Depth| Bits| Size:D*B|
+    +--------------------+---------+----+----+-----+------+-----+---------+
+    |s_avgAHeader_U      |        0|  99|   0|    -|     2|   32|       64|
+    |s_avgAPreHeader_U   |        0|  99|   0|    -|     2|   64|      128|
+    |s_avgASamples_U     |        0|  99|   0|    -|     3|   13|       39|
+    |s_avgBHeader_U      |        0|  99|   0|    -|     4|   32|      128|
+    |s_avgBPreHeader_U   |        0|  99|   0|    -|     2|   64|      128|
+    |s_avgBSamplesIn_U   |        0|  99|   0|    -|     2|   32|       64|
+    |s_avgBSamplesOut_U  |        0|  99|   0|    -|     2|   13|       26|
+    +--------------------+---------+----+----+-----+------+-----+---------+
+    |Total               |        0| 693|   0|    0|    17|  250|      577|
+    +--------------------+---------+----+----+-----+------+-----+---------+
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------+-----+-----+--------------+-------------------------+--------------+
+|      RTL Ports      | Dir | Bits|   Protocol   |      Source Object      |    C Type    |
++---------------------+-----+-----+--------------+-------------------------+--------------+
+|s_evIn_dout          |   in|   33|       ap_fifo|                   s_evIn|       pointer|
+|s_evIn_empty_n       |   in|    1|       ap_fifo|                   s_evIn|       pointer|
+|s_evIn_read          |  out|    1|       ap_fifo|                   s_evIn|       pointer|
+|s_evOut_din          |  out|   33|       ap_fifo|                  s_evOut|       pointer|
+|s_evOut_full_n       |   in|    1|       ap_fifo|                  s_evOut|       pointer|
+|s_evOut_write        |  out|    1|       ap_fifo|                  s_evOut|       pointer|
+|build_all_samples    |   in|    1|     ap_stable|        build_all_samples|        scalar|
+|build_debug_headers  |   in|    1|     ap_stable|      build_debug_headers|        scalar|
+|enable_cm            |   in|    1|     ap_stable|                enable_cm|        scalar|
+|fiber                |   in|    5|     ap_stable|                    fiber|        scalar|
+|m_offset_address0    |  out|   10|     ap_memory|                 m_offset|         array|
+|m_offset_ce0         |  out|    1|     ap_memory|                 m_offset|         array|
+|m_offset_d0          |  out|   26|     ap_memory|                 m_offset|         array|
+|m_offset_q0          |   in|   26|     ap_memory|                 m_offset|         array|
+|m_offset_we0         |  out|    1|     ap_memory|                 m_offset|         array|
+|m_offset_address1    |  out|   10|     ap_memory|                 m_offset|         array|
+|m_offset_ce1         |  out|    1|     ap_memory|                 m_offset|         array|
+|m_offset_d1          |  out|   26|     ap_memory|                 m_offset|         array|
+|m_offset_q1          |   in|   26|     ap_memory|                 m_offset|         array|
+|m_offset_we1         |  out|    1|     ap_memory|                 m_offset|         array|
+|m_apvThr_address0    |  out|   11|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_ce0         |  out|    1|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_d0          |  out|   13|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_q0          |   in|   13|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_we0         |  out|    1|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_address1    |  out|   11|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_ce1         |  out|    1|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_d1          |  out|   13|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_q1          |   in|   13|     ap_memory|                 m_apvThr|         array|
+|m_apvThr_we1         |  out|    1|     ap_memory|                 m_apvThr|         array|
+|m_apvThrB_address0   |  out|   11|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_ce0        |  out|    1|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_d0         |  out|   13|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_q0         |   in|   13|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_we0        |  out|    1|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_address1   |  out|   11|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_ce1        |  out|    1|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_d1         |  out|   13|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_q1         |   in|   13|     ap_memory|                m_apvThrB|         array|
+|m_apvThrB_we1        |  out|    1|     ap_memory|                m_apvThrB|         array|
+|ap_clk               |   in|    1|  ap_ctrl_none|  mpd_data_processor_main|  return value|
+|ap_rst               |   in|    1|  ap_ctrl_none|  mpd_data_processor_main|  return value|
++---------------------+-----+-----+--------------+-------------------------+--------------+
+

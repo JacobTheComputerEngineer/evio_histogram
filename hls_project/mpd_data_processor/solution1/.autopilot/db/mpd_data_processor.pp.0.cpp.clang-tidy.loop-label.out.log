@@ -1,0 +1,44 @@
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:1452:7: warning: Added loop label VITIS_LOOP_1213_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1213_1: 
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:1452:7: note: FIX-IT applied suggested code changes
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:2426:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:2426:5: note: FIX-IT applied suggested code changes
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:2440:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:2440:5: note: FIX-IT applied suggested code changes
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:2454:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:2454:5: note: FIX-IT applied suggested code changes
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:4065:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:4065:7: note: FIX-IT applied suggested code changes
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:31825:9: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+        for(int i=0;i<5;i++)
+        ^~~
+        VITIS_LOOP_360_1: 
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:31825:9: note: FIX-IT applied suggested code changes
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:31909:7: warning: Added loop label VITIS_LOOP_440_1:   [xilinx-label-all-loops]
+      for(int i=0;i<6;i+=2)
+      ^~~
+      VITIS_LOOP_440_1: 
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:31909:7: note: FIX-IT applied suggested code changes
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:31967:9: error: Resource with core_name: RAM_1P_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLSDIRECTIVE RESOURCE core=RAM_1P_BRAM variable=m_offset
+        ^
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:31971:9: error: Resource with core_name: RAM_1P_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLSDIRECTIVE RESOURCE core=RAM_1P_BRAM variable=m_apvThr
+        ^
+C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp:31975:9: error: Resource with core_name: RAM_1P_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLSDIRECTIVE RESOURCE core=RAM_1P_BRAM variable=m_apvThrB
+        ^

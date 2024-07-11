@@ -1,0 +1,188 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-114" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:7:9" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+    <msg msg_groups="PRAGMA_DATAFLOW" msg_id="214-169" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:7:9" msg_body="There are a total of 7 such instances of non-canonical statements in the dataflow region"/>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5551" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:26:48" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="frame_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="enable_flush II=2" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5551" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:27:48" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="avgB" ARG_PragmaIsValid="1" ARG_PragmaOptions="enable_flush II=2" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5551" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:28:49" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="avgHeaderDiv" ARG_PragmaIsValid="1" ARG_PragmaOptions="enable_flush II=64" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5551" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:29:48" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="event_writer" ARG_PragmaIsValid="1" ARG_PragmaOptions="enable_flush II=2" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5551" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:30:43" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="avgBSamplesFifoProc" ARG_PragmaIsValid="1" ARG_PragmaOptions="enable_flush" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:10:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_fifo port=s_evOut" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5532" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:12:32" msg_body="'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_stable port=build_all_samples" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5532" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:13:32" msg_body="'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_stable port=build_debug_headers" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5532" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:14:32" msg_body="'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_stable port=enable_cm" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5532" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:15:32" msg_body="'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_stable port=fiber" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/csynth.tcl:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=mpd_data_processor_main" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5531" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="core=RAM_1P_BRAM variable=m_offset" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5531" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="core=RAM_1P_BRAM variable=m_apvThr" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5531" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead">
+        <args ClangWarningOption="ignored-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="core=RAM_1P_BRAM variable=m_apvThrB" ARG_PragmaType="resource" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:8:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_fifo port=s_evIn" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:16:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:17:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:18:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:19:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:20:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:21:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INVALID" msg_id="207-5509" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:22:9" msg_body="the pragma is not supported and will be ignored">
+        <args ClangWarningOption="invalid-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="0" ARG_PragmaOptions="variable" ARG_PragmaType="data_pack" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../mpd_data_processor.cpp:474:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=s_avgASamples depth=3 type=FIFO" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../mpd_data_processor.cpp:475:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mpd_data_processor_main" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=s_avgBHeader depth=4 type=FIFO" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-340" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead">
+        <args Pragma="call" Pragma-DebugLoc="File C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl Line 23 Column 9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-340" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead">
+        <args Pragma="call" Pragma-DebugLoc="File C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl Line 24 Column 9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-340" msg_severity="WARNING" msg_loc="C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead">
+        <args Pragma="call" Pragma-DebugLoc="File C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl Line 25 Column 9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:360:27" msg_body="Loop 'VITIS_LOOP_360_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_360_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:440:25" msg_body="Loop 'VITIS_LOOP_440_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_440_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:276:0" msg_body="Unrolling loop 'VITIS_LOOP_360_1' (../mpd_data_processor.cpp:360:27) in function 'event_writer' completely with a factor of 5">
+        <args Factor="5" LoopLoc="../mpd_data_processor.cpp:360:27" LoopName="VITIS_LOOP_360_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:428:0" msg_body="Unrolling loop 'VITIS_LOOP_440_1' (../mpd_data_processor.cpp:440:25) in function 'avgBSamplesFifoProc' completely with a factor of 3">
+        <args Factor="3" LoopLoc="../mpd_data_processor.cpp:440:25" LoopName="VITIS_LOOP_440_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:429:0" msg_body="Applying array_partition to '_ZZ19avgBSamplesFifoProcRN3hls6streamI13sample_data_tLi0EEERNS0_I18sample_data_pair_tLi0EEEE13s_avgBSamples': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZZ19avgBSamplesFifoProcRN3hls6streamI13sample_data_tLi0EEERNS0_I18sample_data_pair_tLi0EEEE13s_avgBSamples"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:468:0" msg_body="Aggregating fifo (hls::stream) variable 's_evOut' with compact=bit mode in 33-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="33" HwTyName="fifo (hls::stream)" Name="s_evOut"/>
+    </msg>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:468:0" msg_body="Aggregating fifo (hls::stream) variable 's_evIn' with compact=bit mode in 33-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="33" HwTyName="fifo (hls::stream)" Name="s_evIn"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:280:0" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'event_writer(hls::stream&lt;event_data_t, 0&gt;&amp;, hls::stream&lt;avg_header_t, 0&gt;&amp;, hls::stream&lt;sample_data_pair_t, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;, ap_uint&lt;5&gt;, ap_int&lt;13&gt; (*) [128])::s' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="event_writer(hls::stream&lt;event_data_t, 0&gt;&amp;, hls::stream&lt;avg_header_t, 0&gt;&amp;, hls::stream&lt;sample_data_pair_t, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;, ap_uint&lt;5&gt;, ap_int&lt;13&gt; (*) [128])::s" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../mpd_data_processor.cpp:280:0" msg_body="Applying array_partition to '_ZZ12event_writerRN3hls6streamI12event_data_tLi0EEERNS0_I12avg_header_tLi0EEERNS0_I18sample_data_pair_tLi0EEE7ap_uintILi1EESB_SA_ILi5EEPA128_6ap_intILi13EEE1s': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZZ12event_writerRN3hls6streamI12event_data_tLi0EEERNS0_I12avg_header_tLi0EEERNS0_I18sample_data_pair_tLi0EEE7ap_uintILi1EESB_SA_ILi5EEPA128_6ap_intILi13EEE1s"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

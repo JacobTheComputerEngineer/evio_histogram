@@ -1,0 +1,30 @@
+The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead
+The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead
+The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead
+The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead
+The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead
+the pragma is not supported and will be ignored
+'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead
+'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead
+'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead
+'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead
+'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead
+Resource with core_name: RAM_1P_BRAM pragma is ignored, because this core doesn't exist at all 
+'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead
+Resource with core_name: RAM_1P_BRAM pragma is ignored, because this core doesn't exist at all 
+'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead
+Resource with core_name: RAM_1P_BRAM pragma is ignored, because this core doesn't exist at all 
+the pragma is not supported and will be ignored
+the pragma is not supported and will be ignored
+the pragma is not supported and will be ignored
+the pragma is not supported and will be ignored
+the pragma is not supported and will be ignored
+the pragma is not supported and will be ignored
+the pragma is not supported and will be ignored
+the pragma is not supported and will be ignored
+Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region
+Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region
+Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region
+There are a total of 7 such instances of non-canonical statements in the dataflow region
+25 warnings and 3 errors generated.
+Error while processing C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project\mpd_data_processor\solution1\.autopilot\db\mpd_data_processor.pp.0.cpp.

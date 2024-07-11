@@ -1,0 +1,124 @@
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:26:48: warning: The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush II=2
+                                               ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:26:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=frame_decoder_XLX_SEP_ PragmaOptions=enable_flush II=2_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush II=2
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:27:48: warning: The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush II=2
+                                               ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:27:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=avgB_XLX_SEP_ PragmaOptions=enable_flush II=2_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush II=2
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:28:49: warning: The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush II=64
+                                                ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=avgHeaderDiv_XLX_SEP_ PragmaOptions=enable_flush II=64_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush II=64
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:29:48: warning: The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush II=2
+                                               ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:29:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=event_writer_XLX_SEP_ PragmaOptions=enable_flush II=2_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush II=2
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:30:43: warning: The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush
+                                          ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:30:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=avgBSamplesFifoProc_XLX_SEP_ PragmaOptions=enable_flush_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE enable_flush
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:10:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_evOut
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:10:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:11:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=ap_fifo port=s_evOut_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_fifo port=s_evOut
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:12:32: warning: 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_stable port=build_all_samples
+                               ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:12:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=ap_stable port=build_all_samples_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_stable port=build_all_samples
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:13:32: warning: 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_stable port=build_debug_headers
+                               ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=ap_stable port=build_debug_headers_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_stable port=build_debug_headers
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:14:32: warning: 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_stable port=enable_cm
+                               ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=ap_stable port=enable_cm_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_stable port=enable_cm
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:15:32: warning: 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_stable port=fiber
+                               ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=ap_stable port=fiber_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_stable port=fiber
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/csynth.tcl:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=name=mpd_data_processor_main_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=mpd_data_processor_main
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE RESOURCE core=RAM_1P_BRAM variable=m_offset
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=resource_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=core=RAM_1P_BRAM variable=m_offset_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE RESOURCE core=RAM_1P_BRAM variable=m_apvThr
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=resource_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=core=RAM_1P_BRAM variable=m_apvThr_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9: warning: 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead [-Wignored-hls-pragmas]
+#pragma HLSDIRECTIVE RESOURCE core=RAM_1P_BRAM variable=m_apvThrB
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=resource_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=core=RAM_1P_BRAM variable=m_apvThrB_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=ap_ctrl_none port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_ctrl_none port=return
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:7:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dataflow_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE DATAFLOW
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:8:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_evIn
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:8:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:9:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=ap_fifo port=s_evIn_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE INTERFACE ap_fifo port=s_evIn
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:16:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_avgAPreHeader
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:17:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_avgBPreHeader
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:18:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_avgAHeader
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:19:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_avgBHeader
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:20:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_avgASamples
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:20:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:21:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_avgBSamplesOut
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:21:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:22:9: warning: the pragma is not supported and will be ignored [-Winvalid-hls-pragmas]
+#pragma HLSDIRECTIVE DATA_PACK variable=s_avgBSamplesIn
+        ^
+C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:22:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=0_XLX_SEP_ PragmaType=data_pack_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable_XLX_SEP_ [-Wdump-hls-pragmas]
+../mpd_data_processor.cpp:474:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable=s_avgASamples depth=3 type=FIFO_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=s_avgASamples depth=3 type=FIFO
+        ^
+../mpd_data_processor.cpp:475:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=mpd_data_processor_main_XLX_SEP_ PragmaOptions=variable=s_avgBHeader depth=4 type=FIFO_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=s_avgBHeader depth=4 type=FIFO
+        ^
+49 warnings generated.

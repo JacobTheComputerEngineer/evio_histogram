@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'mpd_data_processor_main/build_debug_headers' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:25.376-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'fifo_w13_d2_S' is changed to 'fifo_w13_d2_S_x' due to conflict." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:25.374-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.814-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_1' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.786-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'cnt' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.784-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_2' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.781-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_3' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.779-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'sum' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.778-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_4' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.773-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_5' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.770-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'sample_n' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.767-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'apv_id_1' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.764-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'ps_1' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.763-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'wr_pos' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.499-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'wr_idx' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.486-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'avg' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.185-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'n' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.173-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'avg_pre_header_tag_1' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.170-0400" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'apv_id_2' is power-on initialization." projectName="mpd_data_processor" solutionName="solution1" date="2024-06-28T16:03:24.168-0400" type="Warning"/>
+      </synLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

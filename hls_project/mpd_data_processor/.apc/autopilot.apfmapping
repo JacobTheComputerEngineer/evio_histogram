@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mpd_data_processor.h" path="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\mpd_data_processor.h"/>
+    <originFiles name="mpd_data_processor.cpp" path="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\mpd_data_processor.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="mpd_data_processor_wrapper.h" path="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\mpd_data_processor_wrapper.h"/>
+    <originFiles name="mpd_data_processor_wrapper.cpp" path="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\mpd_data_processor_wrapper.cpp"/>
+    <originFiles name="mpd_data_processor_tb.cpp" path="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\mpd_data_processor_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

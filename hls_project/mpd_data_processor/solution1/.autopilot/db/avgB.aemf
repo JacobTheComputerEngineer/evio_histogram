@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1719605004472">
+  <ports id="1" name="m_apvThrB" type="PortType" coreName="RAM" coreId="1852142702" bitwidth="13" iftype="IfTypeRegister" arraysize="2048">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="5" name="s_avgAHeader" type="PortType" coreName="FIFO_SRL" coreId="2082482487" bitwidth="32" iftype="IfTypeRom">
+    <dataOutputObjs>nbreadreq</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+    <dataOutputObjs>nbreadreq</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="7" name="s_avgBPreHeader" type="PortType" coreName="FIFO_SRL" coreId="656436577" bitwidth="64" direction="DirOut" iftype="IfTypeRom">
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="11" name="s_avgASamples" type="PortType" coreName="FIFO_SRL" coreId="16974081" bitwidth="13" iftype="IfTypeRom">
+    <dataOutputObjs>nbreadreq</dataOutputObjs>
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="12" name="s_avgBSamplesOut" type="PortType" coreName="FIFO_SRL" coreId="0" bitwidth="13" direction="DirOut" iftype="IfTypeRom">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="151" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="152" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="153" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="154" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="155" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.23" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="158" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.14" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="161" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.9" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="164" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="167" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="170" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.14/@node_objs.0"/>
+  <edges id="173" source_obj="//@regions.0/@basic_blocks.14/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.14/@node_objs.1"/>
+  <edges id="174" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.22" sink_obj="//@regions.0/@basic_blocks.14/@node_objs.1"/>
+  <edges id="175" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.15" sink_obj="//@regions.0/@basic_blocks.14/@node_objs.1"/>
+  <edges id="178" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.15/@node_objs.0"/>
+  <edges id="181" source_obj="//@regions.0/@basic_blocks.15/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.15/@node_objs.1"/>
+  <edges id="184" source_obj="//@regions.0/@basic_blocks.15/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.15/@node_objs.2"/>
+  <edges id="185" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.19" sink_obj="//@regions.0/@basic_blocks.15/@node_objs.2"/>
+  <edges id="186" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.16" sink_obj="//@regions.0/@basic_blocks.15/@node_objs.2"/>
+  <edges id="187" source_obj="//@regions.0/@basic_blocks.15/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.16/@node_objs.0"/>
+  <edges id="188" source_obj="//@regions.0/@basic_blocks.16/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.16/@node_objs.1"/>
+  <edges id="189" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.19" sink_obj="//@regions.0/@basic_blocks.16/@node_objs.1"/>
+  <edges id="192" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.18" sink_obj="//@regions.0/@basic_blocks.16/@node_objs.1"/>
+  <edges id="195" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.17" sink_obj="//@regions.0/@basic_blocks.16/@node_objs.1"/>
+  <edges id="198" source_obj="//@regions.0/@basic_blocks.15/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.0"/>
+  <edges id="203" source_obj="//@regions.0/@basic_blocks.18/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.1"/>
+  <edges id="204" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.1"/>
+  <edges id="207" source_obj="//@regions.0/@basic_blocks.15/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.2"/>
+  <edges id="213" source_obj="//@regions.0/@basic_blocks.18/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.3"/>
+  <edges id="217" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.4"/>
+  <edges id="218" source_obj="//@regions.0/@basic_blocks.18/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.4"/>
+  <edges id="226" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.5"/>
+  <edges id="229" source_obj="//@regions.0/@basic_blocks.18/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.5"/>
+  <edges id="230" source_obj="//@regions.0/@basic_blocks.18/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.6"/>
+  <edges id="233" source_obj="//@regions.0/@basic_blocks.18/@node_objs.7" sink_obj="//@ports.2"/>
+  <edges id="234" source_obj="//@regions.0/@basic_blocks.18/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.7"/>
+  <edges id="237" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.8"/>
+  <edges id="240" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.9"/>
+  <edges id="243" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.10"/>
+  <edges id="245" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.11"/>
+  <edges id="247" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.12"/>
+  <edges id="248" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.21" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.13"/>
+  <edges id="251" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.0"/>
+  <edges id="255" source_obj="//@regions.0/@basic_blocks.17/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.1"/>
+  <edges id="256" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.1"/>
+  <edges id="258" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.2"/>
+  <edges id="261" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.3"/>
+  <edges id="263" source_obj="//@regions.0/@basic_blocks.17/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.3"/>
+  <edges id="264" source_obj="//@regions.0/@basic_blocks.17/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.4"/>
+  <edges id="266" source_obj="//@regions.0/@basic_blocks.17/@node_objs.5" sink_obj="//@ports.2"/>
+  <edges id="267" source_obj="//@regions.0/@basic_blocks.17/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.5"/>
+  <edges id="268" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.20" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.6"/>
+  <edges id="271" sink_obj="//@regions.0/@basic_blocks.19/@node_objs.0"/>
+  <edges id="272" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.20" sink_obj="//@regions.0/@basic_blocks.19/@node_objs.1"/>
+  <edges id="273" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.21" sink_obj="//@regions.0/@basic_blocks.20/@node_objs.0"/>
+  <edges id="274" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.22" sink_obj="//@regions.0/@basic_blocks.21/@node_objs.0"/>
+  <edges id="275" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.23" sink_obj="//@regions.0/@basic_blocks.22/@node_objs.0"/>
+  <edges id="277" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.9/@node_objs.0"/>
+  <edges id="279" source_obj="//@regions.0/@basic_blocks.9/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.9/@node_objs.1"/>
+  <edges id="280" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.13" sink_obj="//@regions.0/@basic_blocks.9/@node_objs.1"/>
+  <edges id="281" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.10" sink_obj="//@regions.0/@basic_blocks.9/@node_objs.1"/>
+  <edges id="283" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.10/@node_objs.0"/>
+  <edges id="284" source_obj="//@regions.0/@basic_blocks.10/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.10/@node_objs.1"/>
+  <edges id="286" source_obj="//@regions.0/@basic_blocks.10/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.10/@node_objs.2"/>
+  <edges id="288" source_obj="//@regions.0/@basic_blocks.10/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.10/@node_objs.3"/>
+  <edges id="289" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.11" sink_obj="//@regions.0/@basic_blocks.10/@node_objs.3"/>
+  <edges id="290" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.12" sink_obj="//@regions.0/@basic_blocks.10/@node_objs.3"/>
+  <edges id="291" source_obj="//@regions.0/@basic_blocks.10/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.11/@node_objs.0"/>
+  <edges id="292" sink_obj="//@regions.0/@basic_blocks.11/@node_objs.0"/>
+  <edges id="293" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.12" sink_obj="//@regions.0/@basic_blocks.11/@node_objs.1"/>
+  <edges id="295" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.11" sink_obj="//@regions.0/@basic_blocks.12/@node_objs.0"/>
+  <edges id="297" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.10" sink_obj="//@regions.0/@basic_blocks.12/@node_objs.0"/>
+  <edges id="298" source_obj="//@regions.0/@basic_blocks.12/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.12/@node_objs.1"/>
+  <edges id="299" sink_obj="//@regions.0/@basic_blocks.12/@node_objs.1"/>
+  <edges id="300" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.13" sink_obj="//@regions.0/@basic_blocks.12/@node_objs.2"/>
+  <edges id="301" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.23" sink_obj="//@regions.0/@basic_blocks.13/@node_objs.0"/>
+  <edges id="304" source_obj="//@ports.3" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.0"/>
+  <edges id="306" source_obj="//@regions.0/@basic_blocks.2/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.1"/>
+  <edges id="307" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.8" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.1"/>
+  <edges id="308" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.2/@node_objs.1"/>
+  <edges id="311" source_obj="//@ports.3" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.0"/>
+  <edges id="314" source_obj="//@regions.0/@basic_blocks.3/@node_objs.1" sink_obj="//@ports.4"/>
+  <edges id="315" source_obj="//@regions.0/@basic_blocks.3/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.1"/>
+  <edges id="316" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.2"/>
+  <edges id="319" source_obj="//@regions.0/@basic_blocks.3/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.3"/>
+  <edges id="322" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.4"/>
+  <edges id="323" source_obj="//@regions.0/@basic_blocks.3/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.5"/>
+  <edges id="324" source_obj="//@regions.0/@basic_blocks.3/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.6"/>
+  <edges id="325" source_obj="//@regions.0/@basic_blocks.3/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.6"/>
+  <edges id="326" source_obj="//@regions.0/@basic_blocks.3/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.7"/>
+  <edges id="327" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.8"/>
+  <edges id="330" source_obj="//@regions.0/@basic_blocks.3/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.8"/>
+  <edges id="331" source_obj="//@regions.0/@basic_blocks.3/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.9"/>
+  <edges id="332" source_obj="//@regions.0/@basic_blocks.3/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.10"/>
+  <edges id="333" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.11"/>
+  <edges id="334" source_obj="//@regions.0/@basic_blocks.3/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.12"/>
+  <edges id="335" source_obj="//@regions.0/@basic_blocks.3/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.13"/>
+  <edges id="336" source_obj="//@regions.0/@basic_blocks.3/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.13"/>
+  <edges id="339" source_obj="//@regions.0/@basic_blocks.3/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.14"/>
+  <edges id="342" source_obj="//@regions.0/@basic_blocks.3/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.15"/>
+  <edges id="343" source_obj="//@regions.0/@basic_blocks.3/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.15"/>
+  <edges id="346" source_obj="//@regions.0/@basic_blocks.3/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.16"/>
+  <edges id="349" source_obj="//@regions.0/@basic_blocks.3/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.17"/>
+  <edges id="351" source_obj="//@regions.0/@basic_blocks.3/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.18"/>
+  <edges id="352" source_obj="//@regions.0/@basic_blocks.3/@node_objs.17" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.18"/>
+  <edges id="353" source_obj="//@regions.0/@basic_blocks.3/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.19"/>
+  <edges id="354" source_obj="//@regions.0/@basic_blocks.3/@node_objs.16" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.19"/>
+  <edges id="355" source_obj="//@regions.0/@basic_blocks.3/@node_objs.18" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.20"/>
+  <edges id="360" source_obj="//@regions.0/@basic_blocks.3/@node_objs.19" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.21"/>
+  <edges id="361" source_obj="//@regions.0/@basic_blocks.3/@node_objs.20" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.21"/>
+  <edges id="362" source_obj="//@regions.0/@basic_blocks.3/@node_objs.15" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.21"/>
+  <edges id="363" source_obj="//@regions.0/@basic_blocks.3/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.22"/>
+  <edges id="364" source_obj="//@regions.0/@basic_blocks.3/@node_objs.21" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.22"/>
+  <edges id="365" source_obj="//@regions.0/@basic_blocks.3/@node_objs.22" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.23"/>
+  <edges id="366" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.23"/>
+  <edges id="367" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.5" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.23"/>
+  <edges id="368" source_obj="//@regions.0/@basic_blocks.3/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.0"/>
+  <edges id="369" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.1"/>
+  <edges id="370" source_obj="//@regions.0/@basic_blocks.4/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.1"/>
+  <edges id="371" source_obj="//@regions.0/@basic_blocks.4/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.2"/>
+  <edges id="372" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.2"/>
+  <edges id="373" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.3"/>
+  <edges id="376" source_obj="//@regions.0/@basic_blocks.4/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.4"/>
+  <edges id="377" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.4"/>
+  <edges id="378" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.5" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.5"/>
+  <edges id="379" source_obj="//@regions.0/@basic_blocks.3/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.5/@node_objs.0"/>
+  <edges id="381" source_obj="//@regions.0/@basic_blocks.5/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.5/@node_objs.1"/>
+  <edges id="382" sink_obj="//@regions.0/@basic_blocks.5/@node_objs.1"/>
+  <edges id="383" source_obj="//@regions.0/@basic_blocks.3/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.5/@node_objs.2"/>
+  <edges id="386" source_obj="//@regions.0/@basic_blocks.5/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.5/@node_objs.3"/>
+  <edges id="387" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.7" sink_obj="//@regions.0/@basic_blocks.5/@node_objs.3"/>
+  <edges id="388" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.6" sink_obj="//@regions.0/@basic_blocks.5/@node_objs.3"/>
+  <edges id="390" sink_obj="//@regions.0/@basic_blocks.6/@node_objs.0"/>
+  <edges id="391" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.7" sink_obj="//@regions.0/@basic_blocks.6/@node_objs.1"/>
+  <edges id="392" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.8" sink_obj="//@regions.0/@basic_blocks.7/@node_objs.0"/>
+  <edges id="393" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.23" sink_obj="//@regions.0/@basic_blocks.8/@node_objs.0"/>
+  <edges id="394" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="396" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="397" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="399" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="400" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="402" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@ports.2"/>
+  <edges id="403" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="405" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="406" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.23" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="742" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.23"/>
+  <edges id="743" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.14"/>
+  <edges id="744" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.9"/>
+  <edges id="745" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.2"/>
+  <edges id="746" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="747" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.23"/>
+  <edges id="748" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.3"/>
+  <edges id="749" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.2" sink_obj="//@regions.0/@basic_blocks.8"/>
+  <edges id="750" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.5"/>
+  <edges id="751" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.3" sink_obj="//@regions.0/@basic_blocks.4"/>
+  <edges id="752" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.4" sink_obj="//@regions.0/@basic_blocks.5"/>
+  <edges id="753" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.5" sink_obj="//@regions.0/@basic_blocks.6"/>
+  <edges id="754" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.5" sink_obj="//@regions.0/@basic_blocks.7"/>
+  <edges id="755" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.6" sink_obj="//@regions.0/@basic_blocks.7"/>
+  <edges id="756" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.7" sink_obj="//@regions.0/@basic_blocks.8"/>
+  <edges id="757" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.8" sink_obj="//@regions.0/@basic_blocks.23"/>
+  <edges id="758" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.9" sink_obj="//@regions.0/@basic_blocks.10"/>
+  <edges id="759" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.9" sink_obj="//@regions.0/@basic_blocks.13"/>
+  <edges id="760" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.10" sink_obj="//@regions.0/@basic_blocks.12"/>
+  <edges id="761" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.10" sink_obj="//@regions.0/@basic_blocks.11"/>
+  <edges id="762" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.11" sink_obj="//@regions.0/@basic_blocks.12"/>
+  <edges id="763" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.12" sink_obj="//@regions.0/@basic_blocks.13"/>
+  <edges id="764" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.13" sink_obj="//@regions.0/@basic_blocks.23"/>
+  <edges id="765" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.14" sink_obj="//@regions.0/@basic_blocks.15"/>
+  <edges id="766" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.14" sink_obj="//@regions.0/@basic_blocks.22"/>
+  <edges id="767" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.15" sink_obj="//@regions.0/@basic_blocks.16"/>
+  <edges id="768" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.15" sink_obj="//@regions.0/@basic_blocks.19"/>
+  <edges id="769" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.16" sink_obj="//@regions.0/@basic_blocks.19"/>
+  <edges id="770" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.16" sink_obj="//@regions.0/@basic_blocks.18"/>
+  <edges id="771" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.16" sink_obj="//@regions.0/@basic_blocks.17"/>
+  <edges id="772" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.17" sink_obj="//@regions.0/@basic_blocks.20"/>
+  <edges id="773" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.18" sink_obj="//@regions.0/@basic_blocks.21"/>
+  <edges id="774" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.19" sink_obj="//@regions.0/@basic_blocks.20"/>
+  <edges id="775" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.20" sink_obj="//@regions.0/@basic_blocks.21"/>
+  <edges id="776" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.21" sink_obj="//@regions.0/@basic_blocks.22"/>
+  <edges id="777" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.22" sink_obj="//@regions.0/@basic_blocks.23"/>
+  <edges id="778" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="779" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.19/@node_objs.0"/>
+  <edges id="780" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.12/@node_objs.1"/>
+  <edges id="781" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.2"/>
+  <edges id="782" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.4/@node_objs.4"/>
+  <edges id="783" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.12"/>
+  <edges id="784" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.8"/>
+  <edges id="785" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.18/@node_objs.9"/>
+  <edges id="786" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.17/@node_objs.1"/>
+  <edges id="787" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.6/@node_objs.0"/>
+  <edges id="788" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.2/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.3/@node_objs.0"/>
+  <edges id="789" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.3/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.5/@node_objs.1"/>
+  <edges id="790" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.9/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.10/@node_objs.0"/>
+  <edges id="791" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.14/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.15/@node_objs.0"/>
+  <regions anchor_node="-1" region_type="8" interval="2" typeName="Pipeline" iiViolation="" id="516" pipe_depth="3" RegionName="avgB">
+    <basic_blocks id="35" name="entry" type="BlockType">
+      <controlOutputObjs>avgB.exit</controlOutputObjs>
+      <controlOutputObjs>sw.bb.i</controlOutputObjs>
+      <controlOutputObjs>sw.bb51.i</controlOutputObjs>
+      <controlOutputObjs>sw.bb63.i</controlOutputObjs>
+      <controlOutputObjs>sw.bb81.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="ps_2_load" lineNumber="143" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1886221344" bitwidth="3" opcode="load" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="143" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataOutputObjs>switch</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="avg_pre_header_sum_1_load" lineNumber="154" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1230384215" bitwidth="20" opcode="load" nodeLabel="2.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="154" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataOutputObjs>partset</dataOutputObjs>
+        <dataOutputObjs>partset</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="avg_pre_header_cnt_1_load" lineNumber="158" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1953198949" bitwidth="8" opcode="load" nodeLabel="2.0" m_display="0" m_topoIndex="49" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="158" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="_ln143" lineNumber="143" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1734439795" opcode="switch" m_display="0" m_delay="1.46" m_topoIndex="2" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="143" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <controlInputObjs>avgB.exit</controlInputObjs>
+        <controlInputObjs>sw.bb.i</controlInputObjs>
+        <controlInputObjs>sw.bb51.i</controlInputObjs>
+        <controlInputObjs>sw.bb63.i</controlInputObjs>
+        <controlInputObjs>sw.bb81.i</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>143</validLinenumbers>
+        <validLinenumbers>154</validLinenumbers>
+        <validLinenumbers>158</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="42" name="sw.bb81.i" type="BlockType">
+      <controlInputObjs>entry</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>avgB.exit</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="avg_pre_header_tag_1_load" lineNumber="212" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1886221344" bitwidth="1" opcode="load" nodeLabel="2.0" m_display="0" m_topoIndex="50" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="212" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="tmp_18_i" lineNumber="212" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="tmp_18_i_fu_336_p5" coreId="0" bitwidth="41" opcode="bitconcatenate" nodeLabel="2.0" m_display="0" m_topoIndex="51" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="212" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="zext_ln212" lineNumber="212" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="zext_ln212_fu_348_p1" coreId="544106784" bitwidth="64" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="52" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="212" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="s_avgBPreHeader_write_ln212" lineNumber="212" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" opcode="write" nodeLabel="2.0" m_display="0" m_delay="2.65" m_topoIndex="53" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="212" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>s_avgBPreHeader</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="40" name="ps_2_write_ln213" lineNumber="213" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="509" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.81" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="213" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="41" name="br_ln214" lineNumber="214" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="54" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="214" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>avgB.exit</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>212</validLinenumbers>
+        <validLinenumbers>213</validLinenumbers>
+        <validLinenumbers>214</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="45" name="sw.bb63.i" type="BlockType">
+      <controlInputObjs>entry</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>if.then65.i</controlOutputObjs>
+      <controlOutputObjs>if.end80.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="43" name="tmp_32_i" lineNumber="194" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" bitwidth="1" opcode="nbreadreq" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="194" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>s_avgASamples</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="44" name="br_ln194" lineNumber="194" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="846097503" opcode="br" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="194" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>nbreadreq</dataInputObjs>
+        <controlInputObjs>if.end80.i</controlInputObjs>
+        <controlInputObjs>if.then65.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>194</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="70" name="if.then65.i" type="BlockType">
+      <controlInputObjs>sw.bb63.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.end75.i</controlOutputObjs>
+      <controlOutputObjs>if.then71.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="46" name="sample_data" lineNumber="196" originalName="sample_data" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" bitwidth="13" opcode="read" nodeLabel="1.0" m_display="0" m_delay="2.65" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="196" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>s_avgASamples</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>sext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="47" name="s_avgBSamplesOut_write_ln197" lineNumber="197" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" opcode="write" nodeLabel="1.0" m_display="0" m_delay="2.65" m_topoIndex="19" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="197" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>s_avgBSamplesOut</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="48" name="apv_id_2_load" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="4294967295" bitwidth="4" opcode="load" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="49" name="tmp" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="tmp_fu_203_p3" coreId="2" bitwidth="11" opcode="bitconcatenate" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="50" name="n_load" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" bitwidth="8" opcode="load" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="51" name="zext_ln199" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="zext_ln199_fu_215_p1" coreId="539780901" bitwidth="11" opcode="zext" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="52" name="add_ln199_1" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="add_ln199_1_fu_219_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" bitwidth="11" opcode="add" m_display="0" m_delay="1.55" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="53" name="zext_ln199_1" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="zext_ln199_1_fu_225_p1" coreId="152" bitwidth="64" opcode="zext" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="54" name="m_apvThrB_addr" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="120" bitwidth="11" opcode="getelementptr" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>m_apvThrB</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="55" name="m_apvThrB_load" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="83" bitwidth="13" opcode="load" nodeLatency="1" m_display="0" m_delay="2.03" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>sext</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="56" name="sext_ln199" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="sext_ln199_fu_353_p1" coreId="1936018748" bitwidth="14" opcode="sext" nodeLabel="2.0" m_display="0" m_topoIndex="55" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="57" name="avg_load" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="88" bitwidth="13" opcode="load" nodeLabel="2.0" m_display="0" m_topoIndex="56" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataOutputObjs>sext</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="58" name="sext_ln199_1" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="sext_ln199_1_fu_360_p1" coreId="85" bitwidth="14" opcode="sext" nodeLabel="2.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="59" name="add_ln199" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="add_ln199_fu_364_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" bitwidth="14" opcode="add" nodeLabel="2.0" m_display="0" m_delay="1.62" m_topoIndex="58" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>sext</dataInputObjs>
+        <dataInputObjs>sext</dataInputObjs>
+        <dataOutputObjs>bitselect</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="60" name="tmp_22" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="tmp_22_fu_370_p3" coreId="7" bitwidth="1" opcode="bitselect" nodeLabel="2.0" m_display="0" m_topoIndex="59" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="61" name="thr" lineNumber="199" originalName="thr" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="thr_fu_378_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" bitwidth="13" opcode="add" nodeLabel="2.0" m_display="0" m_delay="1.62" m_topoIndex="60" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>bitselect</dataOutputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="62" name="tmp_23" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="tmp_23_fu_383_p3" coreId="115" bitwidth="1" opcode="bitselect" nodeLabel="2.0" m_display="0" m_topoIndex="61" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <dataOutputObjs>xor</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="63" name="xor_ln199" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="xor_ln199_fu_391_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" bitwidth="1" opcode="xor" nodeLabel="2.0" m_display="0" m_topoIndex="62" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <dataOutputObjs>and</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="64" name="and_ln199" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="and_ln199_fu_397_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" bitwidth="1" opcode="and" nodeLabel="2.0" m_display="0" m_topoIndex="63" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="65" name="xor_ln199_1" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="xor_ln199_1_fu_403_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" bitwidth="1" opcode="xor" nodeLabel="2.0" m_display="0" m_topoIndex="64" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="66" name="select_ln199" lineNumber="199" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="select_ln199_fu_409_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" bitwidth="13" opcode="select" nodeLabel="2.0" m_display="0" m_topoIndex="65" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>and</dataInputObjs>
+        <dataOutputObjs>select</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="67" name="thr_1" lineNumber="199" originalName="thr" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="thr_1_fu_417_p3" coreName="Sel" implIndex="auto_sel" control="no" opType="select" coreId="73" bitwidth="13" opcode="select" nodeLabel="2.0" m_display="0" m_topoIndex="66" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="199" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>xor</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataInputObjs>add</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="68" name="icmp_ln200" lineNumber="200" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="icmp_ln200_fu_425_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" bitwidth="1" opcode="icmp" nodeLabel="2.0" m_display="0" m_delay="1.62" m_topoIndex="67" m_clusterGroupNumber="1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="200" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataInputObjs>select</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="69" name="br_ln200" lineNumber="200" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="68" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="200" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>if.then71.i</controlInputObjs>
+        <controlInputObjs>if.end75.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>196</validLinenumbers>
+        <validLinenumbers>197</validLinenumbers>
+        <validLinenumbers>199</validLinenumbers>
+        <validLinenumbers>200</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="77" name="if.then71.i" type="BlockType">
+      <controlInputObjs>if.then65.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.end75.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="71" name="sext_ln202" lineNumber="202" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="sext_ln202_fu_430_p1" coreId="1702057263" bitwidth="20" opcode="sext" nodeLabel="2.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="202" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="72" name="add_ln202" lineNumber="202" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="add_ln202_fu_433_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" bitwidth="20" opcode="add" nodeLabel="2.0" m_display="0" m_delay="1.7" m_topoIndex="70" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="202" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>sext</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="73" name="avg_pre_header_sum_1_write_ln202" lineNumber="202" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1953718116" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.69" m_topoIndex="71" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="202" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>add</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="74" name="add_ln203" lineNumber="203" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="add_ln203_fu_445_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" bitwidth="8" opcode="add" nodeLabel="2.0" m_display="0" m_delay="1.46" m_topoIndex="72" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="203" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="75" name="avg_pre_header_cnt_1_write_ln203" lineNumber="203" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.62" m_topoIndex="73" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="203" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>add</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="76" name="br_ln204" lineNumber="204" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="74" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="204" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>if.end75.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>202</validLinenumbers>
+        <validLinenumbers>203</validLinenumbers>
+        <validLinenumbers>204</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="82" name="if.end75.i" type="BlockType">
+      <controlInputObjs>if.then65.i</controlInputObjs>
+      <controlInputObjs>if.then71.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.then78.i</controlOutputObjs>
+      <controlOutputObjs>if.end79.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="78" name="add_ln206" lineNumber="206" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="add_ln206_fu_236_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" bitwidth="8" opcode="add" nodeLabel="1.0" m_display="0" m_delay="1.46" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="206" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="79" name="n_write_ln206" lineNumber="206" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.62" m_topoIndex="21" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="206" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>add</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="80" name="icmp_ln206" lineNumber="206" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="icmp_ln206_fu_247_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" bitwidth="1" opcode="icmp" nodeLabel="1.0" m_display="0" m_delay="1.46" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="206" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="81" name="br_ln206" lineNumber="206" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="206" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>if.end79.i</controlInputObjs>
+        <controlInputObjs>if.then78.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>206</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="85" name="if.then78.i" type="BlockType">
+      <controlInputObjs>if.end75.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.end79.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="83" name="ps_2_write_ln207" lineNumber="207" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1701344303" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.81" m_topoIndex="24" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="207" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="84" name="br_ln207" lineNumber="207" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="773864307" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="207" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>if.end79.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>207</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="87" name="if.end79.i" type="BlockType">
+      <controlInputObjs>if.end75.i</controlInputObjs>
+      <controlInputObjs>if.then78.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.end80.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="86" name="br_ln208" lineNumber="208" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1685013280" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="75" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="208" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>if.end80.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>208</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="89" name="if.end80.i" type="BlockType">
+      <controlInputObjs>sw.bb63.i</controlInputObjs>
+      <controlInputObjs>if.end79.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>avgB.exit</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="88" name="br_ln209" lineNumber="209" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1702043749" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="76" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="209" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>avgB.exit</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>209</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="92" name="sw.bb51.i" type="BlockType">
+      <controlInputObjs>entry</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>if.then53.i</controlOutputObjs>
+      <controlOutputObjs>if.end62.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="90" name="tmp_i_41" lineNumber="180" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" bitwidth="1" opcode="nbreadreq" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="180" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>s_avgAHeader</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="91" name="br_ln180" lineNumber="180" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1031301478" opcode="br" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="180" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>nbreadreq</dataInputObjs>
+        <controlInputObjs>if.end62.i</controlInputObjs>
+        <controlInputObjs>if.then53.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>180</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="97" name="if.then53.i" type="BlockType">
+      <controlInputObjs>sw.bb51.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>if.end61.i</controlOutputObjs>
+      <controlOutputObjs>if.else59.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="93" name="s_avgAHeader_read_1" lineNumber="182" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" bitwidth="32" opcode="read" nodeLabel="1.0" m_display="0" m_delay="2.65" m_topoIndex="26" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="182" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>s_avgAHeader</dataInputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <dataOutputObjs>bitselect</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="94" name="avg_header_avg" lineNumber="182" originalName="avg_header.avg" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="avg_header_avg_fu_258_p1" coreId="1397508187" bitwidth="13" opcode="trunc" nodeLabel="1.0" m_display="0" m_topoIndex="27" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="182" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="95" name="avg_header_tag_1" lineNumber="182" originalName="avg_header.tag" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="grp_fu_187_p3" coreId="1936484399" bitwidth="1" opcode="bitselect" nodeLabel="1.0" m_display="0" m_topoIndex="28" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="182" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="96" name="br_ln183" lineNumber="183" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1869770863" opcode="br" nodeLabel="1.0" m_display="0" m_delay="0.62" m_topoIndex="29" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="183" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <controlInputObjs>if.else59.i</controlInputObjs>
+        <controlInputObjs>if.end61.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>182</validLinenumbers>
+        <validLinenumbers>183</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="100" name="if.else59.i" type="BlockType">
+      <controlInputObjs>if.then53.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>phi</controlOutputObjs>
+      <controlOutputObjs>if.end61.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="98" name="avg_write_ln187" lineNumber="187" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1412379698" opcode="store" nodeLabel="1.0" m_display="0" m_topoIndex="30" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="187" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>trunc</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="99" name="br_ln0" coreId="1702057263" opcode="br" nodeLabel="1.0" m_display="0" m_delay="0.62" m_topoIndex="31" m_clusterGroupNumber="-1">
+        <controlInputObjs>if.end61.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>187</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="104" name="if.end61.i" type="BlockType">
+      <controlInputObjs>if.then53.i</controlInputObjs>
+      <controlInputObjs>if.else59.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.end62.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="101" name="storemerge_i" coreId="1668248176" bitwidth="3" opcode="phi" nodeLabel="1.0" m_display="0" m_topoIndex="32" m_clusterGroupNumber="-1">
+        <dataOutputObjs>store</dataOutputObjs>
+        <controlInputObjs>if.else59.i</controlInputObjs>
+        <controlInputObjs>if.then53.i</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="102" name="ps_2_write_ln184" lineNumber="184" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1769104758" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.81" m_topoIndex="33" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="184" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>phi</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="103" name="br_ln190" lineNumber="190" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="1936024431" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="34" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="190" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>if.end62.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>184</validLinenumbers>
+        <validLinenumbers>190</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="106" name="if.end62.i" type="BlockType">
+      <controlInputObjs>sw.bb51.i</controlInputObjs>
+      <controlInputObjs>if.end61.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>avgB.exit</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="105" name="br_ln191" lineNumber="191" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="191" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>avgB.exit</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>191</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="109" name="sw.bb.i" type="BlockType">
+      <controlInputObjs>entry</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>if.then.i</controlOutputObjs>
+      <controlOutputObjs>if.end50.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="107" name="tmp_i" lineNumber="146" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" bitwidth="1" opcode="nbreadreq" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="146" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>s_avgAHeader</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="108" name="br_ln146" lineNumber="146" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="146" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>nbreadreq</dataInputObjs>
+        <controlInputObjs>if.end50.i</controlInputObjs>
+        <controlInputObjs>if.then.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>146</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="113" name="if.then.i" type="BlockType">
+      <controlInputObjs>sw.bb.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>land.rhs.i</controlOutputObjs>
+      <controlOutputObjs>if.else48.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="110" name="s_avgAHeader_read" lineNumber="148" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" bitwidth="32" opcode="read" nodeLabel="1.0" m_display="0" m_delay="2.65" m_topoIndex="35" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="148" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>s_avgAHeader</dataInputObjs>
+        <dataOutputObjs>bitselect</dataOutputObjs>
+        <dataOutputObjs>trunc</dataOutputObjs>
+        <dataOutputObjs>partselect</dataOutputObjs>
+        <dataOutputObjs>partselect</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="111" name="avg_header_tag" lineNumber="148" originalName="avg_header.tag" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="grp_fu_187_p3" coreId="0" bitwidth="1" opcode="bitselect" nodeLabel="1.0" m_display="0" m_topoIndex="36" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="148" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="112" name="br_ln149" lineNumber="149" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="37" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="149" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitselect</dataInputObjs>
+        <controlInputObjs>if.else48.i</controlInputObjs>
+        <controlInputObjs>land.rhs.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>148</validLinenumbers>
+        <validLinenumbers>149</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="116" name="land.rhs.i" type="BlockType">
+      <controlInputObjs>if.then.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.else48.i</controlOutputObjs>
+      <controlOutputObjs>if.then15.i</controlOutputObjs>
+      <controlOutputObjs>if.then44.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="114" name="trunc_ln149" lineNumber="149" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="trunc_ln149_fu_274_p1" coreId="4294967295" bitwidth="2" opcode="trunc" nodeLabel="1.0" m_display="0" m_topoIndex="38" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="149" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>switch</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="115" name="_ln149" lineNumber="149" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="switch" nodeLabel="1.0" m_display="0" m_delay="1.46" m_topoIndex="39" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="149" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>trunc</dataInputObjs>
+        <controlInputObjs>if.else48.i</controlInputObjs>
+        <controlInputObjs>if.then15.i</controlInputObjs>
+        <controlInputObjs>if.then44.i</controlInputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>149</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="124" name="if.then44.i" type="BlockType">
+      <controlInputObjs>land.rhs.i</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>if.end.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="117" name="tmp_36_i" lineNumber="170" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="tmp_36_i_fu_457_p5" coreId="0" bitwidth="20" opcode="partset" nodeLabel="2.0" m_display="0" m_topoIndex="78" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="170" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="118" name="avg_pre_header_sum_1_write_ln170" lineNumber="170" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.69" m_topoIndex="79" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="170" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>partset</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="119" name="avg_pre_header_tag_1_write_ln171" lineNumber="171" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.62" m_topoIndex="40" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="171" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="120" name="zext_ln172_cast" lineNumber="172" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="zext_ln172_cast_fu_475_p5" coreId="0" bitwidth="41" opcode="bitconcatenate" nodeLabel="2.0" m_display="0" m_topoIndex="80" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="172" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>partset</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="121" name="zext_ln172" lineNumber="172" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="zext_ln172_fu_487_p1" coreId="4294967295" bitwidth="64" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="81" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="172" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="122" name="s_avgBPreHeader_write_ln172" lineNumber="172" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" opcode="write" nodeLabel="2.0" m_display="0" m_delay="2.65" m_topoIndex="82" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="172" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>s_avgBPreHeader</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="123" name="br_ln173" lineNumber="173" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="173" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>if.end.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>170</validLinenumbers>
+        <validLinenumbers>171</validLinenumbers>
+        <validLinenumbers>172</validLinenumbers>
+        <validLinenumbers>173</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="139" name="if.then15.i" type="BlockType">
+      <controlInputObjs>land.rhs.i</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>if.end49.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="125" name="tmp_34_i" lineNumber="151" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="apv_id_2" coreId="0" bitwidth="4" opcode="partselect" nodeLabel="1.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="151" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="126" name="apv_id_2_write_ln151" lineNumber="151" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="store" nodeLabel="1.0" m_display="0" m_topoIndex="42" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="151" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>partselect</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="127" name="tmp_19_i" lineNumber="156" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="tmp_19_i_fu_492_p4" coreId="0" bitwidth="9" opcode="partselect" nodeLabel="2.0" m_display="0" m_topoIndex="84" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="156" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>read</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="128" name="tmp_20_i" lineNumber="156" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="tmp_20_i_fu_501_p3" coreId="0" bitwidth="11" opcode="bitconcatenate" nodeLabel="2.0" m_display="0" m_topoIndex="85" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="156" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>partselect</dataInputObjs>
+        <dataOutputObjs>partset</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="129" name="tmp_35_i" lineNumber="156" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="tmp_35_i_fu_509_p5" coreId="0" bitwidth="20" opcode="partset" nodeLabel="2.0" m_display="0" m_topoIndex="86" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="156" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="130" name="zext_ln158_cast" lineNumber="158" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="zext_ln158_cast_fu_521_p5" coreId="0" bitwidth="41" opcode="bitconcatenate" nodeLabel="2.0" m_display="0" m_topoIndex="87" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="158" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>partset</dataInputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="131" name="zext_ln158" lineNumber="158" fileName="../mpd_data_processor.cpp" fileDirectory="../." rtlName="zext_ln158_fu_533_p1" coreId="0" bitwidth="64" opcode="zext" nodeLabel="2.0" m_display="0" m_topoIndex="88" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="158" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="132" name="s_avgBPreHeader_write_ln158" lineNumber="158" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreName="FIFO_SRL" implIndex="srl" control="no" opType="fifo" coreId="81" opcode="write" nodeLabel="2.0" m_display="0" m_delay="2.65" m_topoIndex="89" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="158" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>s_avgBPreHeader</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="133" name="avg_pre_header_sum_1_write_ln160" lineNumber="160" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="4294967295" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.69" m_topoIndex="90" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="160" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="134" name="avg_pre_header_cnt_1_write_ln161" lineNumber="161" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="4294967295" opcode="store" nodeLabel="2.0" m_display="0" m_delay="0.62" m_topoIndex="91" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="161" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="135" name="avg_pre_header_tag_1_write_ln162" lineNumber="162" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="4294967295" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.62" m_topoIndex="43" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="162" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="136" name="n_write_ln164" lineNumber="164" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.62" m_topoIndex="44" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="164" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="137" name="ps_2_write_ln166" lineNumber="166" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.81" m_topoIndex="45" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="166" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="138" name="br_ln167" lineNumber="167" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="92" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="167" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>if.end49.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>151</validLinenumbers>
+        <validLinenumbers>156</validLinenumbers>
+        <validLinenumbers>158</validLinenumbers>
+        <validLinenumbers>160</validLinenumbers>
+        <validLinenumbers>161</validLinenumbers>
+        <validLinenumbers>162</validLinenumbers>
+        <validLinenumbers>164</validLinenumbers>
+        <validLinenumbers>166</validLinenumbers>
+        <validLinenumbers>167</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="142" name="if.else48.i" type="BlockType">
+      <controlInputObjs>if.then.i</controlInputObjs>
+      <controlInputObjs>land.rhs.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>if.end.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="140" name="ps_2_write_ln175" lineNumber="175" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="store" nodeLabel="1.0" m_display="0" m_delay="0.81" m_topoIndex="46" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="175" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="141" name="br_ln0" coreId="0" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
+        <controlInputObjs>if.end.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>175</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="144" name="if.end.i" type="BlockType">
+      <controlInputObjs>if.then44.i</controlInputObjs>
+      <controlInputObjs>if.else48.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.end49.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="143" name="br_ln0" coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="93" m_clusterGroupNumber="-1">
+        <controlInputObjs>if.end49.i</controlInputObjs>
+      </node_objs>
+    </basic_blocks>
+    <basic_blocks id="146" name="if.end49.i" type="BlockType">
+      <controlInputObjs>if.then15.i</controlInputObjs>
+      <controlInputObjs>if.end.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>if.end50.i</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="145" name="br_ln176" lineNumber="176" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="94" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="176" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>if.end50.i</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>176</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="148" name="if.end50.i" type="BlockType">
+      <controlInputObjs>sw.bb.i</controlInputObjs>
+      <controlInputObjs>if.end49.i</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>avgB.exit</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="147" name="br_ln177" lineNumber="177" fileName="../mpd_data_processor.cpp" fileDirectory="../." coreId="0" opcode="br" nodeLabel="2.0" m_display="0" m_topoIndex="95" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="../mpd_data_processor.cpp" linenumber="177" fileDirectory="C:\Users\theen\OneDrive\Desktop\JLab24\Trigger\Evio\sbs-online-gem-evioprocessor\hls_project"/>
+        <controlInputObjs>avgB.exit</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="../mpd_data_processor.cpp">
+        <validLinenumbers>177</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="150" name="avgB.exit" type="BlockType">
+      <controlInputObjs>entry</controlInputObjs>
+      <controlInputObjs>sw.bb81.i</controlInputObjs>
+      <controlInputObjs>if.end80.i</controlInputObjs>
+      <controlInputObjs>if.end62.i</controlInputObjs>
+      <controlInputObjs>if.end50.i</controlInputObjs>
+      <controlOutputObjs>switch</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="149" name="_ln0" coreId="0" opcode="ret" nodeLabel="2.0" m_display="0" m_topoIndex="96" m_clusterGroupNumber="-1"/>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <regnodes realName="avg_header_tag_reg_600">
+    <nodeIds>111</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_i_reg_573">
+    <nodeIds>107</nodeIds>
+  </regnodes>
+  <regnodes realName="trunc_ln149_reg_604">
+    <nodeIds>114</nodeIds>
+  </regnodes>
+  <regnodes realName="m_apvThrB_load_reg_583">
+    <nodeIds>55</nodeIds>
+  </regnodes>
+  <regnodes realName="ps_2_load_reg_550">
+    <nodeIds>31</nodeIds>
+  </regnodes>
+  <regnodes realName="sample_data_reg_577">
+    <nodeIds>46</nodeIds>
+  </regnodes>
+  <regnodes realName="m_apvThrB_addr_reg_564">
+    <nodeIds>54</nodeIds>
+  </regnodes>
+  <regnodes realName="n_load_reg_558">
+    <nodeIds>50</nodeIds>
+  </regnodes>
+  <regnodes realName="storemerge_i_reg_176">
+    <nodeIds>101</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_i_41_reg_569">
+    <nodeIds>90</nodeIds>
+  </regnodes>
+  <regnodes realName="s_avgAHeader_read_reg_595">
+    <nodeIds>110</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_32_i_reg_554">
+    <nodeIds>43</nodeIds>
+  </regnodes>
+  <expressionNodes realName="add_ln199_1_fu_219">
+    <nodeIds>52</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_35_i_fu_509">
+    <nodeIds>129</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln199_1_fu_403">
+    <nodeIds>65</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="trunc_ln149_fu_274">
+    <nodeIds>114</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln199_fu_391">
+    <nodeIds>63</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln158_fu_533">
+    <nodeIds>131</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="m_apvThrB_addr_gep_fu_163">
+    <nodeIds>54</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sext_ln202_fu_430">
+    <nodeIds>71</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="storemerge_i_phi_fu_179">
+    <nodeIds>101</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_19_i_fu_492">
+    <nodeIds>127</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln206_fu_236">
+    <nodeIds>78</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln206_fu_247">
+    <nodeIds>80</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln199_fu_215">
+    <nodeIds>51</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_22_fu_370">
+    <nodeIds>60</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln202_fu_433">
+    <nodeIds>72</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_18_i_fu_336">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_fu_203">
+    <nodeIds>49</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="avg_header_avg_fu_258">
+    <nodeIds>94</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln200_fu_425">
+    <nodeIds>68</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="select_ln199_fu_409">
+    <nodeIds>66</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="thr_1_fu_417">
+    <nodeIds>67</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="thr_fu_378">
+    <nodeIds>61</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_20_i_fu_501">
+    <nodeIds>128</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sext_ln199_fu_353">
+    <nodeIds>56</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_23_fu_383">
+    <nodeIds>62</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln199_fu_364">
+    <nodeIds>59</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_36_i_fu_457">
+    <nodeIds>117</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln199_fu_397">
+    <nodeIds>64</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sext_ln199_1_fu_360">
+    <nodeIds>58</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln172_fu_487">
+    <nodeIds>121</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln203_fu_445">
+    <nodeIds>74</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln172_cast_fu_475">
+    <nodeIds>120</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_34_i_fu_284">
+    <nodeIds>125</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln158_cast_fu_521">
+    <nodeIds>130</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln212_fu_348">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="grp_fu_187">
+    <nodeIds>95</nodeIds>
+    <nodeIds>111</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln199_1_fu_225">
+    <nodeIds>53</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="store_ln160_store_fu_538">
+    <nodeIds>133</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln170_store_fu_469">
+    <nodeIds>118</nodeIds>
+  </ioNodes>
+  <ioNodes realName="avg_pre_header_tag_1_load_load_fu_332">
+    <nodeIds>36</nodeIds>
+  </ioNodes>
+  <ioNodes realName="grp_write_fu_156">
+    <nodeIds>39</nodeIds>
+    <nodeIds>122</nodeIds>
+    <nodeIds>132</nodeIds>
+  </ioNodes>
+  <ioNodes realName="grp_read_fu_150">
+    <nodeIds>93</nodeIds>
+    <nodeIds>110</nodeIds>
+  </ioNodes>
+  <ioNodes realName="tmp_32_i_nbreadreq_fu_120">
+    <nodeIds>43</nodeIds>
+  </ioNodes>
+  <ioNodes realName="sample_data_read_fu_136">
+    <nodeIds>46</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln207_store_fu_252">
+    <nodeIds>83</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln166_store_fu_312">
+    <nodeIds>137</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln164_store_fu_306">
+    <nodeIds>136</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln171_store_fu_278">
+    <nodeIds>119</nodeIds>
+  </ioNodes>
+  <ioNodes realName="ps_2_load_load_fu_195">
+    <nodeIds>31</nodeIds>
+  </ioNodes>
+  <ioNodes realName="avg_load_load_fu_356">
+    <nodeIds>57</nodeIds>
+  </ioNodes>
+  <ioNodes realName="n_load_load_fu_211">
+    <nodeIds>50</nodeIds>
+  </ioNodes>
+  <ioNodes realName="apv_id_2_load_load_fu_199">
+    <nodeIds>48</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln162_store_fu_300">
+    <nodeIds>135</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln203_store_fu_451">
+    <nodeIds>75</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln161_store_fu_544">
+    <nodeIds>134</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln197_write_fu_142">
+    <nodeIds>47</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln187_store_fu_262">
+    <nodeIds>98</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln151_store_fu_294">
+    <nodeIds>126</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln175_store_fu_318">
+    <nodeIds>140</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln202_store_fu_439">
+    <nodeIds>73</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln213_store_fu_230">
+    <nodeIds>40</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln206_store_fu_241">
+    <nodeIds>79</nodeIds>
+  </ioNodes>
+  <ioNodes realName="avg_pre_header_cnt_1_load_load_fu_328">
+    <nodeIds>33</nodeIds>
+  </ioNodes>
+  <ioNodes realName="avg_pre_header_sum_1_load_load_fu_324">
+    <nodeIds>32</nodeIds>
+  </ioNodes>
+  <ioNodes realName="grp_nbreadreq_fu_128">
+    <nodeIds>90</nodeIds>
+    <nodeIds>107</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln184_store_fu_268">
+    <nodeIds>102</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="m_apvThrB">
+    <nodeIds>55</nodeIds>
+  </memoryPorts>
+  <ioPorts name="m_apvThrB(p0)">
+    <contents name="load">
+      <nodeIds>55</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="s_avgAHeader">
+    <contents name="nbreadreq">
+      <nodeIds>107</nodeIds>
+      <nodeIds>90</nodeIds>
+    </contents>
+    <contents name="read">
+      <nodeIds>110</nodeIds>
+      <nodeIds>93</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="s_avgASamples">
+    <contents name="nbreadreq">
+      <nodeIds>43</nodeIds>
+    </contents>
+    <contents name="read">
+      <nodeIds>46</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="s_avgBPreHeader">
+    <contents name="write">
+      <nodeIds>132</nodeIds>
+      <nodeIds>122</nodeIds>
+      <nodeIds>39</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="s_avgBSamplesOut">
+    <contents name="write">
+      <nodeIds>47</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+      <operations id="44" stage="1" latency="1"/>
+      <operations id="48" stage="1" latency="1"/>
+      <operations id="49" stage="1" latency="1"/>
+      <operations id="50" stage="1" latency="1"/>
+      <operations id="51" stage="1" latency="1"/>
+      <operations id="52" stage="1" latency="1"/>
+      <operations id="53" stage="1" latency="1"/>
+      <operations id="54" stage="1" latency="1"/>
+      <operations id="55" stage="2" latency="2"/>
+      <operations id="90" stage="1" latency="1"/>
+      <operations id="91" stage="1" latency="1"/>
+      <operations id="107" stage="1" latency="1"/>
+      <operations id="108" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="46" stage="1" latency="1"/>
+      <operations id="47" stage="1" latency="1"/>
+      <operations id="55" stage="1" latency="2"/>
+      <operations id="78" stage="1" latency="1"/>
+      <operations id="79" stage="1" latency="1"/>
+      <operations id="80" stage="1" latency="1"/>
+      <operations id="81" stage="1" latency="1"/>
+      <operations id="83" stage="1" latency="1"/>
+      <operations id="84" stage="1" latency="1"/>
+      <operations id="93" stage="1" latency="1"/>
+      <operations id="94" stage="1" latency="1"/>
+      <operations id="95" stage="1" latency="1"/>
+      <operations id="96" stage="1" latency="1"/>
+      <operations id="98" stage="1" latency="1"/>
+      <operations id="99" stage="1" latency="1"/>
+      <operations id="101" stage="1" latency="1"/>
+      <operations id="102" stage="1" latency="1"/>
+      <operations id="103" stage="1" latency="1"/>
+      <operations id="110" stage="1" latency="1"/>
+      <operations id="111" stage="1" latency="1"/>
+      <operations id="112" stage="1" latency="1"/>
+      <operations id="114" stage="1" latency="1"/>
+      <operations id="115" stage="1" latency="1"/>
+      <operations id="119" stage="1" latency="1"/>
+      <operations id="125" stage="1" latency="1"/>
+      <operations id="126" stage="1" latency="1"/>
+      <operations id="135" stage="1" latency="1"/>
+      <operations id="136" stage="1" latency="1"/>
+      <operations id="137" stage="1" latency="1"/>
+      <operations id="140" stage="1" latency="1"/>
+      <operations id="141" stage="1" latency="1"/>
+    </states>
+    <states id="3">
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="56" stage="1" latency="1"/>
+      <operations id="57" stage="1" latency="1"/>
+      <operations id="58" stage="1" latency="1"/>
+      <operations id="59" stage="1" latency="1"/>
+      <operations id="60" stage="1" latency="1"/>
+      <operations id="61" stage="1" latency="1"/>
+      <operations id="62" stage="1" latency="1"/>
+      <operations id="63" stage="1" latency="1"/>
+      <operations id="64" stage="1" latency="1"/>
+      <operations id="65" stage="1" latency="1"/>
+      <operations id="66" stage="1" latency="1"/>
+      <operations id="67" stage="1" latency="1"/>
+      <operations id="68" stage="1" latency="1"/>
+      <operations id="69" stage="1" latency="1"/>
+      <operations id="71" stage="1" latency="1"/>
+      <operations id="72" stage="1" latency="1"/>
+      <operations id="73" stage="1" latency="1"/>
+      <operations id="74" stage="1" latency="1"/>
+      <operations id="75" stage="1" latency="1"/>
+      <operations id="76" stage="1" latency="1"/>
+      <operations id="86" stage="1" latency="1"/>
+      <operations id="88" stage="1" latency="1"/>
+      <operations id="105" stage="1" latency="1"/>
+      <operations id="117" stage="1" latency="1"/>
+      <operations id="118" stage="1" latency="1"/>
+      <operations id="120" stage="1" latency="1"/>
+      <operations id="121" stage="1" latency="1"/>
+      <operations id="122" stage="1" latency="1"/>
+      <operations id="123" stage="1" latency="1"/>
+      <operations id="127" stage="1" latency="1"/>
+      <operations id="128" stage="1" latency="1"/>
+      <operations id="129" stage="1" latency="1"/>
+      <operations id="130" stage="1" latency="1"/>
+      <operations id="131" stage="1" latency="1"/>
+      <operations id="132" stage="1" latency="1"/>
+      <operations id="133" stage="1" latency="1"/>
+      <operations id="134" stage="1" latency="1"/>
+      <operations id="138" stage="1" latency="1"/>
+      <operations id="143" stage="1" latency="1"/>
+      <operations id="145" stage="1" latency="1"/>
+      <operations id="147" stage="1" latency="1"/>
+      <operations id="149" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="avgB" mII="2" mDepth="3" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="2" mMaxLatency="2">
+      <basicBlocks>35</basicBlocks>
+      <basicBlocks>42</basicBlocks>
+      <basicBlocks>45</basicBlocks>
+      <basicBlocks>70</basicBlocks>
+      <basicBlocks>77</basicBlocks>
+      <basicBlocks>82</basicBlocks>
+      <basicBlocks>85</basicBlocks>
+      <basicBlocks>87</basicBlocks>
+      <basicBlocks>89</basicBlocks>
+      <basicBlocks>92</basicBlocks>
+      <basicBlocks>97</basicBlocks>
+      <basicBlocks>100</basicBlocks>
+      <basicBlocks>104</basicBlocks>
+      <basicBlocks>106</basicBlocks>
+      <basicBlocks>109</basicBlocks>
+      <basicBlocks>113</basicBlocks>
+      <basicBlocks>116</basicBlocks>
+      <basicBlocks>124</basicBlocks>
+      <basicBlocks>139</basicBlocks>
+      <basicBlocks>142</basicBlocks>
+      <basicBlocks>144</basicBlocks>
+      <basicBlocks>146</basicBlocks>
+      <basicBlocks>148</basicBlocks>
+      <basicBlocks>150</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

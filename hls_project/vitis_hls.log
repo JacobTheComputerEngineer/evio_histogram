@@ -1,0 +1,354 @@
+ECHO is off.
+ECHO is off.
+NOTE: Using modified tcl85t.dll from https://gitenterprise.xilinx.com/ACT/vitis_hls_tcl
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2023.1/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'theen' on host 'lilolcalculator' (Windows NT_amd64 version 6.2) on Fri Jun 28 16:03:11 -0400 2024
+INFO: [HLS 200-10] In directory 'C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project'
+Sourcing Tcl script 'C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/csynth.tcl'
+INFO: [HLS 200-1510] Running: source C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/csynth.tcl
+INFO: [HLS 200-1510] Running: open_project mpd_data_processor 
+INFO: [HLS 200-10] Opening project 'C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor'.
+INFO: [HLS 200-1510] Running: set_top mpd_data_processor_main 
+INFO: [HLS 200-1510] Running: add_files ../mpd_data_processor.h 
+INFO: [HLS 200-10] Adding design file '../mpd_data_processor.h' to the project
+INFO: [HLS 200-1510] Running: add_files ../mpd_data_processor.cpp 
+INFO: [HLS 200-10] Adding design file '../mpd_data_processor.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../mpd_data_processor_wrapper.h 
+INFO: [HLS 200-10] Adding test bench file '../mpd_data_processor_wrapper.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../mpd_data_processor_wrapper.cpp 
+INFO: [HLS 200-10] Adding test bench file '../mpd_data_processor_wrapper.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb ../mpd_data_processor_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file '../mpd_data_processor_tb.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 8ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 1ns.
+INFO: [HLS 200-1611] Setting target device to 'xcku035-ffva1156-1-i'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xcku035-ffva1156-1-i 
+INFO: [HLS 200-1510] Running: create_clock -period 8 -name default 
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 1 
+INFO: [HLS 200-1510] Running: source ./mpd_data_processor/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_dataflow mpd_data_processor_main 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_fifo mpd_data_processor_main s_evIn 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_fifo mpd_data_processor_main s_evOut 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_stable mpd_data_processor_main build_all_samples 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_stable mpd_data_processor_main build_debug_headers 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_stable mpd_data_processor_main enable_cm 
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_stable mpd_data_processor_main fiber 
+INFO: [HLS 200-1510] Running: set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_offset 
+WARNING: [HLS 200-484] The 'set_directive_resource -core' command is deprecated and will be removed in a future release.
+WARNING: [HLS 200-484] The 'set_directive_resource -location' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_apvThr 
+WARNING: [HLS 200-484] The 'set_directive_resource -core' command is deprecated and will be removed in a future release.
+WARNING: [HLS 200-484] The 'set_directive_resource -location' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_directive_resource -core RAM_1P_BRAM mpd_data_processor_main m_apvThrB 
+WARNING: [HLS 200-484] The 'set_directive_resource -core' command is deprecated and will be removed in a future release.
+WARNING: [HLS 200-484] The 'set_directive_resource -location' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_directive_pipeline -II 2 -enable_flush frame_decoder 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_directive_pipeline -II 2 -enable_flush avgB 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_directive_pipeline -II 64 -enable_flush avgHeaderDiv 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_directive_pipeline -II 2 -enable_flush event_writer 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_directive_pipeline -enable_flush avgBSamplesFifoProc 
+WARNING: [HLS 200-484] The 'set_directive_pipeline -enable_flush' command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: set_directive_interface -mode ap_ctrl_none mpd_data_processor_main 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 90.582 MB.
+INFO: [HLS 200-10] Analyzing design file '../mpd_data_processor.cpp' ... 
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:7:9)
+Resolution: For help on HLS 214-114 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=214-114.html
+WARNING: [HLS 214-169] There are a total of 7 such instances of non-canonical statements in the dataflow region (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:7:9)
+Resolution: For help on HLS 214-169 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=214-169.html
+WARNING: [HLS 200-471] Dataflow form checks found 2 issue(s) in file ../mpd_data_processor.cpp
+Resolution: For help on HLS 200-471 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-471.html
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:26:48)
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:27:48)
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:28:49)
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:29:48)
+WARNING: [HLS 207-5551] The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:30:43)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:10:9)
+WARNING: [HLS 207-5532] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:12:32)
+WARNING: [HLS 207-5532] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:13:32)
+WARNING: [HLS 207-5532] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:14:32)
+WARNING: [HLS 207-5532] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:15:32)
+WARNING: [HLS 207-5531] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9)
+WARNING: [HLS 207-5531] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9)
+WARNING: [HLS 207-5531] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:8:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:16:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:17:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:18:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:19:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:20:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:21:9)
+WARNING: [HLS 207-5509] the pragma is not supported and will be ignored (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:22:9)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 4.061 seconds; current allocated memory: 94.020 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:23:9)
+WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:24:9)
+WARNING: [HLS 214-340] The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead (C:/Users/theen/OneDrive/Desktop/JLab24/Trigger/Evio/sbs-online-gem-evioprocessor/hls_project/mpd_data_processor/solution1/directives.tcl:25:9)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_360_1' is marked as complete unroll implied by the pipeline pragma (../mpd_data_processor.cpp:360:27)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_440_1' is marked as complete unroll implied by the pipeline pragma (../mpd_data_processor.cpp:440:25)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_360_1' (../mpd_data_processor.cpp:360:27) in function 'event_writer' completely with a factor of 5 (../mpd_data_processor.cpp:276:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_440_1' (../mpd_data_processor.cpp:440:25) in function 'avgBSamplesFifoProc' completely with a factor of 3 (../mpd_data_processor.cpp:428:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ19avgBSamplesFifoProcRN3hls6streamI13sample_data_tLi0EEERNS0_I18sample_data_pair_tLi0EEEE13s_avgBSamples': Complete partitioning on dimension 1. (../mpd_data_processor.cpp:429:0)
+INFO: [HLS 214-241] Aggregating bram variable 'm_apvThrB' with compact=bit mode in 13-bits
+INFO: [HLS 214-241] Aggregating bram variable 'm_apvThr' with compact=bit mode in 13-bits
+INFO: [HLS 214-241] Aggregating bram variable 'm_offset' with compact=bit mode in 26-bits
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 's_evOut' with compact=bit mode in 33-bits (../mpd_data_processor.cpp:468:0)
+INFO: [HLS 214-241] Aggregating fifo (hls::stream) variable 's_evIn' with compact=bit mode in 33-bits (../mpd_data_processor.cpp:468:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'event_writer(hls::stream<event_data_t, 0>&, hls::stream<avg_header_t, 0>&, hls::stream<sample_data_pair_t, 0>&, ap_uint<1>, ap_uint<1>, ap_uint<5>, ap_int<13> (*) [128])::s' due to pipeline pragma (../mpd_data_processor.cpp:280:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZ12event_writerRN3hls6streamI12event_data_tLi0EEERNS0_I12avg_header_tLi0EEERNS0_I18sample_data_pair_tLi0EEE7ap_uintILi1EESB_SA_ILi5EEPA128_6ap_intILi13EEE1s': Complete partitioning on dimension 1. (../mpd_data_processor.cpp:280:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.613 seconds; current allocated memory: 95.219 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 95.227 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.051 seconds; current allocated memory: 102.871 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.071 seconds; current allocated memory: 106.980 MB.
+WARNING: [HLS 200-805] An internal stream 's_avgBSamplesOut' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 's_avgBSamplesIn' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 's_avgBPreHeader' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 's_avgAPreHeader' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 's_avgAHeader' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.5' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.4' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.3' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.2' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples.1' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+WARNING: [HLS 200-805] An internal stream 'avgBSamplesFifoProc(stream<sample_data_t, 0>&, stream<sample_data_pair_t, 0>&)s_avgBSamples' with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+INFO: [XFORM 203-712] Applying dataflow to function 'mpd_data_processor_main' (../mpd_data_processor.cpp:7:1), detected/extracted 5 process function(s): 
+	 'frame_decoder'
+	 'avgHeaderDiv'
+	 'avgB'
+	 'avgBSamplesFifoProc'
+	 'event_writer'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../mpd_data_processor.cpp:87:44) to (../mpd_data_processor.cpp:111:12) in function 'frame_decoder'... converting 5 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../mpd_data_processor.cpp:330:63) to (../mpd_data_processor.cpp:335:7) in function 'event_writer'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../mpd_data_processor.cpp:341:63) to (../mpd_data_processor.cpp:346:7) in function 'event_writer'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../mpd_data_processor.cpp:352:63) to (../mpd_data_processor.cpp:369:12) in function 'event_writer'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.273 seconds; current allocated memory: 132.496 MB.
+WARNING: [HLS 200-657] Generating channel s_avgBPreHeader that flows backwards in the dataflow region.
+WARNING: [HLS 200-631] ap_ctrl_none interface is illegal for mpd_data_processor_main because frame_decoder has non-FIFO I/O
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.203 seconds; current allocated memory: 173.840 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'mpd_data_processor_main' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'frame_decoder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'frame_decoder'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 2, Final II = 2, Depth = 4, function 'frame_decoder'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.929 seconds; current allocated memory: 179.676 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.054 seconds; current allocated memory: 181.059 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'avgHeaderDiv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'avgHeaderDiv'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 64, Final II = 64, Depth = 89, function 'avgHeaderDiv'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.246 seconds; current allocated memory: 181.668 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.541 seconds; current allocated memory: 181.762 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'avgB' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'avgB'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 2, Final II = 2, Depth = 3, function 'avgB'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.157 seconds; current allocated memory: 183.055 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.043 seconds; current allocated memory: 183.102 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'avgBSamplesFifoProc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'avgBSamplesFifoProc'.
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 5, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+WARNING: [HLS 200-880] The II Violation in module 'avgBSamplesFifoProc' (function 'avgBSamplesFifoProc'): Unable to enforce a carried dependence constraint (II = 6, distance = 1, offset = 0) between 'store' operation ('wr_idx_write_ln449', ../mpd_data_processor.cpp:449) of variable 'srem_ln449', ../mpd_data_processor.cpp:449 on static variable 'wr_idx' and 'load' operation ('wr_idx_load', ../mpd_data_processor.cpp:435) on static variable 'wr_idx'.
+Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-880.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 7, Depth = 18, function 'avgBSamplesFifoProc'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.139 seconds; current allocated memory: 183.922 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.131 seconds; current allocated memory: 184.012 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'event_writer' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'event_writer'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 2, Final II = 2, Depth = 3, function 'event_writer'
+WARNING: [HLS 200-871] Estimated clock period (10.668 ns) exceeds the target (target clock period: 8.000 ns, clock uncertainty: 1.000 ns, effective delay budget: 7.000 ns).
+Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'event_writer' consists of the following:
+	'load' operation ('avgB_1_load_4', ../mpd_data_processor.cpp:353) on array 'avgB_1' [66]  (0.858 ns)
+	'sub' operation ('sub_ln353', ../mpd_data_processor.cpp:353) [68]  (1.623 ns)
+	'select' operation ('select_ln353_1', ../mpd_data_processor.cpp:353) [76]  (0.624 ns)
+	'select' operation ('select_ln353_6', ../mpd_data_processor.cpp:353) [89]  (0.624 ns)
+	'add' operation ('add_ln355', ../mpd_data_processor.cpp:355) [95]  (1.623 ns)
+	'add' operation ('add_ln355_1', ../mpd_data_processor.cpp:355) [97]  (1.719 ns)
+	'icmp' operation ('icmp_ln371', ../mpd_data_processor.cpp:371) [123]  (1.719 ns)
+	'or' operation ('or_ln371_1', ../mpd_data_processor.cpp:371) [127]  (0.311 ns)
+	multiplexor before 'phi' operation ('storemerge5_i', ../mpd_data_processor.cpp:377) with incoming values : ('zext_ln377', ../mpd_data_processor.cpp:377) [136]  (0.628 ns)
+	'phi' operation ('storemerge5_i', ../mpd_data_processor.cpp:377) with incoming values : ('zext_ln377', ../mpd_data_processor.cpp:377) [136]  (0.000 ns)
+	'store' operation ('ps_1_write_ln370', ../mpd_data_processor.cpp:370) of variable 'storemerge5_i', ../mpd_data_processor.cpp:377 on static variable 'ps_1' [137]  (0.940 ns)
+
+Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.26 seconds; current allocated memory: 186.555 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 186.812 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'mpd_data_processor_main' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+WARNING: [HLS 200-871] Estimated clock period (7.564 ns) exceeds the target (target clock period: 8.000 ns, clock uncertainty: 1.000 ns, effective delay budget: 7.000 ns).
+Resolution: For help on HLS 200-871 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'mpd_data_processor_main' consists of the following:
+	wire read operation ('fiber_read', ../mpd_data_processor.cpp:460) on port 'fiber' (../mpd_data_processor.cpp:460) [95]  (0.000 ns)
+	'call' operation ('_ln485', ../mpd_data_processor.cpp:485) to 'event_writer' [102]  (7.564 ns)
+
+Resolution: For help on HLS 200-1016 see www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.32 seconds; current allocated memory: 186.906 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.713 seconds; current allocated memory: 187.848 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'frame_decoder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Register 'ps' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_sum' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_cnt' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'mpd_id' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_tag' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'apv_id' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'adc_word_cnt' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'minmax_min' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'minmax_max' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'frame_decoder'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.176 seconds; current allocated memory: 190.363 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'avgHeaderDiv' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Register 'last' is power-on initialization.
+INFO: [RTGEN 206-100] Generating core module 'sdiv_20ns_9ns_13_24_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'avgHeaderDiv'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.446 seconds; current allocated memory: 196.273 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'avgB' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Register 'ps_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_sum_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_cnt_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'apv_id_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg_pre_header_tag_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'n' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'avg' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'avgB'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.314 seconds; current allocated memory: 197.855 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'avgBSamplesFifoProc' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Register 'wr_idx' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'wr_pos' is power-on initialization.
+INFO: [RTGEN 206-100] Generating core module 'srem_4ns_4ns_4_8_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'avgBSamplesFifoProc'.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_5_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_4_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_3_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_2_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_1_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'avgBSamplesFifoProc_stream_stream_sample_data_pair_t_0_s_avgBSamples_U(mpd_data_processor_main_fifo_w13_d2_S)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.33 seconds; current allocated memory: 200.414 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'event_writer' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Register 'ps_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'apv_id_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'sample_n' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_5' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_4' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'sum' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'cnt' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'event_writer_stream_stream_stream_ap_uint_ap_uint_ap_uint_ap_int_128_s' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'event_writer'.
+INFO: [RTMG 210-278] Implementing memory 'mpd_data_processor_main_event_writer_avgB_1_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.3 seconds; current allocated memory: 203.430 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'mpd_data_processor_main' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/s_evIn' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/s_evOut' to 'ap_fifo'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/build_all_samples' to 'ap_stable'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/build_debug_headers' to 'ap_stable'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/enable_cm' to 'ap_stable'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/fiber' to 'ap_stable'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/m_offset' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/m_apvThr' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'mpd_data_processor_main/m_apvThrB' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'mpd_data_processor_main' to 'ap_ctrl_none'.
+WARNING: [RTGEN 206-101] RTL name 'fifo_w13_d2_S' is changed to 'fifo_w13_d2_S_x' due to conflict.
+WARNING: [RTGEN 206-101] Port 'mpd_data_processor_main/build_debug_headers' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'mpd_data_processor_main'.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgAPreHeader_U(mpd_data_processor_main_fifo_w64_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgASamples_U(mpd_data_processor_main_fifo_w13_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgBPreHeader_U(mpd_data_processor_main_fifo_w64_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgAHeader_U(mpd_data_processor_main_fifo_w32_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgBHeader_U(mpd_data_processor_main_fifo_w32_d4_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgBSamplesOut_U(mpd_data_processor_main_fifo_w13_d2_S_x)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 's_avgBSamplesIn_U(mpd_data_processor_main_fifo_w32_d2_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'start_for_avgHeaderDiv_U0_U(mpd_data_processor_main_start_for_avgHeaderDiv_U0)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'start_for_avgBSamplesFifoProc_U0_U(mpd_data_processor_main_start_for_avgBSamplesFifoProc_U0)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.585 seconds; current allocated memory: 207.824 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.632 seconds; current allocated memory: 212.387 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.588 seconds; current allocated memory: 218.809 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for mpd_data_processor_main.
+INFO: [VLOG 209-307] Generating Verilog RTL for mpd_data_processor_main.
+INFO: [HLS 200-789] **** Estimated Fmax: 93.73 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 14.422 seconds; current allocated memory: 128.742 MB.
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 15.341 seconds; peak allocated memory: 219.348 MB.

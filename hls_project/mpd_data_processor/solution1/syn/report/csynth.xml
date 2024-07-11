@@ -1,0 +1,1548 @@
+<profile>
+    <ReportVersion>
+        <Version>2023.1</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>kintexu</ProductFamily>
+        <Part>xcku035-ffva1156-1-i</Part>
+        <TopModelName>mpd_data_processor_main</TopModelName>
+        <TargetClockPeriod>8.00</TargetClockPeriod>
+        <ClockUncertainty>1.00</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>dataflow</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>10.668</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>114</Best-caseLatency>
+            <Average-caseLatency>114</Average-caseLatency>
+            <Worst-caseLatency>114</Worst-caseLatency>
+            <Best-caseRealTimeLatency>1.216 us</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>1.216 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>1.216 us</Worst-caseRealTimeLatency>
+            <DataflowPipelineThroughput>64</DataflowPipelineThroughput>
+            <Interval-min>64</Interval-min>
+            <Interval-max>64</Interval-max>
+        </SummaryOfOverallLatency>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>0</BRAM_18K>
+            <FF>3313</FF>
+            <LUT>4805</LUT>
+            <URAM>0</URAM>
+            <DSP>0</DSP>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>1080</BRAM_18K>
+            <DSP>1700</DSP>
+            <FF>406256</FF>
+            <LUT>203128</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>s_evIn_dout</name>
+            <Object>s_evIn</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_fifo</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>33</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_evIn_empty_n</name>
+            <Object>s_evIn</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_fifo</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_evIn_read</name>
+            <Object>s_evIn</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_fifo</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_evOut_din</name>
+            <Object>s_evOut</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_fifo</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>33</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_evOut_full_n</name>
+            <Object>s_evOut</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_fifo</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>s_evOut_write</name>
+            <Object>s_evOut</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_fifo</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>build_all_samples</name>
+            <Object>build_all_samples</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_stable</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>build_debug_headers</name>
+            <Object>build_debug_headers</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_stable</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>enable_cm</name>
+            <Object>enable_cm</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_stable</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>fiber</name>
+            <Object>fiber</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_stable</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>5</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_address0</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>10</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_ce0</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_d0</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>26</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_q0</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>26</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_we0</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_address1</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>10</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_ce1</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_d1</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>26</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_q1</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>26</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_offset_we1</name>
+            <Object>m_offset</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_address0</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>11</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_ce0</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_d0</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>13</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_q0</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>13</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_we0</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_address1</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>11</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_ce1</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_d1</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>13</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_q1</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>13</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThr_we1</name>
+            <Object>m_apvThr</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_address0</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>11</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_ce0</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_d0</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>13</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_q0</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>13</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_we0</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_address1</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>11</Bits>
+            <Attribute>address</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_ce1</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_d1</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>13</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_q1</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>13</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>m_apvThrB_we1</name>
+            <Object>m_apvThrB</Object>
+            <Type>array</Type>
+            <Scope/>
+            <IOProtocol>ap_memory</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>mpd_data_processor_main</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst</name>
+            <Object>mpd_data_processor_main</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="3">
+            <ModuleName>mpd_data_processor_main</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>frame_decoder_U0</InstName>
+                    <ModuleName>frame_decoder</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>188</ID>
+                    <BindInstances>sub_ln92_fu_390_p2 add_ln97_fu_713_p2 add_ln98_fu_719_p2 sub_ln102_fu_478_p2 add_ln107_fu_772_p2 add_ln108_fu_778_p2 add_ln114_fu_544_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>avgHeaderDiv_U0</InstName>
+                    <ModuleName>avgHeaderDiv</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>218</ID>
+                </Instance>
+                <Instance>
+                    <InstName>avgB_U0</InstName>
+                    <ModuleName>avgB</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>232</ID>
+                    <BindInstances>add_ln199_1_fu_219_p2 add_ln199_fu_364_p2 thr_fu_378_p2 add_ln202_fu_433_p2 add_ln203_fu_445_p2 add_ln206_fu_236_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>avgBSamplesFifoProc_U0</InstName>
+                    <ModuleName>avgBSamplesFifoProc</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>260</ID>
+                    <BindInstances>grp_fu_231_p0 add_ln451_fu_237_p2 sub_ln451_fu_269_p2</BindInstances>
+                </Instance>
+                <Instance>
+                    <InstName>event_writer_U0</InstName>
+                    <ModuleName>event_writer</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>284</ID>
+                    <BindInstances>sub_ln353_fu_423_p2 sub_ln354_fu_490_p2 add_ln355_fu_584_p2 add_ln355_1_fu_594_p2 sum_thr_fu_714_p2 grp_fu_283_p2 sub_ln342_fu_787_p2 sub_ln343_fu_855_p2 add_ln344_fu_1215_p2 add_ln344_1_fu_1225_p2 sub_ln331_fu_955_p2 sub_ln332_fu_1023_p2 add_ln333_fu_1242_p2 grp_fu_283_p2 add_ln316_fu_1144_p2 avgB_1_U</BindInstances>
+                </Instance>
+            </InstancesList>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>frame_decoder</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>8.00</TargetClockPeriod>
+                    <ClockUncertainty>1.00</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>4.600</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>3</Best-caseLatency>
+                    <Average-caseLatency>3</Average-caseLatency>
+                    <Worst-caseLatency>3</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>24.000 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>24.000 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>24.000 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>4</PipelineDepth>
+                    <PipelineType>yes(flp)</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>161</FF>
+                    <AVAIL_FF>406256</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>729</LUT>
+                    <AVAIL_LUT>203128</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>1080</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1700</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln92_fu_390_p2" SOURCE="../mpd_data_processor.cpp:92" URAM="0" VARIABLE="sub_ln92"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln97_fu_713_p2" SOURCE="../mpd_data_processor.cpp:97" URAM="0" VARIABLE="add_ln97"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln98_fu_719_p2" SOURCE="../mpd_data_processor.cpp:98" URAM="0" VARIABLE="add_ln98"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln102_fu_478_p2" SOURCE="../mpd_data_processor.cpp:102" URAM="0" VARIABLE="sub_ln102"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln107_fu_772_p2" SOURCE="../mpd_data_processor.cpp:107" URAM="0" VARIABLE="add_ln107"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln108_fu_778_p2" SOURCE="../mpd_data_processor.cpp:108" URAM="0" VARIABLE="add_ln108"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln114_fu_544_p2" SOURCE="../mpd_data_processor.cpp:114" URAM="0" VARIABLE="add_ln114"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>avgHeaderDiv</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>8.00</TargetClockPeriod>
+                    <ClockUncertainty>1.00</ClockUncertainty>
+                    <TargetInitiationInterval>64</TargetInitiationInterval>
+                    <EstimatedClockPeriod>3.408</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>88</Best-caseLatency>
+                    <Average-caseLatency>88</Average-caseLatency>
+                    <Worst-caseLatency>88</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.704 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.704 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.704 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>64</PipelineInitiationInterval>
+                    <PipelineDepth>89</PipelineDepth>
+                    <PipelineType>yes(flp)</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>1248</FF>
+                    <AVAIL_FF>406256</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>1375</LUT>
+                    <AVAIL_LUT>203128</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>1080</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1700</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+        <Module>
+            <Name>avgB</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>8.00</TargetClockPeriod>
+                    <ClockUncertainty>1.00</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>5.310</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>2</Best-caseLatency>
+                    <Average-caseLatency>2</Average-caseLatency>
+                    <Worst-caseLatency>2</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>16.000 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>16.000 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>16.000 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>3</PipelineDepth>
+                    <PipelineType>yes(flp)</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>143</FF>
+                    <AVAIL_FF>406256</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>392</LUT>
+                    <AVAIL_LUT>203128</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>1080</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1700</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln199_1_fu_219_p2" SOURCE="../mpd_data_processor.cpp:199" URAM="0" VARIABLE="add_ln199_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln199_fu_364_p2" SOURCE="../mpd_data_processor.cpp:199" URAM="0" VARIABLE="add_ln199"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="thr_fu_378_p2" SOURCE="../mpd_data_processor.cpp:199" URAM="0" VARIABLE="thr"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln202_fu_433_p2" SOURCE="../mpd_data_processor.cpp:202" URAM="0" VARIABLE="add_ln202"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln203_fu_445_p2" SOURCE="../mpd_data_processor.cpp:203" URAM="0" VARIABLE="add_ln203"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln206_fu_236_p2" SOURCE="../mpd_data_processor.cpp:206" URAM="0" VARIABLE="add_ln206"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>avgBSamplesFifoProc</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>8.00</TargetClockPeriod>
+                    <ClockUncertainty>1.00</ClockUncertainty>
+                    <TargetInitiationInterval>4294967295</TargetInitiationInterval>
+                    <EstimatedClockPeriod>5.310</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>17</Best-caseLatency>
+                    <Average-caseLatency>17</Average-caseLatency>
+                    <Worst-caseLatency>17</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.136 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.136 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.136 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>7</PipelineInitiationInterval>
+                    <PipelineDepth>18</PipelineDepth>
+                    <PipelineType>yes(flp)</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>786</FF>
+                    <AVAIL_FF>406256</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>731</LUT>
+                    <AVAIL_LUT>203128</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>1080</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1700</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_231_p0" SOURCE="../mpd_data_processor.cpp:449" URAM="0" VARIABLE="add_ln449"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln451_fu_237_p2" SOURCE="../mpd_data_processor.cpp:451" URAM="0" VARIABLE="add_ln451"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln451_fu_269_p2" SOURCE="../mpd_data_processor.cpp:451" URAM="0" VARIABLE="sub_ln451"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>event_writer</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>8.00</TargetClockPeriod>
+                    <ClockUncertainty>1.00</ClockUncertainty>
+                    <TargetInitiationInterval>2</TargetInitiationInterval>
+                    <EstimatedClockPeriod>10.668</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>2</Best-caseLatency>
+                    <Average-caseLatency>2</Average-caseLatency>
+                    <Worst-caseLatency>2</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>21.337 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>21.337 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>21.337 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2</PipelineInitiationInterval>
+                    <PipelineDepth>3</PipelineDepth>
+                    <PipelineType>yes(flp)</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>1080</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <FF>282</FF>
+                    <AVAIL_FF>406256</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>1102</LUT>
+                    <AVAIL_LUT>203128</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1700</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln353_fu_423_p2" SOURCE="../mpd_data_processor.cpp:353" URAM="0" VARIABLE="sub_ln353"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln354_fu_490_p2" SOURCE="../mpd_data_processor.cpp:354" URAM="0" VARIABLE="sub_ln354"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln355_fu_584_p2" SOURCE="../mpd_data_processor.cpp:355" URAM="0" VARIABLE="add_ln355"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln355_1_fu_594_p2" SOURCE="../mpd_data_processor.cpp:355" URAM="0" VARIABLE="add_ln355_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sum_thr_fu_714_p2" SOURCE="../mpd_data_processor.cpp:366" URAM="0" VARIABLE="sum_thr"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_283_p2" SOURCE="../mpd_data_processor.cpp:373" URAM="0" VARIABLE="add_ln373"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln342_fu_787_p2" SOURCE="../mpd_data_processor.cpp:342" URAM="0" VARIABLE="sub_ln342"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln343_fu_855_p2" SOURCE="../mpd_data_processor.cpp:343" URAM="0" VARIABLE="sub_ln343"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln344_fu_1215_p2" SOURCE="../mpd_data_processor.cpp:344" URAM="0" VARIABLE="add_ln344"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln344_1_fu_1225_p2" SOURCE="../mpd_data_processor.cpp:344" URAM="0" VARIABLE="add_ln344_1"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln331_fu_955_p2" SOURCE="../mpd_data_processor.cpp:331" URAM="0" VARIABLE="sub_ln331"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln332_fu_1023_p2" SOURCE="../mpd_data_processor.cpp:332" URAM="0" VARIABLE="sub_ln332"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln333_fu_1242_p2" SOURCE="../mpd_data_processor.cpp:333" URAM="0" VARIABLE="add_ln333"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_283_p2" SOURCE="../mpd_data_processor.cpp:416" URAM="0" VARIABLE="add_ln416"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln316_fu_1144_p2" SOURCE="../mpd_data_processor.cpp:316" URAM="0" VARIABLE="add_ln316"/>
+                <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage ram_s2p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_s2p" PRAGMA="" RTLNAME="avgB_1_U" SOURCE="" URAM="0" VARIABLE="avgB_1"/>
+            </BindNodes>
+        </Module>
+        <Module>
+            <Name>mpd_data_processor_main</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>8.00</TargetClockPeriod>
+                    <ClockUncertainty>1.00</ClockUncertainty>
+                    <EstimatedClockPeriod>10.668</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>114</Best-caseLatency>
+                    <Average-caseLatency>114</Average-caseLatency>
+                    <Worst-caseLatency>114</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>1.216 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>1.216 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>1.216 us</Worst-caseRealTimeLatency>
+                    <DataflowPipelineThroughput>64</DataflowPipelineThroughput>
+                    <PipelineInitiationInterval>64</PipelineInitiationInterval>
+                    <PipelineType>dataflow</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>1080</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <FF>3313</FF>
+                    <AVAIL_FF>406256</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>4805</LUT>
+                    <AVAIL_LUT>203128</AVAIL_LUT>
+                    <UTIL_LUT>2</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>1700</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation>
+        <FIFOInst>
+            <Name>s_avgAPreHeader_U</Name>
+            <ParentInst/>
+            <StaticDepth>2</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>s_avgASamples_U</Name>
+            <ParentInst/>
+            <StaticDepth>3</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>s_avgBPreHeader_U</Name>
+            <ParentInst/>
+            <StaticDepth>2</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>s_avgAHeader_U</Name>
+            <ParentInst/>
+            <StaticDepth>2</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>s_avgBHeader_U</Name>
+            <ParentInst/>
+            <StaticDepth>4</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>s_avgBSamplesOut_U</Name>
+            <ParentInst/>
+            <StaticDepth>2</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+        <FIFOInst>
+            <Name>s_avgBSamplesIn_U</Name>
+            <ParentInst/>
+            <StaticDepth>2</StaticDepth>
+            <RuntimeDepth>mOutPtr</RuntimeDepth>
+            <InterfaceList>
+                <Interface>clk</Interface>
+                <Interface>reset</Interface>
+                <Interface>if_write</Interface>
+                <Interface>if_din</Interface>
+                <Interface>if_full_n</Interface>
+                <Interface>if_read</Interface>
+                <Interface>if_empty_n</Interface>
+            </InterfaceList>
+        </FIFOInst>
+    </FIFOInformation>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="s_evIn" index="0" direction="in" srcType="stream&lt;event_data_t, 0&gt;&amp;" srcSize="64">
+            <hwRefs>
+                <hwRef type="interface" interface="s_evIn" name="" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="s_evOut" index="1" direction="out" srcType="stream&lt;event_data_t, 0&gt;&amp;" srcSize="64">
+            <hwRefs>
+                <hwRef type="interface" interface="s_evOut" name="" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="build_all_samples" index="2" direction="in" srcType="ap_uint&lt;1&gt;" srcSize="8">
+            <hwRefs>
+                <hwRef type="port" interface="build_all_samples" name="build_all_samples" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="build_debug_headers" index="3" direction="in" srcType="ap_uint&lt;1&gt;" srcSize="8">
+            <hwRefs>
+                <hwRef type="port" interface="build_debug_headers" name="build_debug_headers" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="enable_cm" index="4" direction="in" srcType="ap_uint&lt;1&gt;" srcSize="8">
+            <hwRefs>
+                <hwRef type="port" interface="enable_cm" name="enable_cm" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="fiber" index="5" direction="in" srcType="ap_uint&lt;5&gt;" srcSize="8">
+            <hwRefs>
+                <hwRef type="port" interface="fiber" name="fiber" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="m_offset" index="6" direction="in" srcType="ap_int&lt;26&gt;*" srcSize="32">
+            <hwRefs>
+                <hwRef type="port" interface="m_offset_address0" name="m_offset_address0" usage="address" direction="out"/>
+                <hwRef type="port" interface="m_offset_ce0" name="m_offset_ce0" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_offset_d0" name="m_offset_d0" usage="data" direction="out"/>
+                <hwRef type="port" interface="m_offset_q0" name="m_offset_q0" usage="data" direction="in"/>
+                <hwRef type="port" interface="m_offset_we0" name="m_offset_we0" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_offset_address1" name="m_offset_address1" usage="address" direction="out"/>
+                <hwRef type="port" interface="m_offset_ce1" name="m_offset_ce1" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_offset_d1" name="m_offset_d1" usage="data" direction="out"/>
+                <hwRef type="port" interface="m_offset_q1" name="m_offset_q1" usage="data" direction="in"/>
+                <hwRef type="port" interface="m_offset_we1" name="m_offset_we1" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="m_apvThr" index="7" direction="in" srcType="ap_int&lt;13&gt;*" srcSize="16">
+            <hwRefs>
+                <hwRef type="port" interface="m_apvThr_address0" name="m_apvThr_address0" usage="address" direction="out"/>
+                <hwRef type="port" interface="m_apvThr_ce0" name="m_apvThr_ce0" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_apvThr_d0" name="m_apvThr_d0" usage="data" direction="out"/>
+                <hwRef type="port" interface="m_apvThr_q0" name="m_apvThr_q0" usage="data" direction="in"/>
+                <hwRef type="port" interface="m_apvThr_we0" name="m_apvThr_we0" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_apvThr_address1" name="m_apvThr_address1" usage="address" direction="out"/>
+                <hwRef type="port" interface="m_apvThr_ce1" name="m_apvThr_ce1" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_apvThr_d1" name="m_apvThr_d1" usage="data" direction="out"/>
+                <hwRef type="port" interface="m_apvThr_q1" name="m_apvThr_q1" usage="data" direction="in"/>
+                <hwRef type="port" interface="m_apvThr_we1" name="m_apvThr_we1" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="m_apvThrB" index="8" direction="in" srcType="ap_int&lt;13&gt;*" srcSize="16">
+            <hwRefs>
+                <hwRef type="port" interface="m_apvThrB_address0" name="m_apvThrB_address0" usage="address" direction="out"/>
+                <hwRef type="port" interface="m_apvThrB_ce0" name="m_apvThrB_ce0" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_apvThrB_d0" name="m_apvThrB_d0" usage="data" direction="out"/>
+                <hwRef type="port" interface="m_apvThrB_q0" name="m_apvThrB_q0" usage="data" direction="in"/>
+                <hwRef type="port" interface="m_apvThrB_we0" name="m_apvThrB_we0" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_apvThrB_address1" name="m_apvThrB_address1" usage="address" direction="out"/>
+                <hwRef type="port" interface="m_apvThrB_ce1" name="m_apvThrB_ce1" usage="control" direction="out"/>
+                <hwRef type="port" interface="m_apvThrB_d1" name="m_apvThrB_d1" usage="data" direction="out"/>
+                <hwRef type="port" interface="m_apvThrB_q1" name="m_apvThrB_q1" usage="data" direction="in"/>
+                <hwRef type="port" interface="m_apvThrB_we1" name="m_apvThrB_we1" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="s_evIn" type="ap_fifo" busTypeName="acc_fifo_read" mode="master" dataWidth="33" portPrefix="s_evIn_">
+            <portMaps>
+                <portMap portMapName="s_evIn_dout">RD_DATA</portMap>
+                <portMap portMapName="s_evIn_empty_n">EMPTY_N</portMap>
+                <portMap portMapName="s_evIn_read">RD_EN</portMap>
+            </portMaps>
+            <ports>
+                <port>s_evIn_dout</port>
+                <port>s_evIn_empty_n</port>
+                <port>s_evIn_read</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_fifo" register_option="0" argName="s_evIn"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="s_evOut" type="ap_fifo" busTypeName="acc_fifo_write" mode="master" dataWidth="33" portPrefix="s_evOut_">
+            <portMaps>
+                <portMap portMapName="s_evOut_din">WR_DATA</portMap>
+                <portMap portMapName="s_evOut_full_n">FULL_N</portMap>
+                <portMap portMapName="s_evOut_write">WR_EN</portMap>
+            </portMaps>
+            <ports>
+                <port>s_evOut_din</port>
+                <port>s_evOut_full_n</port>
+                <port>s_evOut_write</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_fifo" register_option="0" argName="s_evOut"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="build_all_samples" type="data" busTypeName="data" protocol="ap_stable" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="build_all_samples">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>build_all_samples</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_stable" register_option="0" argName="build_all_samples"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="build_debug_headers" type="data" busTypeName="data" protocol="ap_stable" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="build_debug_headers">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>build_debug_headers</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_stable" register_option="0" argName="build_debug_headers"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="enable_cm" type="data" busTypeName="data" protocol="ap_stable" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="enable_cm">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>enable_cm</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_stable" register_option="0" argName="enable_cm"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="fiber" type="data" busTypeName="data" protocol="ap_stable" mode="slave" dataWidth="5">
+            <portMaps>
+                <portMap portMapName="fiber">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>fiber</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_stable" register_option="0" argName="fiber"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_offset_address0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="10">
+            <portMaps>
+                <portMap portMapName="m_offset_address0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_offset_address0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_offset"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_offset_d0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="26">
+            <portMaps>
+                <portMap portMapName="m_offset_d0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_offset_d0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_offset"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_offset_q0" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="26">
+            <portMaps>
+                <portMap portMapName="m_offset_q0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_offset_q0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_offset"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_offset_address1" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="10">
+            <portMaps>
+                <portMap portMapName="m_offset_address1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_offset_address1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_offset"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_offset_d1" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="26">
+            <portMaps>
+                <portMap portMapName="m_offset_d1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_offset_d1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_offset"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_offset_q1" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="26">
+            <portMaps>
+                <portMap portMapName="m_offset_q1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_offset_q1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_offset"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThr_address0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="11">
+            <portMaps>
+                <portMap portMapName="m_apvThr_address0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThr_address0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThr"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThr_d0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="13">
+            <portMaps>
+                <portMap portMapName="m_apvThr_d0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThr_d0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThr"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThr_q0" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="13">
+            <portMaps>
+                <portMap portMapName="m_apvThr_q0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThr_q0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThr"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThr_address1" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="11">
+            <portMaps>
+                <portMap portMapName="m_apvThr_address1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThr_address1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThr"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThr_d1" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="13">
+            <portMaps>
+                <portMap portMapName="m_apvThr_d1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThr_d1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThr"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThr_q1" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="13">
+            <portMaps>
+                <portMap portMapName="m_apvThr_q1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThr_q1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThr"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThrB_address0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="11">
+            <portMaps>
+                <portMap portMapName="m_apvThrB_address0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThrB_address0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThrB"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThrB_d0" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="13">
+            <portMaps>
+                <portMap portMapName="m_apvThrB_d0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThrB_d0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThrB"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThrB_q0" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="13">
+            <portMaps>
+                <portMap portMapName="m_apvThrB_q0">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThrB_q0</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThrB"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThrB_address1" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="11">
+            <portMaps>
+                <portMap portMapName="m_apvThrB_address1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThrB_address1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThrB"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThrB_d1" type="data" busTypeName="data" protocol="ap_memory" mode="master" dataWidth="13">
+            <portMaps>
+                <portMap portMapName="m_apvThrB_d1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThrB_d1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThrB"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="m_apvThrB_q1" type="data" busTypeName="data" protocol="ap_memory" mode="slave" dataWidth="13">
+            <portMaps>
+                <portMap portMapName="m_apvThrB_q1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>m_apvThrB_q1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0" argName="m_apvThrB"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst</port>
+            </ports>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="AP_FIFO">
+                <table>
+                    <keys size="3">Interface, Direction, Data Width</keys>
+                    <column name="s_evIn">out, 33</column>
+                    <column name="s_evOut">out, 33</column>
+                </table>
+            </item>
+            <item name="AP_MEMORY">
+                <table>
+                    <keys size="3">Port, Direction, Bitwidth</keys>
+                    <column name="m_apvThrB_address0">out, 11</column>
+                    <column name="m_apvThrB_address1">out, 11</column>
+                    <column name="m_apvThrB_d0">out, 13</column>
+                    <column name="m_apvThrB_d1">out, 13</column>
+                    <column name="m_apvThrB_q0">in, 13</column>
+                    <column name="m_apvThrB_q1">in, 13</column>
+                    <column name="m_apvThr_address0">out, 11</column>
+                    <column name="m_apvThr_address1">out, 11</column>
+                    <column name="m_apvThr_d0">out, 13</column>
+                    <column name="m_apvThr_d1">out, 13</column>
+                    <column name="m_apvThr_q0">in, 13</column>
+                    <column name="m_apvThr_q1">in, 13</column>
+                    <column name="m_offset_address0">out, 10</column>
+                    <column name="m_offset_address1">out, 10</column>
+                    <column name="m_offset_d0">out, 26</column>
+                    <column name="m_offset_d1">out, 26</column>
+                    <column name="m_offset_q0">in, 26</column>
+                    <column name="m_offset_q1">in, 26</column>
+                </table>
+            </item>
+            <item name="Other Ports">
+                <table>
+                    <keys size="4">Port, Mode, Direction, Bitwidth</keys>
+                    <column name="build_all_samples">ap_stable, in, 1</column>
+                    <column name="build_debug_headers">ap_stable, in, 1</column>
+                    <column name="enable_cm">ap_stable, in, 1</column>
+                    <column name="fiber">ap_stable, in, 5</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst">reset, ap_rst</column>
+                    <column name="ap_ctrl">ap_ctrl_none, </column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="s_evIn">in, stream&lt;event_data_t 0&gt;&amp;</column>
+                    <column name="s_evOut">out, stream&lt;event_data_t 0&gt;&amp;</column>
+                    <column name="build_all_samples">in, ap_uint&lt;1&gt;</column>
+                    <column name="build_debug_headers">in, ap_uint&lt;1&gt;</column>
+                    <column name="enable_cm">in, ap_uint&lt;1&gt;</column>
+                    <column name="fiber">in, ap_uint&lt;5&gt;</column>
+                    <column name="m_offset">in, ap_int&lt;26&gt;*</column>
+                    <column name="m_apvThr">in, ap_int&lt;13&gt;*</column>
+                    <column name="m_apvThrB">in, ap_int&lt;13&gt;*</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="4">Argument, HW Interface, HW Type, HW Usage</keys>
+                    <column name="s_evIn">s_evIn, interface, </column>
+                    <column name="s_evOut">s_evOut, interface, </column>
+                    <column name="build_all_samples">build_all_samples, port, </column>
+                    <column name="build_debug_headers">build_debug_headers, port, </column>
+                    <column name="enable_cm">enable_cm, port, </column>
+                    <column name="fiber">fiber, port, </column>
+                    <column name="m_offset">m_offset_address0, port, offset</column>
+                    <column name="m_offset">m_offset_ce0, port, </column>
+                    <column name="m_offset">m_offset_d0, port, </column>
+                    <column name="m_offset">m_offset_q0, port, </column>
+                    <column name="m_offset">m_offset_we0, port, </column>
+                    <column name="m_offset">m_offset_address1, port, offset</column>
+                    <column name="m_offset">m_offset_ce1, port, </column>
+                    <column name="m_offset">m_offset_d1, port, </column>
+                    <column name="m_offset">m_offset_q1, port, </column>
+                    <column name="m_offset">m_offset_we1, port, </column>
+                    <column name="m_apvThr">m_apvThr_address0, port, offset</column>
+                    <column name="m_apvThr">m_apvThr_ce0, port, </column>
+                    <column name="m_apvThr">m_apvThr_d0, port, </column>
+                    <column name="m_apvThr">m_apvThr_q0, port, </column>
+                    <column name="m_apvThr">m_apvThr_we0, port, </column>
+                    <column name="m_apvThr">m_apvThr_address1, port, offset</column>
+                    <column name="m_apvThr">m_apvThr_ce1, port, </column>
+                    <column name="m_apvThr">m_apvThr_d1, port, </column>
+                    <column name="m_apvThr">m_apvThr_q1, port, </column>
+                    <column name="m_apvThr">m_apvThr_we1, port, </column>
+                    <column name="m_apvThrB">m_apvThrB_address0, port, offset</column>
+                    <column name="m_apvThrB">m_apvThrB_ce0, port, </column>
+                    <column name="m_apvThrB">m_apvThrB_d0, port, </column>
+                    <column name="m_apvThrB">m_apvThrB_q0, port, </column>
+                    <column name="m_apvThrB">m_apvThrB_we0, port, </column>
+                    <column name="m_apvThrB">m_apvThrB_address1, port, offset</column>
+                    <column name="m_apvThrB">m_apvThrB_ce1, port, </column>
+                    <column name="m_apvThrB">m_apvThrB_d1, port, </column>
+                    <column name="m_apvThrB">m_apvThrB_q1, port, </column>
+                    <column name="m_apvThrB">m_apvThrB_we1, port, </column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">www.xilinx.com/cgi-bin/docs/rdoc?v=2023.1;t=hls+guidance;d=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="stream" location="../mpd_data_processor.cpp:474" status="valid" parentFunction="mpd_data_processor_main" variable="s_avgASamples" isDirective="0" options="variable=s_avgASamples depth=3 type=FIFO"/>
+        <Pragma type="stream" location="../mpd_data_processor.cpp:475" status="valid" parentFunction="mpd_data_processor_main" variable="s_avgBHeader" isDirective="0" options="variable=s_avgBHeader depth=4 type=FIFO"/>
+        <Pragma type="pipeline" location="mpd_data_processor/solution1/directives.tcl:27" status="warning" parentFunction="avgb" variable="" isDirective="1" options="enable_flush II=2">
+            <Msg msg_id="207-5551" msg_severity="WARNING" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead"/>
+        </Pragma>
+        <Pragma type="pipeline" location="mpd_data_processor/solution1/directives.tcl:30" status="warning" parentFunction="avgbsamplesfifoproc" variable="" isDirective="1" options="enable_flush">
+            <Msg msg_id="207-5551" msg_severity="WARNING" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead"/>
+        </Pragma>
+        <Pragma type="pipeline" location="mpd_data_processor/solution1/directives.tcl:28" status="warning" parentFunction="avgheaderdiv" variable="" isDirective="1" options="enable_flush II=64">
+            <Msg msg_id="207-5551" msg_severity="WARNING" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead"/>
+        </Pragma>
+        <Pragma type="pipeline" location="mpd_data_processor/solution1/directives.tcl:29" status="warning" parentFunction="event_writer" variable="" isDirective="1" options="enable_flush II=2">
+            <Msg msg_id="207-5551" msg_severity="WARNING" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead"/>
+        </Pragma>
+        <Pragma type="pipeline" location="mpd_data_processor/solution1/directives.tcl:26" status="warning" parentFunction="frame_decoder" variable="" isDirective="1" options="enable_flush II=2">
+            <Msg msg_id="207-5551" msg_severity="WARNING" msg_body="The 'enable_flush' option of the 'HLS pipeline' directive or pragma is deprecated, use style=flp instead"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:8" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:10" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:16" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:17" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:18" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:19" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:20" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:21" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="data_pack" location="mpd_data_processor/solution1/directives.tcl:22" status="invalid" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="variable">
+            <Msg msg_id="207-5509" msg_severity="WARNING" msg_body="the pragma is not supported and will be ignored"/>
+        </Pragma>
+        <Pragma type="dataflow" location="mpd_data_processor/solution1/directives.tcl:7" status="warning" parentFunction="mpd_data_processor_main" variable="" isDirective="1" options="">
+            <Msg msg_id="214-114" msg_severity="WARNING" msg_body="Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region"/>
+            <Msg msg_id="214-169" msg_severity="WARNING" msg_body="There are a total of 7 such instances of non-canonical statements in the dataflow region"/>
+        </Pragma>
+        <Pragma type="interface" location="mpd_data_processor/solution1/directives.tcl:12" status="warning" parentFunction="mpd_data_processor_main" variable="build_all_samples" isDirective="1" options="ap_stable port=build_all_samples">
+            <Msg msg_id="207-5532" msg_severity="WARNING" msg_body="'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead"/>
+        </Pragma>
+        <Pragma type="interface" location="mpd_data_processor/solution1/directives.tcl:13" status="warning" parentFunction="mpd_data_processor_main" variable="build_debug_headers" isDirective="1" options="ap_stable port=build_debug_headers">
+            <Msg msg_id="207-5532" msg_severity="WARNING" msg_body="'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead"/>
+        </Pragma>
+        <Pragma type="interface" location="mpd_data_processor/solution1/directives.tcl:14" status="warning" parentFunction="mpd_data_processor_main" variable="enable_cm" isDirective="1" options="ap_stable port=enable_cm">
+            <Msg msg_id="207-5532" msg_severity="WARNING" msg_body="'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead"/>
+        </Pragma>
+        <Pragma type="interface" location="mpd_data_processor/solution1/directives.tcl:15" status="warning" parentFunction="mpd_data_processor_main" variable="fiber" isDirective="1" options="ap_stable port=fiber">
+            <Msg msg_id="207-5532" msg_severity="WARNING" msg_body="'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead"/>
+        </Pragma>
+        <Pragma type="interface" location="mpd_data_processor/solution1/directives.tcl:31" status="valid" parentFunction="mpd_data_processor_main" variable="return" isDirective="1" options="ap_ctrl_none port=return"/>
+        <Pragma type="interface" location="mpd_data_processor/solution1/directives.tcl:9" status="valid" parentFunction="mpd_data_processor_main" variable="s_evIn" isDirective="1" options="ap_fifo port=s_evIn"/>
+        <Pragma type="interface" location="mpd_data_processor/solution1/directives.tcl:11" status="valid" parentFunction="mpd_data_processor_main" variable="s_evOut" isDirective="1" options="ap_fifo port=s_evOut"/>
+        <Pragma type="resource" location="mpd_data_processor/solution1/directives.tcl:24" status="warning" parentFunction="mpd_data_processor_main" variable="m_apvThr" isDirective="1" options="core=RAM_1P_BRAM variable=m_apvThr">
+            <Msg msg_id="207-5531" msg_severity="WARNING" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead"/>
+            <Msg msg_id="214-340" msg_severity="WARNING" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead"/>
+        </Pragma>
+        <Pragma type="resource" location="mpd_data_processor/solution1/directives.tcl:25" status="warning" parentFunction="mpd_data_processor_main" variable="m_apvThrB" isDirective="1" options="core=RAM_1P_BRAM variable=m_apvThrB">
+            <Msg msg_id="207-5531" msg_severity="WARNING" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead"/>
+            <Msg msg_id="214-340" msg_severity="WARNING" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead"/>
+        </Pragma>
+        <Pragma type="resource" location="mpd_data_processor/solution1/directives.tcl:23" status="warning" parentFunction="mpd_data_processor_main" variable="m_offset" isDirective="1" options="core=RAM_1P_BRAM variable=m_offset">
+            <Msg msg_id="207-5531" msg_severity="WARNING" msg_body="'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead"/>
+            <Msg msg_id="214-340" msg_severity="WARNING" msg_body="The resource pragma (bind_storage) on top-level function argument, in 'call' is unsupported, please use INTERFACE pragma instead"/>
+        </Pragma>
+    </PragmaReport>
+</profile>
+

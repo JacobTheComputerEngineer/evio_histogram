@@ -1,0 +1,89 @@
+{
+    "1": {
+        "name": "frame_decoder",
+        "file": "",
+        "fileloc": "0",
+        "instructions": "153",
+        "total_instructions": "153",
+        "calls": "",
+        "basicblocks": "22",
+        "loads": {
+            "G": "9",
+            "L": "2"
+        },
+        "stores": {
+            "G": "15"
+        }
+    },
+    "2": {
+        "name": "event_writer",
+        "file": "",
+        "fileloc": "0",
+        "instructions": "246",
+        "total_instructions": "246",
+        "calls": "",
+        "basicblocks": "31",
+        "loads": {
+            "G": "17",
+            "L": "1"
+        },
+        "stores": {
+            "G": "22"
+        }
+    },
+    "3": {
+        "name": "avgB",
+        "file": "",
+        "fileloc": "0",
+        "instructions": "114",
+        "total_instructions": "114",
+        "calls": "",
+        "basicblocks": "24",
+        "loads": {
+            "G": "7",
+            "L": "1"
+        },
+        "stores": {
+            "G": "16"
+        }
+    },
+    "0": {
+        "name": "mpd_data_processor_main",
+        "file": "",
+        "fileloc": "0",
+        "instructions": "50",
+        "total_instructions": "711",
+        "calls": "1 5 3 4 2",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "avgBSamplesFifoProc",
+        "file": "",
+        "fileloc": "0",
+        "instructions": "77",
+        "total_instructions": "77",
+        "calls": "",
+        "basicblocks": "14",
+        "loads": {
+            "G": "2"
+        },
+        "stores": {
+            "G": "2"
+        }
+    },
+    "5": {
+        "name": "avgHeaderDiv",
+        "file": "",
+        "fileloc": "0",
+        "instructions": "71",
+        "total_instructions": "71",
+        "calls": "",
+        "basicblocks": "17",
+        "loads": {
+            "G": "1"
+        },
+        "stores": {
+            "G": "2"
+        }
+    }
+}
